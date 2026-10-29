@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import DeckVersions from '../../components/DeckVersions.astro';
+import FeedbackForm from '../../components/FeedbackForm.astro';
+import { loadDecks } from '../../lib/decks.js';
+
+export function getStaticPaths() {
+  return loadDecks().map((deck) => ({
+    params: { slug: deck.slug },
+    props: { deck },
+  }));
+}
+
+const { deck } = Astro.props;
+---
+
+<Base title={deck.title} description={deck.metaDescription} social={deck.social} ogType="article">
+  <article class="post">
+    <div class="wrap">
+      <p class="kicker">
+        {deck.dateLabel}
+        <span aria-hidden="true"> · </span>
+        {deck.colorLabel} Commander
+        <span aria-hidden="true"> · </span>
+        {deck.commander}
+      </p>
+      <div class="prose" set:html={deck.postHtml} />
+      <p class="post-credit">
+        Deck by <a href={deck.creditUrl} rel="noopener noreferrer">{deck.credit}</a>.
+        <a href={deck.moxfieldUrl} rel="noopener noreferrer">The original list on Moxfield</a>.
+      </p>
+    </div>
+  </article>
+  <DeckVersions deck={deck} />
+  <FeedbackForm deck={deck} />
+</Base>

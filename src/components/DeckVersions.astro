@@ -1,0 +1,312 @@
+---
+const { deck } = Astro.props;
+
+function formatDelta(value) {
+  if (typeof value !== 'number') return '';
+  const sign = value > 0 ? '+' : value < 0 ? '−' : '';
+  return `${sign}$${Math.abs(value).toFixed(2)}`;
+}
+
+const datedDeltas = deck.swapPriceBasis.includes('2026-10-26');
+---
+
+<section class="lists" id="lists" aria-labelledby="lists-heading">
+  <div class="wrap">
+    <header class="section-intro">
+      <p class="kicker">The three lists</p>
+      <h2 id="lists-heading">Original, Budget, and Maximum</h2>
+      <p>
+        Each list is 100 cards, commander included. The names and printings come from the locked list files.
+        {deck.priceSource}.
+      </p>
+    </header>
+
+    {
+      deck.readerNotes.length > 0 && (
+        <div class="callout">
+          <h3>Before you sleeve it</h3>
+          <ul>
+            {deck.readerNotes.map((note) => (
+              <li>{note}</li>
+            ))}
+          </ul>
+        </div>
+      )
+    }
+
+    <div class="versions" data-versions>
+      <div class="version-tabs" role="tablist" aria-label="Deck versions" data-tablist hidden>
+        {
+          deck.versions.map((version, index) => (
+            <button
+              type="button"
+              class="version-tab"
+              id={`tab-${version.id}`}
+              role="tab"
+              aria-controls={`version-${version.id}`}
+              aria-selected={index === 0 ? 'true' : 'false'}
+              tabindex={index === 0 ? 0 : -1}
+            >
+              <span>{version.label}</span>
+              <span class="tab-price">{version.price.usd}</span>
+            </button>
+          ))
+        }
+      </div>
+
+      <div class="version-grid">
+        {
+          deck.versions.map((version) => (
+            <article class="version" id={`version-${version.id}`} data-panel>
+              <header class={`version-head tone-${version.id}`}>
+                <p class="kicker">{version.id === 'original' ? "Andrew's list" : version.id === 'budget' ? 'Under $100' : 'Turn it up'}</p>
+                <h3>{version.label}</h3>
+                <p class="version-blurb">{version.philosophy}</p>
+              </header>
+
+              <div class="price-block">
+                <p class="price-figure">{version.price.usd}</p>
+                <dl class="price-facts">
+                  <div>
+                    <dt>Basis</dt>
+                    <dd>{version.price.basis}</dd>
+                  </div>
+                  <div>
+                    <dt>Priced</dt>
+                    <dd>
+                      <time datetime={version.price.pricedAt}>{version.price.pricedAtLabel}</time>
+                    </dd>
+                  </div>
+                  <div>
+                    <dt>Source</dt>
+                    <dd>{version.price.source}</dd>
+                  </div>
+                  {
+                    version.price.cap && (
+                      <div>
+                        <dt>Cap</dt>
+                        <dd>
+                          {version.price.cap}
+                          {version.price.capResult ? ` — ${version.price.capResult}` : ''}
+                        </dd>
+                      </div>
+                    )
+                  }
+                </dl>
+                {
+                  version.price.notes.length > 0 && (
+                    <ul class="price-notes">
+                      {version.price.notes.map((note) => (
+                        <li>{note}</li>
+                      ))}
+                    </ul>
+                  )
+                }
+              </div>
+
+              <ul class="stat-list">
+                <li>{version.creatures} creatures, commander included</li>
+                <li>
+                  {version.tutors.length} {version.tutors.length === 1 ? 'way' : 'ways'} to find the horn
+                  {version.tutors.length ? `: ${version.tutors.join(', ')}` : ''}
+                </li>
+                <li>
+                  Game Changers: {version.gameChangers.length ? version.gameChangers.join(', ') : 'none'}
+                </li>
+                <li>Bracket: {version.bracket}</li>
+              </ul>
+
+              <div class="version-actions">
+                <button type="button" class="button" data-copy-from={`mox-${version.id}`} data-copy-status={`mox-status-${version.id}`}>
+                  Copy Moxfield list
+                </button>
+                <a class="button button-ghost" href={deck.moxfieldUrl} rel="noopener noreferrer">
+                  Andrew's original on Moxfield
+                </a>
+                <p class="copy-status" id={`mox-status-${version.id}`} role="status"></p>
+              </div>
+
+              <div class="card-lists">
+                {
+                  version.groups.map((group) => (
+                    <section class="card-group" aria-labelledby={`${version.id}-${group.group}`}>
+                      <h4 id={`${version.id}-${group.group}`}>
+                        {group.group} <span class="count">{group.count}</span>
+                      </h4>
+                      <ul>
+                        {
+                          group.cards.map((card) => (
+                            <li class="card-row">
+                              <a href={card.scryfallUrl} rel="noopener noreferrer">
+                                {
+                                  card.imageSmall && (
+                                    <img
+                                      src={card.imageSmall}
+                                      alt=""
+                                      width="146"
+                                      height="204"
+                                      loading="lazy"
+                                      decoding="async"
+                                    />
+                                  )
+                                }
+                                <span class="card-name">
+                                  {card.quantity > 1 ? `${card.quantity} ` : ''}
+                                  {card.name}
+                                  {card.foil ? <span class="foil">foil</span> : null}
+                                </span>
+                              </a>
+                              {
+                                (card.set || card.manaCost) && (
+                                  <span class="card-printing">
+                                    {card.manaCost ? <span class="mana">{card.manaCost}</span> : null}
+                                    {card.set ? (
+                                      <span>
+                                        {card.set}
+                                        {card.collectorNumber ? ` ${card.collectorNumber}` : ''}
+                                      </span>
+                                    ) : null}
+                                  </span>
+                                )
+                              }
+                            </li>
+                          ))
+                        }
+                      </ul>
+                    </section>
+                  ))
+                }
+              </div>
+
+              <section class="swaps" aria-labelledby={`swaps-${version.id}`}>
+                <h4 id={`swaps-${version.id}`}>What changed</h4>
+                {
+                  version.changes.length === 0 ? (
+                    <p>Nothing was swapped. This is Andrew's Moxfield list, unchanged.</p>
+                  ) : (
+                    <>
+                      <p>
+                        {version.changes.length} swaps from the original.
+                        {datedDeltas ? ' Price changes are the 2026-10-26 deltas stored with each swap.' : ''}
+                      </p>
+                      <ol>
+                        {
+                          version.changes.map((change) => (
+                            <li>
+                              <p class="swap-pair">
+                                <a href={`https://scryfall.com/search?q=${encodeURIComponent(`!"${change.removed}"`)}`} rel="noopener noreferrer">
+                                  {change.removed}
+                                </a>
+                                <span class="sr-only"> replaced by </span>
+                                <span aria-hidden="true"> → </span>
+                                <a href={`https://scryfall.com/search?q=${encodeURIComponent(`!"${change.added}"`)}`} rel="noopener noreferrer">
+                                  {change.added}
+                                </a>
+                                {typeof change.priceDeltaUsd === 'number' && (
+                                  <span class="delta">{formatDelta(change.priceDeltaUsd)}</span>
+                                )}
+                              </p>
+                              {change.reason && <p>{change.reason}</p>}
+                              {change.themeImpact && <p class="fine">{change.themeImpact}</p>}
+                              {change.rulesNote && <p class="fine">{change.rulesNote}</p>}
+                            </li>
+                          ))
+                        }
+                      </ol>
+                    </>
+                  )
+                }
+              </section>
+
+              <details class="import-text">
+                <summary>Moxfield import text</summary>
+                <pre id={`mox-${version.id}`}>{version.moxfieldText}</pre>
+              </details>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function setupVersions(root) {
+    const tablist = root.querySelector('[data-tablist]');
+    const tabs = [...root.querySelectorAll('[role="tab"]')];
+    const panels = [...root.querySelectorAll('[data-panel]')];
+    if (!tablist || tabs.length === 0 || panels.length === 0) return;
+
+    let current = 0;
+    const media = window.matchMedia('(max-width: 960px)');
+
+    function select(index, focusTab) {
+      current = index;
+      tabs.forEach((tab, tabIndex) => {
+        const selected = tabIndex === index;
+        tab.setAttribute('aria-selected', selected ? 'true' : 'false');
+        tab.tabIndex = selected ? 0 : -1;
+        if (selected && focusTab) tab.focus();
+      });
+      if (root.classList.contains('is-tabbed')) {
+        panels.forEach((panel, panelIndex) => {
+          panel.hidden = panelIndex !== index;
+        });
+      }
+    }
+
+    function applyMode() {
+      const tabbed = media.matches;
+      root.classList.toggle('is-tabbed', tabbed);
+      tablist.hidden = !tabbed;
+      panels.forEach((panel, index) => {
+        if (tabbed) {
+          panel.setAttribute('role', 'tabpanel');
+          panel.setAttribute('aria-labelledby', tabs[index].id);
+          panel.hidden = index !== current;
+        } else {
+          panel.hidden = false;
+          panel.removeAttribute('role');
+          panel.removeAttribute('aria-labelledby');
+        }
+      });
+      if (tabbed) select(current, false);
+    }
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => select(index, false));
+      tab.addEventListener('keydown', (event) => {
+        if (!root.classList.contains('is-tabbed')) return;
+        const last = tabs.length - 1;
+        let next = null;
+        if (event.key === 'ArrowRight') next = index === last ? 0 : index + 1;
+        if (event.key === 'ArrowLeft') next = index === 0 ? last : index - 1;
+        if (event.key === 'Home') next = 0;
+        if (event.key === 'End') next = last;
+        if (next === null) return;
+        event.preventDefault();
+        select(next, true);
+      });
+    });
+
+    root.querySelectorAll('[data-copy-from]').forEach((button) => {
+      button.addEventListener('click', async () => {
+        const source = document.getElementById(button.getAttribute('data-copy-from'));
+        const status = document.getElementById(button.getAttribute('data-copy-status'));
+        const text = source?.textContent || '';
+        try {
+          await navigator.clipboard.writeText(text);
+          if (status) status.textContent = 'Copied. Paste it into Moxfield.';
+        } catch {
+          if (status) status.textContent = 'Could not copy automatically. The import text is open below so you can select it.';
+          source?.closest('details')?.setAttribute('open', '');
+        }
+      });
+    });
+
+    applyMode();
+    media.addEventListener('change', applyMode);
+  }
+
+  document.querySelectorAll('[data-versions]').forEach(setupVersions);
+</script>

@@ -1,0 +1,62 @@
+{
+  "deck_name": "The Lowdown Moo Tube",
+  "description": "Find the Didgeridoo. Blow the Didgeridoo. Make more beef. Turn that beef sideways. 1995 is back baby.",
+  "public_id": "y2FahPnUCUuTRHirl_Qn_g",
+  "internal_id": "nrXpeR",
+  "url": "https://moxfield.com/decks/y2FahPnUCUuTRHirl_Qn_g",
+  "owner": "Cute_Balls",
+  "owner_user_id": "ZbyJD",
+  "authors": [
+    "Cute_Balls"
+  ],
+  "format": "commander",
+  "visibility": "public",
+  "moxfield_version": 0,
+  "export_id": "3cce9401-d844-4564-8f4d-94543c251f0d",
+  "created_at_utc": "2026-10-15T11:59:17.5Z",
+  "created_at_tokyo": "2026-10-15T20:59:17.500000+09:00",
+  "last_updated_at_utc": "2026-10-20T23:06:26.14Z",
+  "last_updated_at_tokyo": "2026-10-21T08:06:26.140000+09:00",
+  "bracket": {
+    "user": 3,
+    "auto": 3,
+    "effective": 3
+  },
+  "fetched_at_tokyo": "2026-10-29T18:40:34+09:00",
+  "fetch_method": "curl GET https://api2.moxfield.com/v3/decks/all/y2FahPnUCUuTRHirl_Qn_g (browser User-Agent, Accept: application/json) -> HTTP 200; read-only",
+  "card_counts": {
+    "commanders": 1,
+    "companions": 0,
+    "mainboard": 99,
+    "sideboard": 0,
+    "maybeboard": 0,
+    "signatureSpells": 0,
+    "attractions": 0,
+    "stickers": 0,
+    "contraptions": 0,
+    "planes": 0,
+    "schemes": 0
+  },
+  "total_deck_cards": 100,
+  "color_identity": [
+    "B",
+    "R"
+  ],
+  "commanders": [
+    "Sethron, Hurloon General"
+  ],
+  "raw_sha256": "e662575e53c22ccb4d8bcb0afb902a769245f1db73edc99899d029a6eb0f16da",
+  "content_hash": {
+    "algorithm": "sha256",
+    "file": "decklist.txt",
+    "value": "99408f321505b64c06aace03ab0878b6d24fb079f9c6b5055a509a1ac79d8e29",
+    "normalization": {
+      "version": "v1",
+      "spec": "showrunner/NORMALIZATION.md",
+      "reference_impl": "showrunner/normalize_decklist.py",
+      "sha256_spec": "0924f6f280f109582af3af37c81f5ed24d31886d696b7186ed728798bd135247",
+      "sha256_impl": "0f1a53e62096bb225c301e666f66e70fbe263682ee59a7ce1c613ad2a912b85c"
+    }
+  },
+  "anomalies": []
+}

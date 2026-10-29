@@ -1,0 +1,132 @@
+---
+const { deck } = Astro.props;
+const prompt = deck.readerPrompt;
+const endpoint = deck.feedbackEndpoint || '';
+const quietMessage = 'Nothing was sent. This suggestion box is not hooked up yet, and your note is still here on the page.';
+---
+
+<section class="feedback" id="feedback" aria-labelledby="feedback-heading">
+  <div class="wrap feedback-wrap">
+    <h2 id="feedback-heading">{prompt.heading}</h2>
+    <p class="lede">{prompt.intro}</p>
+    {
+      !endpoint && (
+        <p class="form-hint">
+          The box below is ready, but it does not have a destination yet. You can fill it in. Sending it will stay on this page and will not pretend the note went anywhere.
+        </p>
+      )
+    }
+    <form
+      class="suggestion-form"
+      method="post"
+      action={endpoint || undefined}
+      data-endpoint={endpoint}
+      data-quiet-message={quietMessage}
+      onsubmit="if(!this.dataset.endpoint){event.preventDefault();var s=this.querySelector('[data-form-status]');if(s)s.textContent=this.dataset.quietMessage;return false;}"
+    >
+      <input type="hidden" name="deck" value={deck.deckName} />
+      {
+        prompt.fields.map((field, index) => {
+          const id = `${deck.slug}-${field.slug}`;
+          const helperId = field.kind === 'radio' && prompt.helper ? `${id}-help` : undefined;
+          return (
+            <div class="field">
+              {field.kind === 'radio' ? (
+                <fieldset>
+                  <legend>
+                    {field.label}
+                    {field.optional ? <span class="optional"> optional</span> : null}
+                  </legend>
+                  {prompt.helper && <p id={helperId} class="helper">{prompt.helper}</p>}
+                  <div class="choices">
+                    {field.options.map((option, optionIndex) => (
+                      <label class="choice">
+                        <input
+                          type="radio"
+                          name={field.slug}
+                          value={option}
+                          required={!field.optional && optionIndex === 0}
+                          aria-describedby={helperId}
+                        />
+                        <span>{option}</span>
+                      </label>
+                    ))}
+                  </div>
+                </fieldset>
+              ) : (
+                <>
+                  <label for={id}>
+                    {field.label}
+                    {field.optional ? <span class="optional"> optional</span> : null}
+                  </label>
+                  {field.kind === 'select' && (
+                    <select id={id} name={field.slug} required={!field.optional}>
+                      <option value="">Choose one</option>
+                      {field.options.map((option) => (
+                        <option value={option}>{option}</option>
+                      ))}
+                    </select>
+                  )}
+                  {field.kind === 'textarea' && (
+                    <textarea id={id} name={field.slug} rows="4" required={!field.optional}></textarea>
+                  )}
+                  {field.kind === 'text' && (
+                    <input id={id} name={field.slug} type="text" required={!field.optional} />
+                  )}
+                </>
+              )}
+            </div>
+          );
+        })
+      }
+      <button type="submit" class="button">{prompt.button}</button>
+      <p class="form-status" data-form-status role="status"></p>
+    </form>
+    <noscript>
+      <p>
+        {
+          endpoint
+            ? 'Scripts are off, so the button will send the form straight to the address Andrew connected.'
+            : 'Scripts are off, and no destination is connected. Submitting will not deliver your note.'
+        }
+      </p>
+    </noscript>
+  </div>
+</section>
+
+<script>
+  function setupForms(form) {
+    const status = form.querySelector('[data-form-status]');
+    form.addEventListener('submit', async (event) => {
+      const endpoint = form.dataset.endpoint;
+      if (!endpoint) {
+        event.preventDefault();
+        if (status) status.textContent = form.dataset.quietMessage || '';
+        return;
+      }
+      if (!form.checkValidity()) return;
+      event.preventDefault();
+      const button = form.querySelector('[type="submit"]');
+      if (button) button.disabled = true;
+      if (status) status.textContent = 'Sending…';
+      try {
+        const response = await fetch(endpoint, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { Accept: 'application/json' },
+        });
+        if (!response.ok) throw new Error(String(response.status));
+        if (status) status.textContent = 'Sent. Thank you for the beef.';
+        form.reset();
+      } catch {
+        if (status) status.textContent = 'Could not deliver that from the page. Handing it to the form address directly.';
+        form.submit();
+        return;
+      } finally {
+        if (button) button.disabled = false;
+      }
+    });
+  }
+
+  document.querySelectorAll('.suggestion-form').forEach(setupForms);
+</script>

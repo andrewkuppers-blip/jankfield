@@ -1,0 +1,91 @@
+Commander
+1 Sethron, Hurloon General
+
+Deck
+1 Didgeridoo
+1 Rings of Brighthearth
+1 Cryptic Gateway
+1 Conspiracy
+1 Mana Echoes
+1 Panharmonicon
+1 Roaming Throne
+1 Reckless Handling
+1 Gamble
+1 Demonic Tutor
+1 Citanul Flute
+1 Pyre of Heroes
+1 Deathbellow War Cry
+1 Sol Ring
+1 Arcane Signet
+1 Mind Stone
+1 Rakdos Signet
+1 Talisman of Indulgence
+1 Patchwork Banner
+1 Hazoret's Monument
+1 Herald's Horn
+1 Urza's Incubator
+1 Shared Animosity
+1 Rage Reflection
+1 Molten Echoes
+1 Coat of Arms
+1 Kindred Charge
+1 Patriarch's Bidding
+1 Necropotence
+1 Hecatomb
+1 Soul Burn
+1 Game of Chaos
+1 Krark's Thumb
+1 Phyrexian Arena
+1 Ox of Agonas
+1 Terminate
+1 Rakdos Charm
+1 Chaos Warp
+1 Abrade
+1 Feed the Swarm
+1 Infernal Grasp
+1 Kindred Dominance
+1 Neheb, the Eternal
+1 Neheb, Dreadhorde Champion
+1 Neheb, the Worthy
+1 Ragemonger
+1 Rageblood Shaman
+1 Kragma Warcaller
+1 Felhide Petrifier
+1 Anaba Ancestor
+1 Anaba Spirit Crafter
+1 Anaba Bodyguard
+1 Anaba Shaman
+1 Karplusan Minotaur
+1 Moraug, Fury of Akoum
+1 Lord of Shatterskull Pass
+1 Glint-Horn Buccaneer
+1 Magar of the Magic Strings
+1 Gornog, the Red Reaper
+1 Warmonger
+1 Mogis, God of Slaughter
+1 Fanatic of Mogis
+1 Hurloon Minotaur
+1 Command Tower
+1 Path of Ancestry
+1 Cavern of Souls
+1 Unclaimed Territory
+1 Secluded Courtyard
+1 Blood Crypt
+1 Bloodstained Mire
+1 Luxury Suite
+1 Sulfurous Springs
+1 Graven Cairns
+1 Smoldering Marsh
+1 Dragonskull Summit
+1 Haunted Ridge
+1 Blazemire Verge
+1 Foreboding Ruins
+1 Tainted Peak
+1 Inventors' Fair
+1 Urza's Saga
+1 Buried Ruin
+1 Rogue's Passage
+1 Rakdos Carnarium
+1 Canyon Slough
+8 Mountain
+6 Swamp

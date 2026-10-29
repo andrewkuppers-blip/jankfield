@@ -1,0 +1,97 @@
+---
+import Base from '../layouts/Base.astro';
+import { loadDecks } from '../lib/decks.js';
+
+const decks = loadDecks();
+const latest = decks[0];
+const hero = latest
+  ? latest.versions
+      .flatMap((version) => version.groups.flatMap((group) => group.cards))
+      .find((card) => card.name === latest.commander && card.imageNormal)
+  : null;
+
+const description = 'Jankfield is a weekly Commander blog for decks built to be fun. Each post tells one deck\'s story, then shows the original list, a Budget Jank build under $100, and a Maximum Jank build.';
+---
+
+<Base title="Jankfield" description={description}>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="kicker">A Commander blog for the bit</p>
+        <h1>Decks that would rather be interesting than optimized.</h1>
+        <p class="lede">
+          Jankfield is a weekly letter from the weird end of the Commander table. One deck at a time. Why it exists, then three ways to play it: the original list, a cheaper one, and one that turns the joke up.
+        </p>
+        <p>
+          Winning is welcome. It is not the point. Moxfield and Scryfall already keep the card files and the prices. We tell the story and link out to them.
+        </p>
+      </div>
+      <aside class="principles" aria-label="How a Jankfield post works">
+        <h2>Every week</h2>
+        <ol>
+          <li><strong>A story.</strong> Where the deck came from, in the builder's own reasons.</li>
+          <li><strong>Three lists.</strong> Original, Budget Jank under $100 (basic lands not counted), and Maximum Jank.</li>
+          <li><strong>Your turn.</strong> A form for the card you would add, even if it makes things worse.</li>
+        </ol>
+      </aside>
+    </div>
+  </section>
+
+  {
+    latest ? (
+      <section class="feature" aria-labelledby="feature-heading">
+        <div class="wrap">
+          <p class="kicker">This week's deck</p>
+          <div class="feature-card">
+            <div class="feature-copy">
+              <h2 id="feature-heading">
+                <a href={`/posts/${latest.slug}/`}>{latest.deckName}</a>
+              </h2>
+              <p class="feature-meta">
+                {latest.dateLabel}
+                <span aria-hidden="true"> · </span>
+                {latest.commander}
+                <span aria-hidden="true"> · </span>
+                {latest.colorLabel}
+              </p>
+              <p>{latest.shortDescription}</p>
+              <p>
+                Deck by <a href={latest.creditUrl} rel="noopener noreferrer">{latest.credit}</a>
+              </p>
+              <p class="feature-actions">
+                <a class="button" href={`/posts/${latest.slug}/`}>Read the post</a>
+                <a class="button button-ghost" href={`/posts/${latest.slug}/#lists`}>Jump to the lists</a>
+              </p>
+            </div>
+            {
+              hero && (
+                <a class="feature-art" href={hero.scryfallUrl} rel="noopener noreferrer">
+                  <img src={hero.imageNormal} alt={`${latest.commander}, the commander`} width="488" height="680" />
+                </a>
+              )
+            }
+          </div>
+          <ul class="price-row">
+            {latest.versions.map((version) => (
+              <li>
+                <a href={`/posts/${latest.slug}/#version-${version.id}`}>
+                  <span class="price-label">{version.label}</span>
+                  <span class="price-figure">{version.price.usd}</span>
+                  <span class="price-basis">{version.price.basis}</span>
+                  <span class="price-when">Priced {version.price.pricedAtLabel}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    ) : (
+      <section class="feature">
+        <div class="wrap">
+          <h2>No decks yet</h2>
+          <p>When a deck folder lands in the content drawer, it will show up here.</p>
+        </div>
+      </section>
+    )
+  }
+</Base>
