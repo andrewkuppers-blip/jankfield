@@ -1,0 +1,49 @@
+---
+import Base from '../../layouts/Base.astro';
+import { loadDecks } from '../../lib/decks.js';
+
+const decks = loadDecks();
+const description = 'Every Jankfield deck post, newest first. One Commander deck a week, with an origin story and three lists.';
+---
+
+<Base title="Archive" description={description}>
+  <section class="page">
+    <div class="wrap">
+      <p class="kicker">The shelf</p>
+      <h1>Archive</h1>
+      <p class="lede">One deck a week. The newest post is also on the home page. A new week means a new folder, not a new website.</p>
+      {
+        decks.length === 0 ? (
+          <p>Nothing on the shelf yet.</p>
+        ) : (
+          <ol class="archive-list">
+            {decks.map((deck) => (
+              <li>
+                <article class="archive-item">
+                  <p class="kicker">{deck.dateLabel}</p>
+                  <h2>
+                    <a href={`/posts/${deck.slug}/`}>{deck.deckName}</a>
+                  </h2>
+                  <p class="feature-meta">
+                    {deck.commander}
+                    <span aria-hidden="true"> · </span>
+                    {deck.colorLabel} Commander
+                  </p>
+                  <p>{deck.shortDescription}</p>
+                  <ul class="mini-prices">
+                    {deck.versions.map((version) => (
+                      <li>
+                        <span>{version.label}</span>
+                        <strong>{version.price.usd}</strong>
+                      </li>
+                    ))}
+                  </ul>
+                </article>
+              </li>
+            ))}
+          </ol>
+        )
+      }
+    </div>
+  </section>
+</Base>

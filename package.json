@@ -1,0 +1,21 @@
+{
+  "name": "jankfield",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Jankfield, a weekly blog for creative Commander decks.",
+  "type": "module",
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev --host",
+    "build": "npm run verify && ASTRO_TELEMETRY_DISABLED=1 astro build && node scripts/check-site.mjs",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview --host",
+    "verify": "node scripts/verify-content.mjs",
+    "cards": "node scripts/fetch-scryfall.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@fontsource/atkinson-hyperlegible": "^5.2.8",
+    "@fontsource/fraunces": "^5.2.5",
+    "astro": "^5.15.4",
+    "marked": "^15.0.12"
+  }
+}

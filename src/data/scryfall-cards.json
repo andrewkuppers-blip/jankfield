@@ -1,0 +1,1598 @@
+{
+  "source": "Scryfall API /cards/collection",
+  "guidelines": "https://scryfall.com/docs/api/images",
+  "note": "Derived lookup for type lines, links, and image URLs. Not part of a locked deck release. Refresh with npm run cards. Image URLs are the ones Scryfall returned.",
+  "fetched_at": "2026-10-29T11:32:10.118Z",
+  "cards": {
+    "274cdb39-1454-4c9b-acd8-4f762a48e71f": {
+      "name": "Sethron, Hurloon General",
+      "type_line": "Legendary Creature — Minotaur Warrior",
+      "set": "jmp",
+      "collector_number": "25",
+      "scryfall_uri": "https://scryfall.com/card/jmp/25/sethron-hurloon-general?utm_source=api",
+      "mana_cost": "{3}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/2/7/274cdb39-1454-4c9b-acd8-4f762a48e71f.jpg?1783930501",
+      "image_normal": "https://cards.scryfall.io/normal/front/2/7/274cdb39-1454-4c9b-acd8-4f762a48e71f.jpg?1783930501"
+    },
+    "828f8f68-abe2-4e39-b3e4-991dceacd5d9": {
+      "name": "Didgeridoo",
+      "type_line": "Artifact",
+      "set": "hml",
+      "collector_number": "105",
+      "scryfall_uri": "https://scryfall.com/card/hml/105/didgeridoo?utm_source=api",
+      "mana_cost": "{1}",
+      "image_small": "https://cards.scryfall.io/small/front/8/2/828f8f68-abe2-4e39-b3e4-991dceacd5d9.jpg?1783947274",
+      "image_normal": "https://cards.scryfall.io/normal/front/8/2/828f8f68-abe2-4e39-b3e4-991dceacd5d9.jpg?1783947274"
+    },
+    "428f43d7-8979-466a-be73-8e073b0afdd1": {
+      "name": "Reckless Handling",
+      "type_line": "Sorcery",
+      "set": "mat",
+      "collector_number": "69",
+      "scryfall_uri": "https://scryfall.com/card/mat/69/reckless-handling?utm_source=api",
+      "mana_cost": "{1}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/4/2/428f43d7-8979-466a-be73-8e073b0afdd1.jpg?1783916497",
+      "image_normal": "https://cards.scryfall.io/normal/front/4/2/428f43d7-8979-466a-be73-8e073b0afdd1.jpg?1783916497"
+    },
+    "a0035a78-44ff-4e3a-b297-20cac926c2fb": {
+      "name": "Diabolic Tutor",
+      "type_line": "Sorcery",
+      "set": "9ed",
+      "collector_number": "125",
+      "scryfall_uri": "https://scryfall.com/card/9ed/125/diabolic-tutor?utm_source=api",
+      "mana_cost": "{2}{B}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/a/0/a0035a78-44ff-4e3a-b297-20cac926c2fb.jpg?1783944008",
+      "image_normal": "https://cards.scryfall.io/normal/front/a/0/a0035a78-44ff-4e3a-b297-20cac926c2fb.jpg?1783944008"
+    },
+    "ae9a8e44-f5de-497d-be48-adf1bcbaec97": {
+      "name": "Pyre of Heroes",
+      "type_line": "Artifact",
+      "set": "khm",
+      "collector_number": "241",
+      "scryfall_uri": "https://scryfall.com/card/khm/241/pyre-of-heroes?utm_source=api",
+      "mana_cost": "{2}",
+      "image_small": "https://cards.scryfall.io/small/front/a/e/ae9a8e44-f5de-497d-be48-adf1bcbaec97.jpg?1783928184",
+      "image_normal": "https://cards.scryfall.io/normal/front/a/e/ae9a8e44-f5de-497d-be48-adf1bcbaec97.jpg?1783928184"
+    },
+    "5bef0790-aa1b-4144-8391-338e59e86115": {
+      "name": "Sol Ring",
+      "type_line": "Artifact",
+      "set": "msc",
+      "collector_number": "212",
+      "scryfall_uri": "https://scryfall.com/card/msc/212/sol-ring?utm_source=api",
+      "mana_cost": "{1}",
+      "image_small": "https://cards.scryfall.io/small/front/5/b/5bef0790-aa1b-4144-8391-338e59e86115.jpg?1783903214",
+      "image_normal": "https://cards.scryfall.io/normal/front/5/b/5bef0790-aa1b-4144-8391-338e59e86115.jpg?1783903214"
+    },
+    "f4f7cc5b-a52a-470b-8970-260b61c91ad5": {
+      "name": "Arcane Signet",
+      "type_line": "Artifact",
+      "set": "fic",
+      "collector_number": "333",
+      "scryfall_uri": "https://scryfall.com/card/fic/333/arcane-signet?utm_source=api",
+      "mana_cost": "{2}",
+      "image_small": "https://cards.scryfall.io/small/front/f/4/f4f7cc5b-a52a-470b-8970-260b61c91ad5.jpg?1783906247",
+      "image_normal": "https://cards.scryfall.io/normal/front/f/4/f4f7cc5b-a52a-470b-8970-260b61c91ad5.jpg?1783906247"
+    },
+    "cb3d470d-e0f0-44c2-97f7-f31c02cdfbd3": {
+      "name": "Mind Stone",
+      "type_line": "Artifact",
+      "set": "dmr",
+      "collector_number": "385",
+      "scryfall_uri": "https://scryfall.com/card/dmr/385/mind-stone?utm_source=api",
+      "mana_cost": "{2}",
+      "image_small": "https://cards.scryfall.io/small/front/c/b/cb3d470d-e0f0-44c2-97f7-f31c02cdfbd3.jpg?1787729139",
+      "image_normal": "https://cards.scryfall.io/normal/front/c/b/cb3d470d-e0f0-44c2-97f7-f31c02cdfbd3.jpg?1787729139"
+    },
+    "a263e71d-953f-4648-b326-33133cfa7e00": {
+      "name": "Rakdos Signet",
+      "type_line": "Artifact",
+      "set": "frc",
+      "collector_number": "60",
+      "scryfall_uri": "https://scryfall.com/card/frc/60/rakdos-signet?utm_source=api",
+      "mana_cost": "{2}",
+      "image_small": "https://cards.scryfall.io/small/front/a/2/a263e71d-953f-4648-b326-33133cfa7e00.jpg?1789599847",
+      "image_normal": "https://cards.scryfall.io/normal/front/a/2/a263e71d-953f-4648-b326-33133cfa7e00.jpg?1789599847"
+    },
+    "36bd614f-ab3b-4ad1-ab5c-a7ca0a641f32": {
+      "name": "Talisman of Indulgence",
+      "type_line": "Artifact",
+      "set": "frc",
+      "collector_number": "63",
+      "scryfall_uri": "https://scryfall.com/card/frc/63/talisman-of-indulgence?utm_source=api",
+      "mana_cost": "{2}",
+      "image_small": "https://cards.scryfall.io/small/front/3/6/36bd614f-ab3b-4ad1-ab5c-a7ca0a641f32.jpg?1789599847",
+      "image_normal": "https://cards.scryfall.io/normal/front/3/6/36bd614f-ab3b-4ad1-ab5c-a7ca0a641f32.jpg?1789599847"
+    },
+    "205c527c-0055-4d2a-86b1-18d1c58a898d": {
+      "name": "Patchwork Banner",
+      "type_line": "Artifact",
+      "set": "fdc",
+      "collector_number": "279",
+      "scryfall_uri": "https://scryfall.com/card/fdc/279/patchwork-banner?utm_source=api",
+      "mana_cost": "{3}",
+      "image_small": "https://cards.scryfall.io/small/front/2/0/205c527c-0055-4d2a-86b1-18d1c58a898d.jpg?1789753341",
+      "image_normal": "https://cards.scryfall.io/normal/front/2/0/205c527c-0055-4d2a-86b1-18d1c58a898d.jpg?1789753341"
+    },
+    "72fdb06f-f18d-47ee-b431-c23c0d042459": {
+      "name": "Hazoret's Monument",
+      "type_line": "Legendary Artifact",
+      "set": "fdc",
+      "collector_number": "261",
+      "scryfall_uri": "https://scryfall.com/card/fdc/261/hazorets-monument?utm_source=api",
+      "mana_cost": "{3}",
+      "image_small": "https://cards.scryfall.io/small/front/7/2/72fdb06f-f18d-47ee-b431-c23c0d042459.jpg?1789753322",
+      "image_normal": "https://cards.scryfall.io/normal/front/7/2/72fdb06f-f18d-47ee-b431-c23c0d042459.jpg?1789753322"
+    },
+    "40b8bf3a-1cb5-4ce2-ac25-9410f17130de": {
+      "name": "Three Tree Mascot",
+      "type_line": "Artifact Creature — Shapeshifter",
+      "set": "fdn",
+      "collector_number": "682",
+      "scryfall_uri": "https://scryfall.com/card/fdn/682/three-tree-mascot?utm_source=api",
+      "mana_cost": "{2}",
+      "image_small": "https://cards.scryfall.io/small/front/4/0/40b8bf3a-1cb5-4ce2-ac25-9410f17130de.jpg?1783908902",
+      "image_normal": "https://cards.scryfall.io/normal/front/4/0/40b8bf3a-1cb5-4ce2-ac25-9410f17130de.jpg?1783908902"
+    },
+    "1c2e4ff2-5c14-488e-8548-eb89ffd18e41": {
+      "name": "Herald's Horn",
+      "type_line": "Artifact",
+      "set": "msc",
+      "collector_number": "287",
+      "scryfall_uri": "https://scryfall.com/card/msc/287/heralds-horn?utm_source=api",
+      "mana_cost": "{3}",
+      "image_small": "https://cards.scryfall.io/small/front/1/c/1c2e4ff2-5c14-488e-8548-eb89ffd18e41.jpg?1783903185",
+      "image_normal": "https://cards.scryfall.io/normal/front/1/c/1c2e4ff2-5c14-488e-8548-eb89ffd18e41.jpg?1783903185"
+    },
+    "b6a1f042-b8e5-4a80-b76d-23f2f3baacf7": {
+      "name": "Heraldic Banner",
+      "type_line": "Artifact",
+      "set": "plst",
+      "collector_number": "ELD-222",
+      "scryfall_uri": "https://scryfall.com/card/plst/ELD-222/heraldic-banner?utm_source=api",
+      "mana_cost": "{3}",
+      "image_small": "https://cards.scryfall.io/small/front/b/6/b6a1f042-b8e5-4a80-b76d-23f2f3baacf7.jpg?1783910049",
+      "image_normal": "https://cards.scryfall.io/normal/front/b/6/b6a1f042-b8e5-4a80-b76d-23f2f3baacf7.jpg?1783910049"
+    },
+    "cf0f58ac-88ef-445c-a12b-0bb1cf482298": {
+      "name": "Deathbellow War Cry",
+      "type_line": "Sorcery",
+      "set": "thb",
+      "collector_number": "294",
+      "scryfall_uri": "https://scryfall.com/card/thb/294/deathbellow-war-cry?utm_source=api",
+      "mana_cost": "{5}{R}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/c/f/cf0f58ac-88ef-445c-a12b-0bb1cf482298.jpg?1783931490",
+      "image_normal": "https://cards.scryfall.io/normal/front/c/f/cf0f58ac-88ef-445c-a12b-0bb1cf482298.jpg?1783931490"
+    },
+    "317686d8-b762-4598-b74a-8b1fa6b899ba": {
+      "name": "Patriarch's Bidding",
+      "type_line": "Sorcery",
+      "set": "mh2",
+      "collector_number": "275",
+      "scryfall_uri": "https://scryfall.com/card/mh2/275/patriarchs-bidding?utm_source=api",
+      "mana_cost": "{3}{B}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/3/1/317686d8-b762-4598-b74a-8b1fa6b899ba.jpg?1783926786",
+      "image_normal": "https://cards.scryfall.io/normal/front/3/1/317686d8-b762-4598-b74a-8b1fa6b899ba.jpg?1783926786"
+    },
+    "299a807e-21cb-4b49-ad2b-c9ce7eef393a": {
+      "name": "Shared Animosity",
+      "type_line": "Enchantment",
+      "set": "wot",
+      "collector_number": "49",
+      "scryfall_uri": "https://scryfall.com/card/wot/49/shared-animosity?utm_source=api",
+      "mana_cost": "{2}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/2/9/299a807e-21cb-4b49-ad2b-c9ce7eef393a.jpg?1783914920",
+      "image_normal": "https://cards.scryfall.io/normal/front/2/9/299a807e-21cb-4b49-ad2b-c9ce7eef393a.jpg?1783914920"
+    },
+    "55af97c0-3377-4a77-8a8a-5bc894d7d678": {
+      "name": "Descendants' Fury",
+      "type_line": "Enchantment",
+      "set": "ecc",
+      "collector_number": "93",
+      "scryfall_uri": "https://scryfall.com/card/ecc/93/descendants-fury?utm_source=api",
+      "mana_cost": "{3}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/5/5/55af97c0-3377-4a77-8a8a-5bc894d7d678.jpg?1783904551",
+      "image_normal": "https://cards.scryfall.io/normal/front/5/5/55af97c0-3377-4a77-8a8a-5bc894d7d678.jpg?1783904551"
+    },
+    "1900c0b1-b2b0-4561-ae63-ab7cd4c54580": {
+      "name": "Rage Reflection",
+      "type_line": "Enchantment",
+      "set": "dpa",
+      "collector_number": "52",
+      "scryfall_uri": "https://scryfall.com/card/dpa/52/rage-reflection?utm_source=api",
+      "mana_cost": "{4}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/1/9/1900c0b1-b2b0-4561-ae63-ab7cd4c54580.jpg?1783941932",
+      "image_normal": "https://cards.scryfall.io/normal/front/1/9/1900c0b1-b2b0-4561-ae63-ab7cd4c54580.jpg?1783941932"
+    },
+    "42a4d090-1bb7-4334-ab22-e2527391e79b": {
+      "name": "Bake into a Pie",
+      "type_line": "Instant",
+      "set": "eld",
+      "collector_number": "76",
+      "scryfall_uri": "https://scryfall.com/card/eld/76/bake-into-a-pie?utm_source=api",
+      "mana_cost": "{2}{B}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/4/2/42a4d090-1bb7-4334-ab22-e2527391e79b.jpg?1783932645",
+      "image_normal": "https://cards.scryfall.io/normal/front/4/2/42a4d090-1bb7-4334-ab22-e2527391e79b.jpg?1783932645"
+    },
+    "900de725-741b-4b25-8e40-78ed7575a83f": {
+      "name": "Hammer of Purphoros",
+      "type_line": "Legendary Enchantment Artifact",
+      "set": "eoc",
+      "collector_number": "88",
+      "scryfall_uri": "https://scryfall.com/card/eoc/88/hammer-of-purphoros?utm_source=api",
+      "mana_cost": "{1}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/9/0/900de725-741b-4b25-8e40-78ed7575a83f.jpg?1783906038",
+      "image_normal": "https://cards.scryfall.io/normal/front/9/0/900de725-741b-4b25-8e40-78ed7575a83f.jpg?1783906038"
+    },
+    "e6db1ad2-ed85-4084-976e-da1933f4d008": {
+      "name": "Phyrexian Arena",
+      "type_line": "Enchantment",
+      "set": "fdc",
+      "collector_number": "123",
+      "scryfall_uri": "https://scryfall.com/card/fdc/123/phyrexian-arena?utm_source=api",
+      "mana_cost": "{1}{B}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/e/6/e6db1ad2-ed85-4084-976e-da1933f4d008.jpg?1789753055",
+      "image_normal": "https://cards.scryfall.io/normal/front/e/6/e6db1ad2-ed85-4084-976e-da1933f4d008.jpg?1789753055"
+    },
+    "0111bf5d-7132-4cf2-b27d-efba3ad9477a": {
+      "name": "Sign in Blood",
+      "type_line": "Sorcery",
+      "set": "fdc",
+      "collector_number": "125",
+      "scryfall_uri": "https://scryfall.com/card/fdc/125/sign-in-blood?utm_source=api",
+      "mana_cost": "{B}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/0/1/0111bf5d-7132-4cf2-b27d-efba3ad9477a.jpg?1789753055",
+      "image_normal": "https://cards.scryfall.io/normal/front/0/1/0111bf5d-7132-4cf2-b27d-efba3ad9477a.jpg?1789753055"
+    },
+    "b6462949-9a13-4f7d-9656-658e7f7f1116": {
+      "name": "Read the Bones",
+      "type_line": "Sorcery",
+      "set": "scd",
+      "collector_number": "101",
+      "scryfall_uri": "https://scryfall.com/card/scd/101/read-the-bones?utm_source=api",
+      "mana_cost": "{2}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/b/6/b6462949-9a13-4f7d-9656-658e7f7f1116.jpg?1783918696",
+      "image_normal": "https://cards.scryfall.io/normal/front/b/6/b6462949-9a13-4f7d-9656-658e7f7f1116.jpg?1783918696"
+    },
+    "75caefa7-94d5-472e-a540-daad3ee69899": {
+      "name": "Ox of Agonas",
+      "type_line": "Creature — Ox",
+      "set": "thb",
+      "collector_number": "147",
+      "scryfall_uri": "https://scryfall.com/card/thb/147/ox-of-agonas?utm_source=api",
+      "mana_cost": "{3}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/7/5/75caefa7-94d5-472e-a540-daad3ee69899.jpg?1783931548",
+      "image_normal": "https://cards.scryfall.io/normal/front/7/5/75caefa7-94d5-472e-a540-daad3ee69899.jpg?1783931548"
+    },
+    "20c521dc-f537-4707-81aa-defa20df57df": {
+      "name": "Terminate",
+      "type_line": "Instant",
+      "set": "scd",
+      "collector_number": "249",
+      "scryfall_uri": "https://scryfall.com/card/scd/249/terminate?utm_source=api",
+      "mana_cost": "{B}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/2/0/20c521dc-f537-4707-81aa-defa20df57df.jpg?1783918629",
+      "image_normal": "https://cards.scryfall.io/normal/front/2/0/20c521dc-f537-4707-81aa-defa20df57df.jpg?1783918629"
+    },
+    "875fa08c-cb66-4230-a380-0123260aac74": {
+      "name": "Rakdos Charm",
+      "type_line": "Instant",
+      "set": "lcc",
+      "collector_number": "284",
+      "scryfall_uri": "https://scryfall.com/card/lcc/284/rakdos-charm?utm_source=api",
+      "mana_cost": "{B}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/8/7/875fa08c-cb66-4230-a380-0123260aac74.jpg?1783913846",
+      "image_normal": "https://cards.scryfall.io/normal/front/8/7/875fa08c-cb66-4230-a380-0123260aac74.jpg?1783913846"
+    },
+    "d4372203-b930-4e6e-a351-e5b4581eb72b": {
+      "name": "Chaos Warp",
+      "type_line": "Instant",
+      "set": "eoc",
+      "collector_number": "49",
+      "scryfall_uri": "https://scryfall.com/card/eoc/49/chaos-warp?utm_source=api",
+      "mana_cost": "{2}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/d/4/d4372203-b930-4e6e-a351-e5b4581eb72b.jpg?1783906051",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/4/d4372203-b930-4e6e-a351-e5b4581eb72b.jpg?1783906051"
+    },
+    "24da9431-7e52-44f5-bc18-2f2d8a4ca81e": {
+      "name": "Abrade",
+      "type_line": "Instant",
+      "set": "2xm",
+      "collector_number": "114",
+      "scryfall_uri": "https://scryfall.com/card/2xm/114/abrade?utm_source=api",
+      "mana_cost": "{1}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/2/4/24da9431-7e52-44f5-bc18-2f2d8a4ca81e.jpg?1783930170",
+      "image_normal": "https://cards.scryfall.io/normal/front/2/4/24da9431-7e52-44f5-bc18-2f2d8a4ca81e.jpg?1783930170"
+    },
+    "2246c098-1071-4cc3-a60a-802406e2827b": {
+      "name": "Feed the Swarm",
+      "type_line": "Sorcery",
+      "set": "tle",
+      "collector_number": "257",
+      "scryfall_uri": "https://scryfall.com/card/tle/257/feed-the-swarm?utm_source=api",
+      "mana_cost": "{1}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/2/2/2246c098-1071-4cc3-a60a-802406e2827b.jpg?1783904770",
+      "image_normal": "https://cards.scryfall.io/normal/front/2/2/2246c098-1071-4cc3-a60a-802406e2827b.jpg?1783904770"
+    },
+    "f67b323d-0dda-45f8-84b7-d883ce5045a8": {
+      "name": "Infernal Grasp",
+      "type_line": "Instant",
+      "set": "soc",
+      "collector_number": "216",
+      "scryfall_uri": "https://scryfall.com/card/soc/216/infernal-grasp?utm_source=api",
+      "mana_cost": "{1}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/f/6/f67b323d-0dda-45f8-84b7-d883ce5045a8.jpg?1783903785",
+      "image_normal": "https://cards.scryfall.io/normal/front/f/6/f67b323d-0dda-45f8-84b7-d883ce5045a8.jpg?1783903785"
+    },
+    "d74c3f9b-5df9-4d74-8c27-a2a9966bfe8c": {
+      "name": "Crippling Fear",
+      "type_line": "Sorcery",
+      "set": "scd",
+      "collector_number": "72",
+      "scryfall_uri": "https://scryfall.com/card/scd/72/crippling-fear?utm_source=api",
+      "mana_cost": "{2}{B}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/d/7/d74c3f9b-5df9-4d74-8c27-a2a9966bfe8c.jpg?1783918710",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/7/d74c3f9b-5df9-4d74-8c27-a2a9966bfe8c.jpg?1783918710"
+    },
+    "40ca082c-22e2-4edd-b4c2-a07032d4e360": {
+      "name": "Blasphemous Act",
+      "type_line": "Sorcery",
+      "set": "fdc",
+      "collector_number": "140",
+      "scryfall_uri": "https://scryfall.com/card/fdc/140/blasphemous-act?utm_source=api",
+      "mana_cost": "{8}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/4/0/40ca082c-22e2-4edd-b4c2-a07032d4e360.jpg?1789753069",
+      "image_normal": "https://cards.scryfall.io/normal/front/4/0/40ca082c-22e2-4edd-b4c2-a07032d4e360.jpg?1789753069"
+    },
+    "e620908f-6158-43a5-b7e1-0b2aa8d90396": {
+      "name": "Tragic Slip",
+      "type_line": "Instant",
+      "set": "c14",
+      "collector_number": "167",
+      "scryfall_uri": "https://scryfall.com/card/c14/167/tragic-slip?utm_source=api",
+      "mana_cost": "{B}",
+      "image_small": "https://cards.scryfall.io/small/front/e/6/e620908f-6158-43a5-b7e1-0b2aa8d90396.jpg?1783938838",
+      "image_normal": "https://cards.scryfall.io/normal/front/e/6/e620908f-6158-43a5-b7e1-0b2aa8d90396.jpg?1783938838"
+    },
+    "7593d5fb-c6b3-4d24-b9d3-97a4378161fd": {
+      "name": "Neheb, the Worthy",
+      "type_line": "Legendary Creature — Minotaur Warrior",
+      "set": "akh",
+      "collector_number": "203",
+      "scryfall_uri": "https://scryfall.com/card/akh/203/neheb-the-worthy?utm_source=api",
+      "mana_cost": "{1}{B}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/7/5/7593d5fb-c6b3-4d24-b9d3-97a4378161fd.jpg?1783936461",
+      "image_normal": "https://cards.scryfall.io/normal/front/7/5/7593d5fb-c6b3-4d24-b9d3-97a4378161fd.jpg?1783936461"
+    },
+    "a8cbc3ba-f552-43fd-a59b-f3d8e3edd12f": {
+      "name": "Neheb, Dreadhorde Champion",
+      "type_line": "Legendary Creature — Zombie Minotaur Warrior",
+      "set": "dmc",
+      "collector_number": "125",
+      "scryfall_uri": "https://scryfall.com/card/dmc/125/neheb-dreadhorde-champion?utm_source=api",
+      "mana_cost": "{2}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/a/8/a8cbc3ba-f552-43fd-a59b-f3d8e3edd12f.jpg?1783921424",
+      "image_normal": "https://cards.scryfall.io/normal/front/a/8/a8cbc3ba-f552-43fd-a59b-f3d8e3edd12f.jpg?1783921424"
+    },
+    "1eb6eda2-e3df-440a-8900-8310f11db6e9": {
+      "name": "Ragemonger",
+      "type_line": "Creature — Minotaur Shaman",
+      "set": "bng",
+      "collector_number": "153",
+      "scryfall_uri": "https://scryfall.com/card/bng/153/ragemonger?utm_source=api",
+      "mana_cost": "{1}{B}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/1/e/1eb6eda2-e3df-440a-8900-8310f11db6e9.jpg?1783939523",
+      "image_normal": "https://cards.scryfall.io/normal/front/1/e/1eb6eda2-e3df-440a-8900-8310f11db6e9.jpg?1783939523"
+    },
+    "ffaa31fd-5ba5-49d4-90b6-fafb9f1a8b3a": {
+      "name": "Rageblood Shaman",
+      "type_line": "Creature — Minotaur Shaman",
+      "set": "ths",
+      "collector_number": "138",
+      "scryfall_uri": "https://scryfall.com/card/ths/138/rageblood-shaman?utm_source=api",
+      "mana_cost": "{1}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/f/f/ffaa31fd-5ba5-49d4-90b6-fafb9f1a8b3a.jpg?1783939756",
+      "image_normal": "https://cards.scryfall.io/normal/front/f/f/ffaa31fd-5ba5-49d4-90b6-fafb9f1a8b3a.jpg?1783939756"
+    },
+    "4d6cce01-a0cb-4059-a0ad-fbf7d9b998b8": {
+      "name": "Felhide Petrifier",
+      "type_line": "Creature — Minotaur Warrior",
+      "set": "jou",
+      "collector_number": "70",
+      "scryfall_uri": "https://scryfall.com/card/jou/70/felhide-petrifier?utm_source=api",
+      "mana_cost": "{2}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/4/d/4d6cce01-a0cb-4059-a0ad-fbf7d9b998b8.jpg?1783939435",
+      "image_normal": "https://cards.scryfall.io/normal/front/4/d/4d6cce01-a0cb-4059-a0ad-fbf7d9b998b8.jpg?1783939435"
+    },
+    "78791fc6-054f-45eb-b8b0-28f2512d72b6": {
+      "name": "Kragma Warcaller",
+      "type_line": "Creature — Minotaur Warrior",
+      "set": "ths",
+      "collector_number": "195",
+      "scryfall_uri": "https://scryfall.com/card/ths/195/kragma-warcaller?utm_source=api",
+      "mana_cost": "{3}{B}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/7/8/78791fc6-054f-45eb-b8b0-28f2512d72b6.jpg?1783939730",
+      "image_normal": "https://cards.scryfall.io/normal/front/7/8/78791fc6-054f-45eb-b8b0-28f2512d72b6.jpg?1783939730"
+    },
+    "c4d33cc0-525d-4e25-927b-b6b18087c27b": {
+      "name": "Anaba Ancestor",
+      "type_line": "Creature — Minotaur Spirit",
+      "set": "hml",
+      "collector_number": "65",
+      "scryfall_uri": "https://scryfall.com/card/hml/65/anaba-ancestor?utm_source=api",
+      "mana_cost": "{1}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/c/4/c4d33cc0-525d-4e25-927b-b6b18087c27b.jpg?1783947286",
+      "image_normal": "https://cards.scryfall.io/normal/front/c/4/c4d33cc0-525d-4e25-927b-b6b18087c27b.jpg?1783947286"
+    },
+    "e9aaabc2-1dab-4f9c-8ed3-60bc1aa995ba": {
+      "name": "Anaba Spirit Crafter",
+      "type_line": "Creature — Minotaur Shaman",
+      "set": "hml",
+      "collector_number": "68",
+      "scryfall_uri": "https://scryfall.com/card/hml/68/anaba-spirit-crafter?utm_source=api",
+      "mana_cost": "{2}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/e/9/e9aaabc2-1dab-4f9c-8ed3-60bc1aa995ba.jpg?1783947285",
+      "image_normal": "https://cards.scryfall.io/normal/front/e/9/e9aaabc2-1dab-4f9c-8ed3-60bc1aa995ba.jpg?1783947285"
+    },
+    "6fdd01bd-ab41-4005-8807-46db0cfc4da4": {
+      "name": "Anaba Bodyguard",
+      "type_line": "Creature — Minotaur",
+      "set": "10e",
+      "collector_number": "187",
+      "scryfall_uri": "https://scryfall.com/card/10e/187/anaba-bodyguard?utm_source=api",
+      "mana_cost": "{3}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/6/f/6fdd01bd-ab41-4005-8807-46db0cfc4da4.jpg?1783943025",
+      "image_normal": "https://cards.scryfall.io/normal/front/6/f/6fdd01bd-ab41-4005-8807-46db0cfc4da4.jpg?1783943025"
+    },
+    "7cae202e-63f1-4d8b-bf85-2bf1a03c054c": {
+      "name": "Anaba Shaman",
+      "type_line": "Creature — Minotaur Shaman",
+      "set": "9ed",
+      "collector_number": "172",
+      "scryfall_uri": "https://scryfall.com/card/9ed/172/anaba-shaman?utm_source=api",
+      "mana_cost": "{3}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/7/c/7cae202e-63f1-4d8b-bf85-2bf1a03c054c.jpg?1783943977",
+      "image_normal": "https://cards.scryfall.io/normal/front/7/c/7cae202e-63f1-4d8b-bf85-2bf1a03c054c.jpg?1783943977"
+    },
+    "5c2c27de-e788-4ad7-b1e3-030e7ef00471": {
+      "name": "Hurloon Minotaur",
+      "type_line": "Creature — Minotaur",
+      "set": "4ed",
+      "collector_number": "202",
+      "scryfall_uri": "https://scryfall.com/card/4ed/202/hurloon-minotaur?utm_source=api",
+      "mana_cost": "{1}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/5/c/5c2c27de-e788-4ad7-b1e3-030e7ef00471.jpg?1783947828",
+      "image_normal": "https://cards.scryfall.io/normal/front/5/c/5c2c27de-e788-4ad7-b1e3-030e7ef00471.jpg?1783947828"
+    },
+    "b2159a7d-e37a-4c43-a7b9-1e7179a7e43b": {
+      "name": "Lord of Shatterskull Pass",
+      "type_line": "Creature — Minotaur Shaman",
+      "set": "roe",
+      "collector_number": "156",
+      "scryfall_uri": "https://scryfall.com/card/roe/156/lord-of-shatterskull-pass?utm_source=api",
+      "mana_cost": "{3}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/b/2/b2159a7d-e37a-4c43-a7b9-1e7179a7e43b.jpg?1783941973",
+      "image_normal": "https://cards.scryfall.io/normal/front/b/2/b2159a7d-e37a-4c43-a7b9-1e7179a7e43b.jpg?1783941973"
+    },
+    "4481eab8-9e7d-4db8-b1f2-fdf5ee1919a2": {
+      "name": "Moraug, Fury of Akoum",
+      "type_line": "Legendary Creature — Minotaur Warrior",
+      "set": "eoc",
+      "collector_number": "89",
+      "scryfall_uri": "https://scryfall.com/card/eoc/89/moraug-fury-of-akoum?utm_source=api",
+      "mana_cost": "{4}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/4/4/4481eab8-9e7d-4db8-b1f2-fdf5ee1919a2.jpg?1783906037",
+      "image_normal": "https://cards.scryfall.io/normal/front/4/4/4481eab8-9e7d-4db8-b1f2-fdf5ee1919a2.jpg?1783906037"
+    },
+    "f6ee0bbf-312a-493c-a8d0-13b8dae8ba71": {
+      "name": "Magar of the Magic Strings",
+      "type_line": "Legendary Creature — Minotaur Performer",
+      "set": "unf",
+      "collector_number": "263",
+      "scryfall_uri": "https://scryfall.com/card/unf/263/magar-of-the-magic-strings?utm_source=api",
+      "mana_cost": "{1}{B}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/f/6/f6ee0bbf-312a-493c-a8d0-13b8dae8ba71.jpg?1783920455",
+      "image_normal": "https://cards.scryfall.io/normal/front/f/6/f6ee0bbf-312a-493c-a8d0-13b8dae8ba71.jpg?1783920455"
+    },
+    "ddc770fd-d513-420b-94f8-f2d28d8ed8d1": {
+      "name": "Labyrinth Adversary",
+      "type_line": "Creature — Minotaur",
+      "set": "acr",
+      "collector_number": "290",
+      "scryfall_uri": "https://scryfall.com/card/acr/290/labyrinth-adversary?utm_source=api",
+      "mana_cost": "{3}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/d/d/ddc770fd-d513-420b-94f8-f2d28d8ed8d1.jpg?1783910893",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/d/ddc770fd-d513-420b-94f8-f2d28d8ed8d1.jpg?1783910893"
+    },
+    "2bcf1ed6-5e5b-4035-9d21-f84ac4fc4fbd": {
+      "name": "Sandstorm Crasher",
+      "type_line": "Creature — Minotaur Berserker Wizard",
+      "set": "j25",
+      "collector_number": "18",
+      "scryfall_uri": "https://scryfall.com/card/j25/18/sandstorm-crasher?utm_source=api",
+      "mana_cost": "{3}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/2/b/2bcf1ed6-5e5b-4035-9d21-f84ac4fc4fbd.jpg?1783908865",
+      "image_normal": "https://cards.scryfall.io/normal/front/2/b/2bcf1ed6-5e5b-4035-9d21-f84ac4fc4fbd.jpg?1783908865"
+    },
+    "bbbbe4ce-d6a6-428d-aeee-1c316f358777": {
+      "name": "Felhide Spiritbinder",
+      "type_line": "Creature — Minotaur Shaman",
+      "set": "bng",
+      "collector_number": "96",
+      "scryfall_uri": "https://scryfall.com/card/bng/96/felhide-spiritbinder?utm_source=api",
+      "mana_cost": "{3}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/b/b/bbbbe4ce-d6a6-428d-aeee-1c316f358777.jpg?1783939545",
+      "image_normal": "https://cards.scryfall.io/normal/front/b/b/bbbbe4ce-d6a6-428d-aeee-1c316f358777.jpg?1783939545"
+    },
+    "ddb1931e-c282-47a7-9382-608de6ec8efa": {
+      "name": "Oracle of Bones",
+      "type_line": "Creature — Minotaur Shaman",
+      "set": "bng",
+      "collector_number": "103",
+      "scryfall_uri": "https://scryfall.com/card/bng/103/oracle-of-bones?utm_source=api",
+      "mana_cost": "{2}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/d/d/ddb1931e-c282-47a7-9382-608de6ec8efa.jpg?1783939544",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/d/ddb1931e-c282-47a7-9382-608de6ec8efa.jpg?1783939544"
+    },
+    "b83dc99d-b026-489d-bc2d-15f999ee1b27": {
+      "name": "Fanatic of Mogis",
+      "type_line": "Creature — Minotaur Shaman",
+      "set": "plst",
+      "collector_number": "THS-121",
+      "scryfall_uri": "https://scryfall.com/card/plst/THS-121/fanatic-of-mogis?utm_source=api",
+      "mana_cost": "{3}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/b/8/b83dc99d-b026-489d-bc2d-15f999ee1b27.jpg?1783910185",
+      "image_normal": "https://cards.scryfall.io/normal/front/b/8/b83dc99d-b026-489d-bc2d-15f999ee1b27.jpg?1783910185"
+    },
+    "b29fc64e-297e-4e10-8f4e-289dc1c3ebfd": {
+      "name": "Deathbellow Raider",
+      "type_line": "Creature — Minotaur Berserker",
+      "set": "ths",
+      "collector_number": "117",
+      "scryfall_uri": "https://scryfall.com/card/ths/117/deathbellow-raider?utm_source=api",
+      "mana_cost": "{1}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/b/2/b29fc64e-297e-4e10-8f4e-289dc1c3ebfd.jpg?1783939765",
+      "image_normal": "https://cards.scryfall.io/normal/front/b/2/b29fc64e-297e-4e10-8f4e-289dc1c3ebfd.jpg?1783939765"
+    },
+    "55e2f383-d2a0-4424-bf7a-79e82d6f691f": {
+      "name": "Soulreaper of Mogis",
+      "type_line": "Enchantment Creature — Minotaur Shaman",
+      "set": "thb",
+      "collector_number": "115",
+      "scryfall_uri": "https://scryfall.com/card/thb/115/soulreaper-of-mogis?utm_source=api",
+      "mana_cost": "{2}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/5/5/55e2f383-d2a0-4424-bf7a-79e82d6f691f.jpg?1783931560",
+      "image_normal": "https://cards.scryfall.io/normal/front/5/5/55e2f383-d2a0-4424-bf7a-79e82d6f691f.jpg?1783931560"
+    },
+    "fc5776ff-d602-450c-aa92-c880867c6aa9": {
+      "name": "Taurean Mauler",
+      "type_line": "Creature — Shapeshifter",
+      "set": "fdc",
+      "collector_number": "178",
+      "scryfall_uri": "https://scryfall.com/card/fdc/178/taurean-mauler?utm_source=api",
+      "mana_cost": "{2}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/f/c/fc5776ff-d602-450c-aa92-c880867c6aa9.jpg?1789753098",
+      "image_normal": "https://cards.scryfall.io/normal/front/f/c/fc5776ff-d602-450c-aa92-c880867c6aa9.jpg?1789753098"
+    },
+    "53c682e2-c90f-4f4b-9010-00b099e85518": {
+      "name": "Universal Automaton",
+      "type_line": "Artifact Creature — Shapeshifter",
+      "set": "mh1",
+      "collector_number": "235",
+      "scryfall_uri": "https://scryfall.com/card/mh1/235/universal-automaton?utm_source=api",
+      "mana_cost": "{1}",
+      "image_small": "https://cards.scryfall.io/small/front/5/3/53c682e2-c90f-4f4b-9010-00b099e85518.jpg?1783933069",
+      "image_normal": "https://cards.scryfall.io/normal/front/5/3/53c682e2-c90f-4f4b-9010-00b099e85518.jpg?1783933069"
+    },
+    "c608543d-cb60-44c3-a437-e4a18c311420": {
+      "name": "Labyrinth Raptor",
+      "type_line": "Creature — Nightmare Dinosaur",
+      "set": "iko",
+      "collector_number": "193",
+      "scryfall_uri": "https://scryfall.com/card/iko/193/labyrinth-raptor?utm_source=api",
+      "mana_cost": "{B}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/c/6/c608543d-cb60-44c3-a437-e4a18c311420.jpg?1783931023",
+      "image_normal": "https://cards.scryfall.io/normal/front/c/6/c608543d-cb60-44c3-a437-e4a18c311420.jpg?1783931023"
+    },
+    "c1778f37-af01-4f8c-ab9d-a4c60abf7e78": {
+      "name": "Tahngarth, Talruum Hero",
+      "type_line": "Legendary Creature — Minotaur Warrior",
+      "set": "pls",
+      "collector_number": "74",
+      "scryfall_uri": "https://scryfall.com/card/pls/74/tahngarth-talruum-hero?utm_source=api",
+      "mana_cost": "{3}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/c/1/c1778f37-af01-4f8c-ab9d-a4c60abf7e78.jpg?1783945614",
+      "image_normal": "https://cards.scryfall.io/normal/front/c/1/c1778f37-af01-4f8c-ab9d-a4c60abf7e78.jpg?1783945614"
+    },
+    "70a359c9-1889-426d-acaf-074cfd9f274d": {
+      "name": "Hurloon Shaman",
+      "type_line": "Creature — Minotaur Shaman",
+      "set": "wth",
+      "collector_number": "108",
+      "scryfall_uri": "https://scryfall.com/card/wth/108/hurloon-shaman?utm_source=api",
+      "mana_cost": "{1}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/7/0/70a359c9-1889-426d-acaf-074cfd9f274d.jpg?1783946725",
+      "image_normal": "https://cards.scryfall.io/normal/front/7/0/70a359c9-1889-426d-acaf-074cfd9f274d.jpg?1783946725"
+    },
+    "5577ac30-ee84-4d3c-b407-82578779dc90": {
+      "name": "Warmonger",
+      "type_line": "Creature — Minotaur Monger",
+      "set": "mmq",
+      "collector_number": "225",
+      "scryfall_uri": "https://scryfall.com/card/mmq/225/warmonger?utm_source=api",
+      "mana_cost": "{3}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/5/5/5577ac30-ee84-4d3c-b407-82578779dc90.jpg?1783945930",
+      "image_normal": "https://cards.scryfall.io/normal/front/5/5/5577ac30-ee84-4d3c-b407-82578779dc90.jpg?1783945930"
+    },
+    "63fd5801-5073-4e8e-8435-c7ebe9d999b3": {
+      "name": "Gorehorn Minotaurs",
+      "type_line": "Creature — Minotaur Warrior",
+      "set": "dds",
+      "collector_number": "38",
+      "scryfall_uri": "https://scryfall.com/card/dds/38/gorehorn-minotaurs?utm_source=api",
+      "mana_cost": "{2}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/6/3/63fd5801-5073-4e8e-8435-c7ebe9d999b3.jpg?1783936566",
+      "image_normal": "https://cards.scryfall.io/normal/front/6/3/63fd5801-5073-4e8e-8435-c7ebe9d999b3.jpg?1783936566"
+    },
+    "c46a217c-0ed2-4b3c-9a01-ee38d12d76f3": {
+      "name": "Command Tower",
+      "type_line": "Land",
+      "set": "soc",
+      "collector_number": "129",
+      "scryfall_uri": "https://scryfall.com/card/soc/129/command-tower?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/c/4/c46a217c-0ed2-4b3c-9a01-ee38d12d76f3.jpg?1783903817",
+      "image_normal": "https://cards.scryfall.io/normal/front/c/4/c46a217c-0ed2-4b3c-9a01-ee38d12d76f3.jpg?1783903817"
+    },
+    "dbab5b0a-c80f-4604-bec8-04da67ae1691": {
+      "name": "Path of Ancestry",
+      "type_line": "Land",
+      "set": "scd",
+      "collector_number": "312",
+      "scryfall_uri": "https://scryfall.com/card/scd/312/path-of-ancestry?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/d/b/dbab5b0a-c80f-4604-bec8-04da67ae1691.jpg?1783918600",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/b/dbab5b0a-c80f-4604-bec8-04da67ae1691.jpg?1783918600"
+    },
+    "d3782952-3839-4a94-95bc-716611d3ece6": {
+      "name": "Unclaimed Territory",
+      "type_line": "Land",
+      "set": "msc",
+      "collector_number": "275",
+      "scryfall_uri": "https://scryfall.com/card/msc/275/unclaimed-territory?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/d/3/d3782952-3839-4a94-95bc-716611d3ece6.jpg?1783903190",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/3/d3782952-3839-4a94-95bc-716611d3ece6.jpg?1783903190"
+    },
+    "d13373d2-139b-48c7-a8c9-828cefc4f150": {
+      "name": "Secluded Courtyard",
+      "type_line": "Land",
+      "set": "fdn",
+      "collector_number": "267",
+      "scryfall_uri": "https://scryfall.com/card/fdn/267/secluded-courtyard?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/d/1/d13373d2-139b-48c7-a8c9-828cefc4f150.jpg?1783909044",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/1/d13373d2-139b-48c7-a8c9-828cefc4f150.jpg?1783909044"
+    },
+    "b892b2d1-9d9b-46ac-bad6-490de5b32fb8": {
+      "name": "Rakdos Carnarium",
+      "type_line": "Land",
+      "set": "c18",
+      "collector_number": "273",
+      "scryfall_uri": "https://scryfall.com/card/c18/273/rakdos-carnarium?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/b/8/b892b2d1-9d9b-46ac-bad6-490de5b32fb8.jpg?1783934237",
+      "image_normal": "https://cards.scryfall.io/normal/front/b/8/b892b2d1-9d9b-46ac-bad6-490de5b32fb8.jpg?1783934237"
+    },
+    "35b403ee-62cc-4f67-911e-4bf26e495374": {
+      "name": "Sulfurous Springs",
+      "type_line": "Land",
+      "set": "fic",
+      "collector_number": "427",
+      "scryfall_uri": "https://scryfall.com/card/fic/427/sulfurous-springs?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/3/5/35b403ee-62cc-4f67-911e-4bf26e495374.jpg?1783906205",
+      "image_normal": "https://cards.scryfall.io/normal/front/3/5/35b403ee-62cc-4f67-911e-4bf26e495374.jpg?1783906205"
+    },
+    "71727ccd-8243-48f2-a90e-6ae4b80bb61b": {
+      "name": "Smoldering Marsh",
+      "type_line": "Land — Swamp Mountain",
+      "set": "lcc",
+      "collector_number": "353",
+      "scryfall_uri": "https://scryfall.com/card/lcc/353/smoldering-marsh?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/7/1/71727ccd-8243-48f2-a90e-6ae4b80bb61b.jpg?1783913823",
+      "image_normal": "https://cards.scryfall.io/normal/front/7/1/71727ccd-8243-48f2-a90e-6ae4b80bb61b.jpg?1783913823"
+    },
+    "eaf65322-6f41-413e-9852-0366e88e5245": {
+      "name": "Foreboding Ruins",
+      "type_line": "Land",
+      "set": "lcc",
+      "collector_number": "330",
+      "scryfall_uri": "https://scryfall.com/card/lcc/330/foreboding-ruins?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/e/a/eaf65322-6f41-413e-9852-0366e88e5245.jpg?1783913831",
+      "image_normal": "https://cards.scryfall.io/normal/front/e/a/eaf65322-6f41-413e-9852-0366e88e5245.jpg?1783913831"
+    },
+    "d20e433a-eb62-4301-bc20-bfe27468b033": {
+      "name": "Dragonskull Summit",
+      "type_line": "Land",
+      "set": "msc",
+      "collector_number": "238",
+      "scryfall_uri": "https://scryfall.com/card/msc/238/dragonskull-summit?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/d/2/d20e433a-eb62-4301-bc20-bfe27468b033.jpg?1783903203",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/2/d20e433a-eb62-4301-bc20-bfe27468b033.jpg?1783903203"
+    },
+    "7f33cce1-1484-43da-a825-b090eb5403a4": {
+      "name": "Graven Cairns",
+      "type_line": "Land",
+      "set": "fic",
+      "collector_number": "401",
+      "scryfall_uri": "https://scryfall.com/card/fic/401/graven-cairns?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/7/f/7f33cce1-1484-43da-a825-b090eb5403a4.jpg?1783906217",
+      "image_normal": "https://cards.scryfall.io/normal/front/7/f/7f33cce1-1484-43da-a825-b090eb5403a4.jpg?1783906217"
+    },
+    "dee171ce-be99-4a1c-8cd6-3fa66ba6cecc": {
+      "name": "Canyon Slough",
+      "type_line": "Land — Swamp Mountain",
+      "set": "dsc",
+      "collector_number": "266",
+      "scryfall_uri": "https://scryfall.com/card/dsc/266/canyon-slough?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/d/e/dee171ce-be99-4a1c-8cd6-3fa66ba6cecc.jpg?1783909579",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/e/dee171ce-be99-4a1c-8cd6-3fa66ba6cecc.jpg?1783909579"
+    },
+    "dc85a92c-4c2c-4e0d-af2d-de84b3ab1b79": {
+      "name": "Temple of Malice",
+      "type_line": "Land",
+      "set": "scd",
+      "collector_number": "326",
+      "scryfall_uri": "https://scryfall.com/card/scd/326/temple-of-malice?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/d/c/dc85a92c-4c2c-4e0d-af2d-de84b3ab1b79.jpg?1783918592",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/c/dc85a92c-4c2c-4e0d-af2d-de84b3ab1b79.jpg?1783918592"
+    },
+    "c640715d-d8ab-458e-b0d8-8948ce85655e": {
+      "name": "Bloodfell Caves",
+      "type_line": "Land",
+      "set": "scd",
+      "collector_number": "290",
+      "scryfall_uri": "https://scryfall.com/card/scd/290/bloodfell-caves?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/c/6/c640715d-d8ab-458e-b0d8-8948ce85655e.jpg?1783918610",
+      "image_normal": "https://cards.scryfall.io/normal/front/c/6/c640715d-d8ab-458e-b0d8-8948ce85655e.jpg?1783918610"
+    },
+    "b8cd0293-d140-4f80-804c-019957c1f49a": {
+      "name": "Rogue's Passage",
+      "type_line": "Land",
+      "set": "fic",
+      "collector_number": "415",
+      "scryfall_uri": "https://scryfall.com/card/fic/415/rogues-passage?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/b/8/b8cd0293-d140-4f80-804c-019957c1f49a.jpg?1783906211",
+      "image_normal": "https://cards.scryfall.io/normal/front/b/8/b8cd0293-d140-4f80-804c-019957c1f49a.jpg?1783906211"
+    },
+    "1e57d7ee-78d8-4e02-b3a8-a4b16ec0cdaf": {
+      "name": "Buried Ruin",
+      "type_line": "Land",
+      "set": "fdc",
+      "collector_number": "298",
+      "scryfall_uri": "https://scryfall.com/card/fdc/298/buried-ruin?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/1/e/1e57d7ee-78d8-4e02-b3a8-a4b16ec0cdaf.jpg?1789753358",
+      "image_normal": "https://cards.scryfall.io/normal/front/1/e/1e57d7ee-78d8-4e02-b3a8-a4b16ec0cdaf.jpg?1789753358"
+    },
+    "95083e1d-faf5-40e4-9be5-909cd01cc2b5": {
+      "name": "Mountain",
+      "type_line": "Basic Land — Mountain",
+      "set": "bro",
+      "collector_number": "274",
+      "scryfall_uri": "https://scryfall.com/card/bro/274/mountain?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/9/5/95083e1d-faf5-40e4-9be5-909cd01cc2b5.jpg?1783920000",
+      "image_normal": "https://cards.scryfall.io/normal/front/9/5/95083e1d-faf5-40e4-9be5-909cd01cc2b5.jpg?1783920000"
+    },
+    "6d4873cb-43ce-47b4-9d91-a8495a244c85": {
+      "name": "Swamp",
+      "type_line": "Basic Land — Swamp",
+      "set": "dtk",
+      "collector_number": "257",
+      "scryfall_uri": "https://scryfall.com/card/dtk/257/swamp?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/6/d/6d4873cb-43ce-47b4-9d91-a8495a244c85.jpg?1783938564",
+      "image_normal": "https://cards.scryfall.io/normal/front/6/d/6d4873cb-43ce-47b4-9d91-a8495a244c85.jpg?1783938564"
+    },
+    "a3a4da7d-a703-4f91-9ef7-ce269c0b63fb": {
+      "name": "Mountain",
+      "type_line": "Basic Land — Mountain",
+      "set": "j25",
+      "collector_number": "90",
+      "scryfall_uri": "https://scryfall.com/card/j25/90/mountain?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/a/3/a3a4da7d-a703-4f91-9ef7-ce269c0b63fb.jpg?1783908841",
+      "image_normal": "https://cards.scryfall.io/normal/front/a/3/a3a4da7d-a703-4f91-9ef7-ce269c0b63fb.jpg?1783908841"
+    },
+    "02fe3fdf-1d21-4e35-b0f3-3bcde7b05e23": {
+      "name": "Swamp",
+      "type_line": "Basic Land — Swamp",
+      "set": "j25",
+      "collector_number": "89",
+      "scryfall_uri": "https://scryfall.com/card/j25/89/swamp?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/0/2/02fe3fdf-1d21-4e35-b0f3-3bcde7b05e23.jpg?1783908842",
+      "image_normal": "https://cards.scryfall.io/normal/front/0/2/02fe3fdf-1d21-4e35-b0f3-3bcde7b05e23.jpg?1783908842"
+    },
+    "02cb9420-fbfb-4123-a830-a992ff470db6": {
+      "name": "Arcane Signet",
+      "type_line": "Artifact",
+      "set": "scd",
+      "collector_number": "257",
+      "scryfall_uri": "https://scryfall.com/card/scd/257/arcane-signet?utm_source=api",
+      "mana_cost": "{2}",
+      "image_small": "https://cards.scryfall.io/small/front/0/2/02cb9420-fbfb-4123-a830-a992ff470db6.jpg?1783918626",
+      "image_normal": "https://cards.scryfall.io/normal/front/0/2/02cb9420-fbfb-4123-a830-a992ff470db6.jpg?1783918626"
+    },
+    "ec1f1041-f667-4b73-b1f2-e5bcae84095e": {
+      "name": "Command Tower",
+      "type_line": "Land",
+      "set": "eld",
+      "collector_number": "333",
+      "scryfall_uri": "https://scryfall.com/card/eld/333/command-tower?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/e/c/ec1f1041-f667-4b73-b1f2-e5bcae84095e.jpg?1783932544",
+      "image_normal": "https://cards.scryfall.io/normal/front/e/c/ec1f1041-f667-4b73-b1f2-e5bcae84095e.jpg?1783932544"
+    },
+    "8f7005fd-5917-4f7d-9a7d-7ccc044d0f87": {
+      "name": "Ferocity of the Wilds",
+      "type_line": "Enchantment",
+      "set": "eld",
+      "collector_number": "123",
+      "scryfall_uri": "https://scryfall.com/card/eld/123/ferocity-of-the-wilds?utm_source=api",
+      "mana_cost": "{2}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/8/f/8f7005fd-5917-4f7d-9a7d-7ccc044d0f87.jpg?1783932625",
+      "image_normal": "https://cards.scryfall.io/normal/front/8/f/8f7005fd-5917-4f7d-9a7d-7ccc044d0f87.jpg?1783932625"
+    },
+    "f8435c7e-39ce-48a6-8536-739dd5511a33": {
+      "name": "Bojuka Bog",
+      "type_line": "Land",
+      "set": "c21",
+      "collector_number": "281",
+      "scryfall_uri": "https://scryfall.com/card/c21/281/bojuka-bog?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/f/8/f8435c7e-39ce-48a6-8536-739dd5511a33.jpg?1783927498",
+      "image_normal": "https://cards.scryfall.io/normal/front/f/8/f8435c7e-39ce-48a6-8536-739dd5511a33.jpg?1783927498"
+    },
+    "fe285a48-9a13-4bfa-9426-fb1fe7703a82": {
+      "name": "Chaos Warp",
+      "type_line": "Instant",
+      "set": "plst",
+      "collector_number": "C17-131",
+      "scryfall_uri": "https://scryfall.com/card/plst/C17-131/chaos-warp?utm_source=api",
+      "mana_cost": "{2}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/f/e/fe285a48-9a13-4bfa-9426-fb1fe7703a82.jpg?1783931778",
+      "image_normal": "https://cards.scryfall.io/normal/front/f/e/fe285a48-9a13-4bfa-9426-fb1fe7703a82.jpg?1783931778"
+    },
+    "77be13ed-5ef5-4452-a16f-ccd3599d8555": {
+      "name": "Demonic Tutor",
+      "type_line": "Sorcery",
+      "set": "plst",
+      "collector_number": "DDC-49",
+      "scryfall_uri": "https://scryfall.com/card/plst/DDC-49/demonic-tutor?utm_source=api",
+      "mana_cost": "{1}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/7/7/77be13ed-5ef5-4452-a16f-ccd3599d8555.jpg?1783932312",
+      "image_normal": "https://cards.scryfall.io/normal/front/7/7/77be13ed-5ef5-4452-a16f-ccd3599d8555.jpg?1783932312"
+    },
+    "d6fa81d5-2ae1-433a-812b-9cf8ecb89a09": {
+      "name": "Herald's Horn",
+      "type_line": "Artifact",
+      "set": "plst",
+      "collector_number": "C17-53",
+      "scryfall_uri": "https://scryfall.com/card/plst/C17-53/heralds-horn?utm_source=api",
+      "mana_cost": "{3}",
+      "image_small": "https://cards.scryfall.io/small/front/d/6/d6fa81d5-2ae1-433a-812b-9cf8ecb89a09.jpg?1783928090",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/6/d6fa81d5-2ae1-433a-812b-9cf8ecb89a09.jpg?1783928090"
+    },
+    "59cb10b3-6856-4355-94a7-a14c516887d5": {
+      "name": "Lightning Greaves",
+      "type_line": "Artifact — Equipment",
+      "set": "who",
+      "collector_number": "243",
+      "scryfall_uri": "https://scryfall.com/card/who/243/lightning-greaves?utm_source=api",
+      "mana_cost": "{2}",
+      "image_small": "https://cards.scryfall.io/small/front/5/9/59cb10b3-6856-4355-94a7-a14c516887d5.jpg?1783914593",
+      "image_normal": "https://cards.scryfall.io/normal/front/5/9/59cb10b3-6856-4355-94a7-a14c516887d5.jpg?1783914593"
+    },
+    "42bd038d-1005-4095-9310-108caa56465f": {
+      "name": "Mind Stone",
+      "type_line": "Artifact",
+      "set": "c18",
+      "collector_number": "210",
+      "scryfall_uri": "https://scryfall.com/card/c18/210/mind-stone?utm_source=api",
+      "mana_cost": "{2}",
+      "image_small": "https://cards.scryfall.io/small/front/4/2/42bd038d-1005-4095-9310-108caa56465f.jpg?1783934262",
+      "image_normal": "https://cards.scryfall.io/normal/front/4/2/42bd038d-1005-4095-9310-108caa56465f.jpg?1783934262"
+    },
+    "84ef99c0-1a33-473a-80ff-bfe5544e7784": {
+      "name": "Rage Reflection",
+      "type_line": "Enchantment",
+      "set": "plst",
+      "collector_number": "SHM-104",
+      "scryfall_uri": "https://scryfall.com/card/plst/SHM-104/rage-reflection?utm_source=api",
+      "mana_cost": "{4}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/8/4/84ef99c0-1a33-473a-80ff-bfe5544e7784.jpg?1783932178",
+      "image_normal": "https://cards.scryfall.io/normal/front/8/4/84ef99c0-1a33-473a-80ff-bfe5544e7784.jpg?1783932178"
+    },
+    "bd7c49d3-a0c7-4df3-b732-53e4f562c201": {
+      "name": "Rogue's Passage",
+      "type_line": "Land",
+      "set": "plst",
+      "collector_number": "C17-272",
+      "scryfall_uri": "https://scryfall.com/card/plst/C17-272/rogues-passage?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/b/d/bd7c49d3-a0c7-4df3-b732-53e4f562c201.jpg?1783931771",
+      "image_normal": "https://cards.scryfall.io/normal/front/b/d/bd7c49d3-a0c7-4df3-b732-53e4f562c201.jpg?1783931771"
+    },
+    "1b3a4537-1d51-47ac-a12e-6b8d68f530e6": {
+      "name": "Sol Ring",
+      "type_line": "Artifact",
+      "set": "plst",
+      "collector_number": "C18-222",
+      "scryfall_uri": "https://scryfall.com/card/plst/C18-222/sol-ring?utm_source=api",
+      "mana_cost": "{1}",
+      "image_small": "https://cards.scryfall.io/small/front/1/b/1b3a4537-1d51-47ac-a12e-6b8d68f530e6.jpg?1783931760",
+      "image_normal": "https://cards.scryfall.io/normal/front/1/b/1b3a4537-1d51-47ac-a12e-6b8d68f530e6.jpg?1783931760"
+    },
+    "f0d098fc-439e-4dfa-a400-50108537fde6": {
+      "name": "Taurean Mauler",
+      "type_line": "Creature — Shapeshifter",
+      "set": "plst",
+      "collector_number": "CM2-122",
+      "scryfall_uri": "https://scryfall.com/card/plst/CM2-122/taurean-mauler?utm_source=api",
+      "mana_cost": "{2}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/f/0/f0d098fc-439e-4dfa-a400-50108537fde6.jpg?1783931848",
+      "image_normal": "https://cards.scryfall.io/normal/front/f/0/f0d098fc-439e-4dfa-a400-50108537fde6.jpg?1783931848"
+    },
+    "da7af2a9-5199-4339-a873-942136ddb231": {
+      "name": "Terminate",
+      "type_line": "Instant",
+      "set": "plst",
+      "collector_number": "CMA-195",
+      "scryfall_uri": "https://scryfall.com/card/plst/CMA-195/terminate?utm_source=api",
+      "mana_cost": "{B}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/d/a/da7af2a9-5199-4339-a873-942136ddb231.jpg?1783931973",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/a/da7af2a9-5199-4339-a873-942136ddb231.jpg?1783931973"
+    },
+    "521911e5-9ce5-4d55-bfc4-fbfeba4047fe": {
+      "name": "Mogis, God of Slaughter",
+      "type_line": "Legendary Enchantment Creature — God",
+      "set": "dsc",
+      "collector_number": "89",
+      "scryfall_uri": "https://scryfall.com/card/dsc/89/mogis-god-of-slaughter?utm_source=api",
+      "mana_cost": "{2}{B}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/5/2/521911e5-9ce5-4d55-bfc4-fbfeba4047fe.jpg?1783909637",
+      "image_normal": "https://cards.scryfall.io/normal/front/5/2/521911e5-9ce5-4d55-bfc4-fbfeba4047fe.jpg?1783909637"
+    },
+    "df2df9cb-14f5-470f-b438-20f4ae8d0d59": {
+      "name": "Glint-Horn Buccaneer",
+      "type_line": "Creature — Minotaur Pirate",
+      "set": "m20",
+      "collector_number": "141",
+      "scryfall_uri": "https://scryfall.com/card/m20/141/glint-horn-buccaneer?utm_source=api",
+      "mana_cost": "{1}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/d/f/df2df9cb-14f5-470f-b438-20f4ae8d0d59.jpg?1783932979",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/f/df2df9cb-14f5-470f-b438-20f4ae8d0d59.jpg?1783932979"
+    },
+    "fc048207-502a-478c-9195-5e20382652af": {
+      "name": "Blasphemous Act",
+      "type_line": "Sorcery",
+      "set": "cm2",
+      "collector_number": "85",
+      "scryfall_uri": "https://scryfall.com/card/cm2/85/blasphemous-act?utm_source=api",
+      "mana_cost": "{8}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/f/c/fc048207-502a-478c-9195-5e20382652af.jpg?1783934749",
+      "image_normal": "https://cards.scryfall.io/normal/front/f/c/fc048207-502a-478c-9195-5e20382652af.jpg?1783934749"
+    },
+    "3705ee27-9725-42ee-8d3b-481cdb8c9250": {
+      "name": "Sign in Blood",
+      "type_line": "Sorcery",
+      "set": "m11",
+      "collector_number": "117",
+      "scryfall_uri": "https://scryfall.com/card/m11/117/sign-in-blood?utm_source=api",
+      "mana_cost": "{B}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/3/7/3705ee27-9725-42ee-8d3b-481cdb8c9250.jpg?1783941812",
+      "image_normal": "https://cards.scryfall.io/normal/front/3/7/3705ee27-9725-42ee-8d3b-481cdb8c9250.jpg?1783941812"
+    },
+    "d11f6928-793b-4e91-b7b7-c881ff4ac986": {
+      "name": "Urza's Incubator",
+      "type_line": "Artifact",
+      "set": "plst",
+      "collector_number": "C15-273",
+      "scryfall_uri": "https://scryfall.com/card/plst/C15-273/urzas-incubator?utm_source=api",
+      "mana_cost": "{3}",
+      "image_small": "https://cards.scryfall.io/small/front/d/1/d11f6928-793b-4e91-b7b7-c881ff4ac986.jpg?1783915202",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/1/d11f6928-793b-4e91-b7b7-c881ff4ac986.jpg?1783915202"
+    },
+    "f6cd7c08-f5d4-4bdc-a254-809d900b0fc3": {
+      "name": "Kindred Dominance",
+      "type_line": "Sorcery",
+      "set": "msc",
+      "collector_number": "156",
+      "scryfall_uri": "https://scryfall.com/card/msc/156/kindred-dominance?utm_source=api",
+      "mana_cost": "{5}{B}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/f/6/f6cd7c08-f5d4-4bdc-a254-809d900b0fc3.jpg?1783903243",
+      "image_normal": "https://cards.scryfall.io/normal/front/f/6/f6cd7c08-f5d4-4bdc-a254-809d900b0fc3.jpg?1783903243"
+    },
+    "d2731103-47ef-41d3-bf5f-5773b60c7948": {
+      "name": "Path of Ancestry",
+      "type_line": "Land",
+      "set": "c20",
+      "collector_number": "298",
+      "scryfall_uri": "https://scryfall.com/card/c20/298/path-of-ancestry?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/d/2/d2731103-47ef-41d3-bf5f-5773b60c7948.jpg?1783931116",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/2/d2731103-47ef-41d3-bf5f-5773b60c7948.jpg?1783931116"
+    },
+    "719ceec2-bc20-49b7-9e87-6af1a7992b5a": {
+      "name": "Rakdos Carnarium",
+      "type_line": "Land",
+      "set": "c20",
+      "collector_number": "300",
+      "scryfall_uri": "https://scryfall.com/card/c20/300/rakdos-carnarium?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/7/1/719ceec2-bc20-49b7-9e87-6af1a7992b5a.jpg?1783931114",
+      "image_normal": "https://cards.scryfall.io/normal/front/7/1/719ceec2-bc20-49b7-9e87-6af1a7992b5a.jpg?1783931114"
+    },
+    "be340a1c-f1e7-446e-ae91-86ecb884479c": {
+      "name": "Sulfurous Springs",
+      "type_line": "Land",
+      "set": "frc",
+      "collector_number": "85",
+      "scryfall_uri": "https://scryfall.com/card/frc/85/sulfurous-springs?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/b/e/be340a1c-f1e7-446e-ae91-86ecb884479c.jpg?1789599923",
+      "image_normal": "https://cards.scryfall.io/normal/front/b/e/be340a1c-f1e7-446e-ae91-86ecb884479c.jpg?1789599923"
+    },
+    "d05068d7-6290-439f-91d4-e820ad1483dd": {
+      "name": "Tainted Peak",
+      "type_line": "Land",
+      "set": "voc",
+      "collector_number": "184",
+      "scryfall_uri": "https://scryfall.com/card/voc/184/tainted-peak?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/d/0/d05068d7-6290-439f-91d4-e820ad1483dd.jpg?1783924930",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/0/d05068d7-6290-439f-91d4-e820ad1483dd.jpg?1783924930"
+    },
+    "579743fe-f71e-4cb2-8629-d6b02ed1591d": {
+      "name": "Bloodstained Mire",
+      "type_line": "Land",
+      "set": "mh3",
+      "collector_number": "216",
+      "scryfall_uri": "https://scryfall.com/card/mh3/216/bloodstained-mire?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/5/7/579743fe-f71e-4cb2-8629-d6b02ed1591d.jpg?1783911241",
+      "image_normal": "https://cards.scryfall.io/normal/front/5/7/579743fe-f71e-4cb2-8629-d6b02ed1591d.jpg?1783911241"
+    },
+    "3c409d1e-f634-44a2-8fcf-dcdcb0babc3f": {
+      "name": "Luxury Suite",
+      "type_line": "Land",
+      "set": "msc",
+      "collector_number": "252",
+      "scryfall_uri": "https://scryfall.com/card/msc/252/luxury-suite?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/3/c/3c409d1e-f634-44a2-8fcf-dcdcb0babc3f.jpg?1783903199",
+      "image_normal": "https://cards.scryfall.io/normal/front/3/c/3c409d1e-f634-44a2-8fcf-dcdcb0babc3f.jpg?1783903199"
+    },
+    "d1b65ecb-ace2-4247-a654-1e704d24319a": {
+      "name": "Smoldering Marsh",
+      "type_line": "Land — Swamp Mountain",
+      "set": "who",
+      "collector_number": "307",
+      "scryfall_uri": "https://scryfall.com/card/who/307/smoldering-marsh?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/d/1/d1b65ecb-ace2-4247-a654-1e704d24319a.jpg?1783914572",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/1/d1b65ecb-ace2-4247-a654-1e704d24319a.jpg?1783914572"
+    },
+    "4fa5f934-5407-4844-9cd5-9ba5fa7c4748": {
+      "name": "Gamble",
+      "type_line": "Sorcery",
+      "set": "dmr",
+      "collector_number": "321",
+      "scryfall_uri": "https://scryfall.com/card/dmr/321/gamble?utm_source=api",
+      "mana_cost": "{R}",
+      "image_small": "https://cards.scryfall.io/small/front/4/f/4fa5f934-5407-4844-9cd5-9ba5fa7c4748.jpg?1787728673",
+      "image_normal": "https://cards.scryfall.io/normal/front/4/f/4fa5f934-5407-4844-9cd5-9ba5fa7c4748.jpg?1787728673"
+    },
+    "3c04bbbe-cae0-4ac5-8bd3-ecc95a2b6bd8": {
+      "name": "Vampiric Tutor",
+      "type_line": "Instant",
+      "set": "dmr",
+      "collector_number": "430",
+      "scryfall_uri": "https://scryfall.com/card/dmr/430/vampiric-tutor?utm_source=api",
+      "mana_cost": "{B}",
+      "image_small": "https://cards.scryfall.io/small/front/3/c/3c04bbbe-cae0-4ac5-8bd3-ecc95a2b6bd8.jpg?1783918329",
+      "image_normal": "https://cards.scryfall.io/normal/front/3/c/3c04bbbe-cae0-4ac5-8bd3-ecc95a2b6bd8.jpg?1783918329"
+    },
+    "be7a14d1-5846-492e-a41a-d5c2045c3cc7": {
+      "name": "Foreboding Ruins",
+      "type_line": "Land",
+      "set": "dmc",
+      "collector_number": "211",
+      "scryfall_uri": "https://scryfall.com/card/dmc/211/foreboding-ruins?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/b/e/be7a14d1-5846-492e-a41a-d5c2045c3cc7.jpg?1783921386",
+      "image_normal": "https://cards.scryfall.io/normal/front/b/e/be7a14d1-5846-492e-a41a-d5c2045c3cc7.jpg?1783921386"
+    },
+    "7feea129-3e71-45fc-9769-e6ec80e9f3e5": {
+      "name": "Rakdos Signet",
+      "type_line": "Artifact",
+      "set": "mm3",
+      "collector_number": "225",
+      "scryfall_uri": "https://scryfall.com/card/mm3/225/rakdos-signet?utm_source=api",
+      "mana_cost": "{2}",
+      "image_small": "https://cards.scryfall.io/small/front/7/f/7feea129-3e71-45fc-9769-e6ec80e9f3e5.jpg?1783936595",
+      "image_normal": "https://cards.scryfall.io/normal/front/7/f/7feea129-3e71-45fc-9769-e6ec80e9f3e5.jpg?1783936595"
+    },
+    "1b7eb998-3ec0-4cbc-a416-5a1e3e5a7316": {
+      "name": "Blood Crypt",
+      "type_line": "Land — Swamp Mountain",
+      "set": "trk",
+      "collector_number": "278",
+      "scryfall_uri": "https://scryfall.com/card/trk/278/blood-crypt?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/1/b/1b7eb998-3ec0-4cbc-a416-5a1e3e5a7316.jpg?1784036817",
+      "image_normal": "https://cards.scryfall.io/normal/front/1/b/1b7eb998-3ec0-4cbc-a416-5a1e3e5a7316.jpg?1784036817"
+    },
+    "275471e3-ded1-40ac-91ef-369dce5764d9": {
+      "name": "Inventors' Fair",
+      "type_line": "Legendary Land",
+      "set": "kld",
+      "collector_number": "247",
+      "scryfall_uri": "https://scryfall.com/card/kld/247/inventors-fair?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/2/7/275471e3-ded1-40ac-91ef-369dce5764d9.jpg?1783937144",
+      "image_normal": "https://cards.scryfall.io/normal/front/2/7/275471e3-ded1-40ac-91ef-369dce5764d9.jpg?1783937144"
+    },
+    "1d92b7dd-1f63-4f34-87ca-01a0eaa7b3a1": {
+      "name": "Panharmonicon",
+      "type_line": "Artifact",
+      "set": "pip",
+      "collector_number": "237",
+      "scryfall_uri": "https://scryfall.com/card/pip/237/panharmonicon?utm_source=api",
+      "mana_cost": "{4}",
+      "image_small": "https://cards.scryfall.io/small/front/1/d/1d92b7dd-1f63-4f34-87ca-01a0eaa7b3a1.jpg?1783912343",
+      "image_normal": "https://cards.scryfall.io/normal/front/1/d/1d92b7dd-1f63-4f34-87ca-01a0eaa7b3a1.jpg?1783912343"
+    },
+    "84319dfb-eaf7-4b98-8c4f-30f5e779591b": {
+      "name": "Abrade",
+      "type_line": "Instant",
+      "set": "hou",
+      "collector_number": "83",
+      "scryfall_uri": "https://scryfall.com/card/hou/83/abrade?utm_source=api",
+      "mana_cost": "{1}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/8/4/84319dfb-eaf7-4b98-8c4f-30f5e779591b.jpg?1783936033",
+      "image_normal": "https://cards.scryfall.io/normal/front/8/4/84319dfb-eaf7-4b98-8c4f-30f5e779591b.jpg?1783936033"
+    },
+    "767c5831-2195-4efa-802d-2ea2e6dabb5b": {
+      "name": "Neheb, the Eternal",
+      "type_line": "Legendary Creature — Zombie Minotaur Warrior",
+      "set": "mkc",
+      "collector_number": "158",
+      "scryfall_uri": "https://scryfall.com/card/mkc/158/neheb-the-eternal?utm_source=api",
+      "mana_cost": "{3}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/7/6/767c5831-2195-4efa-802d-2ea2e6dabb5b.jpg?1783912998",
+      "image_normal": "https://cards.scryfall.io/normal/front/7/6/767c5831-2195-4efa-802d-2ea2e6dabb5b.jpg?1783912998"
+    },
+    "243ae383-f77d-4942-ae73-61f991131e03": {
+      "name": "Dragonskull Summit",
+      "type_line": "Land",
+      "set": "tdc",
+      "collector_number": "357",
+      "scryfall_uri": "https://scryfall.com/card/tdc/357/dragonskull-summit?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/2/4/243ae383-f77d-4942-ae73-61f991131e03.jpg?1783906991",
+      "image_normal": "https://cards.scryfall.io/normal/front/2/4/243ae383-f77d-4942-ae73-61f991131e03.jpg?1783906991"
+    },
+    "60c90d5d-7b3b-48d2-85f6-d6a2a452c0e9": {
+      "name": "Neheb, Dreadhorde Champion",
+      "type_line": "Legendary Creature — Zombie Minotaur Warrior",
+      "set": "war",
+      "collector_number": "140",
+      "scryfall_uri": "https://scryfall.com/card/war/140/neheb-dreadhorde-champion?utm_source=api",
+      "mana_cost": "{2}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/6/0/60c90d5d-7b3b-48d2-85f6-d6a2a452c0e9.jpg?1783933423",
+      "image_normal": "https://cards.scryfall.io/normal/front/6/0/60c90d5d-7b3b-48d2-85f6-d6a2a452c0e9.jpg?1783933423"
+    },
+    "461d9f1c-53a4-48a6-bafb-0e70099f276c": {
+      "name": "Molten Echoes",
+      "type_line": "Enchantment",
+      "set": "voc",
+      "collector_number": "148",
+      "scryfall_uri": "https://scryfall.com/card/voc/148/molten-echoes?utm_source=api",
+      "mana_cost": "{2}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/4/6/461d9f1c-53a4-48a6-bafb-0e70099f276c.jpg?1783924947",
+      "image_normal": "https://cards.scryfall.io/normal/front/4/6/461d9f1c-53a4-48a6-bafb-0e70099f276c.jpg?1783924947"
+    },
+    "7e735f1a-3925-43f8-bc95-2cadcd44d5e0": {
+      "name": "Shared Animosity",
+      "type_line": "Enchantment",
+      "set": "ltc",
+      "collector_number": "226",
+      "scryfall_uri": "https://scryfall.com/card/ltc/226/shared-animosity?utm_source=api",
+      "mana_cost": "{2}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/7/e/7e735f1a-3925-43f8-bc95-2cadcd44d5e0.jpg?1783915930",
+      "image_normal": "https://cards.scryfall.io/normal/front/7/e/7e735f1a-3925-43f8-bc95-2cadcd44d5e0.jpg?1783915930"
+    },
+    "3632fbff-c3cc-4f6f-b15d-c7ca3cb77a7c": {
+      "name": "Rakdos Charm",
+      "type_line": "Instant",
+      "set": "afc",
+      "collector_number": "190",
+      "scryfall_uri": "https://scryfall.com/card/afc/190/rakdos-charm?utm_source=api",
+      "mana_cost": "{B}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/3/6/3632fbff-c3cc-4f6f-b15d-c7ca3cb77a7c.jpg?1783926179",
+      "image_normal": "https://cards.scryfall.io/normal/front/3/6/3632fbff-c3cc-4f6f-b15d-c7ca3cb77a7c.jpg?1783926179"
+    },
+    "9b5a8df2-2bc0-408c-a9d2-e70c0f56642d": {
+      "name": "Vandalblast",
+      "type_line": "Sorcery",
+      "set": "fic",
+      "collector_number": "298",
+      "scryfall_uri": "https://scryfall.com/card/fic/298/vandalblast?utm_source=api",
+      "mana_cost": "{R}",
+      "image_small": "https://cards.scryfall.io/small/front/9/b/9b5a8df2-2bc0-408c-a9d2-e70c0f56642d.jpg?1783906262",
+      "image_normal": "https://cards.scryfall.io/normal/front/9/b/9b5a8df2-2bc0-408c-a9d2-e70c0f56642d.jpg?1783906262"
+    },
+    "f6b04ec8-68c9-468c-b137-707db994af68": {
+      "name": "Dreamshaper Shaman",
+      "type_line": "Enchantment Creature — Minotaur Shaman",
+      "set": "thb",
+      "collector_number": "130",
+      "scryfall_uri": "https://scryfall.com/card/thb/130/dreamshaper-shaman?utm_source=api",
+      "mana_cost": "{5}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/f/6/f6b04ec8-68c9-468c-b137-707db994af68.jpg?1783931556",
+      "image_normal": "https://cards.scryfall.io/normal/front/f/6/f6b04ec8-68c9-468c-b137-707db994af68.jpg?1783931556"
+    },
+    "568a31c0-799b-48b6-a91c-95d176b22670": {
+      "name": "Rageblood Shaman",
+      "type_line": "Creature — Minotaur Shaman",
+      "set": "jmp",
+      "collector_number": "357",
+      "scryfall_uri": "https://scryfall.com/card/jmp/357/rageblood-shaman?utm_source=api",
+      "mana_cost": "{1}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/5/6/568a31c0-799b-48b6-a91c-95d176b22670.jpg?1783930379",
+      "image_normal": "https://cards.scryfall.io/normal/front/5/6/568a31c0-799b-48b6-a91c-95d176b22670.jpg?1783930379"
+    },
+    "8eae5f95-909e-4de7-b767-8a16bdba5ede": {
+      "name": "Vanquisher's Banner",
+      "type_line": "Artifact",
+      "set": "fdc",
+      "collector_number": "294",
+      "scryfall_uri": "https://scryfall.com/card/fdc/294/vanquishers-banner?utm_source=api",
+      "mana_cost": "{5}",
+      "image_small": "https://cards.scryfall.io/small/front/8/e/8eae5f95-909e-4de7-b767-8a16bdba5ede.jpg?1789753356",
+      "image_normal": "https://cards.scryfall.io/normal/front/8/e/8eae5f95-909e-4de7-b767-8a16bdba5ede.jpg?1789753356"
+    },
+    "ee24a696-77ce-41d7-86cd-5999f879134b": {
+      "name": "Feed the Swarm",
+      "type_line": "Sorcery",
+      "set": "mic",
+      "collector_number": "117",
+      "scryfall_uri": "https://scryfall.com/card/mic/117/feed-the-swarm?utm_source=api",
+      "mana_cost": "{1}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/e/e/ee24a696-77ce-41d7-86cd-5999f879134b.jpg?1783925338",
+      "image_normal": "https://cards.scryfall.io/normal/front/e/e/ee24a696-77ce-41d7-86cd-5999f879134b.jpg?1783925338"
+    },
+    "1a67c196-632c-4c7b-a132-de07d894e634": {
+      "name": "Raise the Draugr",
+      "type_line": "Instant",
+      "set": "khm",
+      "collector_number": "105",
+      "scryfall_uri": "https://scryfall.com/card/khm/105/raise-the-draugr?utm_source=api",
+      "mana_cost": "{1}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/1/a/1a67c196-632c-4c7b-a132-de07d894e634.jpg?1783928243",
+      "image_normal": "https://cards.scryfall.io/normal/front/1/a/1a67c196-632c-4c7b-a132-de07d894e634.jpg?1783928243"
+    },
+    "0c5bc7db-0627-410b-bc27-970e1fa6789e": {
+      "name": "Crippling Fear",
+      "type_line": "Sorcery",
+      "set": "clb",
+      "collector_number": "745",
+      "scryfall_uri": "https://scryfall.com/card/clb/745/crippling-fear?utm_source=api",
+      "mana_cost": "{2}{B}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/0/c/0c5bc7db-0627-410b-bc27-970e1fa6789e.jpg?1783922455",
+      "image_normal": "https://cards.scryfall.io/normal/front/0/c/0c5bc7db-0627-410b-bc27-970e1fa6789e.jpg?1783922455"
+    },
+    "c7658ec0-3207-4c7e-b31a-30a2a9249595": {
+      "name": "Urza's Saga",
+      "type_line": "Enchantment Land — Urza's Saga",
+      "set": "mb2",
+      "collector_number": "114",
+      "scryfall_uri": "https://scryfall.com/card/mb2/114/urzas-saga?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/c/7/c7658ec0-3207-4c7e-b31a-30a2a9249595.jpg?1783910584",
+      "image_normal": "https://cards.scryfall.io/normal/front/c/7/c7658ec0-3207-4c7e-b31a-30a2a9249595.jpg?1783910584"
+    },
+    "a4e4966b-8963-4fac-a8bf-e778e063c7dd": {
+      "name": "Haunted Ridge",
+      "type_line": "Land",
+      "set": "fra",
+      "collector_number": "180",
+      "scryfall_uri": "https://scryfall.com/card/fra/180/haunted-ridge?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/a/4/a4e4966b-8963-4fac-a8bf-e778e063c7dd.jpg?1788878241",
+      "image_normal": "https://cards.scryfall.io/normal/front/a/4/a4e4966b-8963-4fac-a8bf-e778e063c7dd.jpg?1788878241"
+    },
+    "53117fac-5bb0-4bc3-b9ec-f0453c38d7f8": {
+      "name": "Descendants' Fury",
+      "type_line": "Enchantment",
+      "set": "cmm",
+      "collector_number": "736",
+      "scryfall_uri": "https://scryfall.com/card/cmm/736/descendants-fury?utm_source=api",
+      "mana_cost": "{3}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/5/3/53117fac-5bb0-4bc3-b9ec-f0453c38d7f8.jpg?1783915481",
+      "image_normal": "https://cards.scryfall.io/normal/front/5/3/53117fac-5bb0-4bc3-b9ec-f0453c38d7f8.jpg?1783915481"
+    },
+    "32fd8b7c-baf3-4d3d-be6f-044a917b11a0": {
+      "name": "Roaming Throne",
+      "type_line": "Artifact Creature — Golem",
+      "set": "lci",
+      "collector_number": "258",
+      "scryfall_uri": "https://scryfall.com/card/lci/258/roaming-throne?utm_source=api",
+      "mana_cost": "{4}",
+      "image_small": "https://cards.scryfall.io/small/front/3/2/32fd8b7c-baf3-4d3d-be6f-044a917b11a0.jpg?1783913723",
+      "image_normal": "https://cards.scryfall.io/normal/front/3/2/32fd8b7c-baf3-4d3d-be6f-044a917b11a0.jpg?1783913723"
+    },
+    "d151c8e2-d715-470d-868a-f45191db9fa0": {
+      "name": "Blazemire Verge",
+      "type_line": "Land",
+      "set": "dsk",
+      "collector_number": "256",
+      "scryfall_uri": "https://scryfall.com/card/dsk/256/blazemire-verge?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/d/1/d151c8e2-d715-470d-868a-f45191db9fa0.jpg?1783909431",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/1/d151c8e2-d715-470d-868a-f45191db9fa0.jpg?1783909431"
+    },
+    "c80a88ae-f2f2-426a-88f3-76b5d598c25f": {
+      "name": "Gornog, the Red Reaper",
+      "type_line": "Legendary Creature — Minotaur Warrior",
+      "set": "j25",
+      "collector_number": "49",
+      "scryfall_uri": "https://scryfall.com/card/j25/49/gornog-the-red-reaper?utm_source=api",
+      "mana_cost": "{2}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/c/8/c80a88ae-f2f2-426a-88f3-76b5d598c25f.jpg?1783908855",
+      "image_normal": "https://cards.scryfall.io/normal/front/c/8/c80a88ae-f2f2-426a-88f3-76b5d598c25f.jpg?1783908855"
+    },
+    "e35e614c-51a9-4d5c-b7fa-1a0a87108785": {
+      "name": "Adaptive Automaton",
+      "type_line": "Artifact Creature — Construct",
+      "set": "fdn",
+      "collector_number": "723",
+      "scryfall_uri": "https://scryfall.com/card/fdn/723/adaptive-automaton?utm_source=api",
+      "mana_cost": "{3}",
+      "image_small": "https://cards.scryfall.io/small/front/e/3/e35e614c-51a9-4d5c-b7fa-1a0a87108785.jpg?1783908889",
+      "image_normal": "https://cards.scryfall.io/normal/front/e/3/e35e614c-51a9-4d5c-b7fa-1a0a87108785.jpg?1783908889"
+    },
+    "5d2bb101-e0b5-4c9c-9f94-ee4f605ddff0": {
+      "name": "Blood Crypt",
+      "type_line": "Land — Swamp Mountain",
+      "set": "pecl",
+      "collector_number": "262p",
+      "scryfall_uri": "https://scryfall.com/card/pecl/262p/blood-crypt?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/5/d/5d2bb101-e0b5-4c9c-9f94-ee4f605ddff0.jpg?1783904281",
+      "image_normal": "https://cards.scryfall.io/normal/front/5/d/5d2bb101-e0b5-4c9c-9f94-ee4f605ddff0.jpg?1783904281"
+    },
+    "838ffc87-517a-4d94-8ce0-bc9ed01ecc52": {
+      "name": "Rings of Brighthearth",
+      "type_line": "Artifact",
+      "set": "cmr",
+      "collector_number": "335",
+      "scryfall_uri": "https://scryfall.com/card/cmr/335/rings-of-brighthearth?utm_source=api",
+      "mana_cost": "{3}",
+      "image_small": "https://cards.scryfall.io/small/front/8/3/838ffc87-517a-4d94-8ce0-bc9ed01ecc52.jpg?1783928748",
+      "image_normal": "https://cards.scryfall.io/normal/front/8/3/838ffc87-517a-4d94-8ce0-bc9ed01ecc52.jpg?1783928748"
+    },
+    "60b7280d-3727-4c96-bd7a-ae699d007469": {
+      "name": "Cryptic Gateway",
+      "type_line": "Artifact",
+      "set": "dmr",
+      "collector_number": "376",
+      "scryfall_uri": "https://scryfall.com/card/dmr/376/cryptic-gateway?utm_source=api",
+      "mana_cost": "{5}",
+      "image_small": "https://cards.scryfall.io/small/front/6/0/60b7280d-3727-4c96-bd7a-ae699d007469.jpg?1787728358",
+      "image_normal": "https://cards.scryfall.io/normal/front/6/0/60b7280d-3727-4c96-bd7a-ae699d007469.jpg?1787728358"
+    },
+    "fa3cbcbb-d865-42df-88e1-0c9bd24b5c79": {
+      "name": "Conspiracy",
+      "type_line": "Enchantment",
+      "set": "acr",
+      "collector_number": "88",
+      "scryfall_uri": "https://scryfall.com/card/acr/88/conspiracy?utm_source=api",
+      "mana_cost": "{3}{B}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/f/a/fa3cbcbb-d865-42df-88e1-0c9bd24b5c79.jpg?1783910961",
+      "image_normal": "https://cards.scryfall.io/normal/front/f/a/fa3cbcbb-d865-42df-88e1-0c9bd24b5c79.jpg?1783910961"
+    },
+    "1b15d04c-62cb-4704-8cc7-9842cef27a1b": {
+      "name": "Mana Echoes",
+      "type_line": "Enchantment",
+      "set": "ons",
+      "collector_number": "218",
+      "scryfall_uri": "https://scryfall.com/card/ons/218/mana-echoes?utm_source=api",
+      "mana_cost": "{2}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/1/b/1b15d04c-62cb-4704-8cc7-9842cef27a1b.jpg?1783945052",
+      "image_normal": "https://cards.scryfall.io/normal/front/1/b/1b15d04c-62cb-4704-8cc7-9842cef27a1b.jpg?1783945052"
+    },
+    "0ff7858d-f18d-4e5a-9467-ebef3ef53ac1": {
+      "name": "Roaming Throne",
+      "type_line": "Artifact Creature — Golem",
+      "set": "lci",
+      "collector_number": "344",
+      "scryfall_uri": "https://scryfall.com/card/lci/344/roaming-throne?utm_source=api",
+      "mana_cost": "{4}",
+      "image_small": "https://cards.scryfall.io/small/front/0/f/0ff7858d-f18d-4e5a-9467-ebef3ef53ac1.jpg?1783913693",
+      "image_normal": "https://cards.scryfall.io/normal/front/0/f/0ff7858d-f18d-4e5a-9467-ebef3ef53ac1.jpg?1783913693"
+    },
+    "bf71fab2-d936-40f0-bda2-b0630948e1fa": {
+      "name": "Citanul Flute",
+      "type_line": "Artifact",
+      "set": "usg",
+      "collector_number": "289",
+      "scryfall_uri": "https://scryfall.com/card/usg/289/citanul-flute?utm_source=api",
+      "mana_cost": "{5}",
+      "image_small": "https://cards.scryfall.io/small/front/b/f/bf71fab2-d936-40f0-bda2-b0630948e1fa.jpg?1783946308",
+      "image_normal": "https://cards.scryfall.io/normal/front/b/f/bf71fab2-d936-40f0-bda2-b0630948e1fa.jpg?1783946308"
+    },
+    "c4589226-6072-409b-b598-ebd87f675a6a": {
+      "name": "Urza's Incubator",
+      "type_line": "Artifact",
+      "set": "mh3",
+      "collector_number": "297",
+      "scryfall_uri": "https://scryfall.com/card/mh3/297/urzas-incubator?utm_source=api",
+      "mana_cost": "{3}",
+      "image_small": "https://cards.scryfall.io/small/front/c/4/c4589226-6072-409b-b598-ebd87f675a6a.jpg?1783911208",
+      "image_normal": "https://cards.scryfall.io/normal/front/c/4/c4589226-6072-409b-b598-ebd87f675a6a.jpg?1783911208"
+    },
+    "e09f1823-f2b1-4fa2-8e8c-4a3bf0473a14": {
+      "name": "Coat of Arms",
+      "type_line": "Artifact",
+      "set": "sld",
+      "collector_number": "2682",
+      "scryfall_uri": "https://scryfall.com/card/sld/2682/coat-of-arms?utm_source=api",
+      "mana_cost": "{5}",
+      "image_small": "https://cards.scryfall.io/small/front/e/0/e09f1823-f2b1-4fa2-8e8c-4a3bf0473a14.jpg?1784715311",
+      "image_normal": "https://cards.scryfall.io/normal/front/e/0/e09f1823-f2b1-4fa2-8e8c-4a3bf0473a14.jpg?1784715311"
+    },
+    "b10579ee-d2b9-4fec-b4aa-63cd7aa7aae5": {
+      "name": "Kindred Charge",
+      "type_line": "Sorcery",
+      "set": "spg",
+      "collector_number": "58",
+      "scryfall_uri": "https://scryfall.com/card/spg/58/kindred-charge?utm_source=api",
+      "mana_cost": "{4}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/b/1/b10579ee-d2b9-4fec-b4aa-63cd7aa7aae5.jpg?1783909912",
+      "image_normal": "https://cards.scryfall.io/normal/front/b/1/b10579ee-d2b9-4fec-b4aa-63cd7aa7aae5.jpg?1783909912"
+    },
+    "ff727bfb-8cd8-43dd-afdf-eb74a4631eac": {
+      "name": "Necropotence",
+      "type_line": "Enchantment",
+      "set": "wot",
+      "collector_number": "31",
+      "scryfall_uri": "https://scryfall.com/card/wot/31/necropotence?utm_source=api",
+      "mana_cost": "{B}{B}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/f/f/ff727bfb-8cd8-43dd-afdf-eb74a4631eac.jpg?1783914925",
+      "image_normal": "https://cards.scryfall.io/normal/front/f/f/ff727bfb-8cd8-43dd-afdf-eb74a4631eac.jpg?1783914925"
+    },
+    "43671b63-d38e-4ef5-94bd-300cda82a88b": {
+      "name": "Hecatomb",
+      "type_line": "Enchantment",
+      "set": "5ed",
+      "collector_number": "167",
+      "scryfall_uri": "https://scryfall.com/card/5ed/167/hecatomb?utm_source=api",
+      "mana_cost": "{1}{B}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/4/3/43671b63-d38e-4ef5-94bd-300cda82a88b.jpg?1783946928",
+      "image_normal": "https://cards.scryfall.io/normal/front/4/3/43671b63-d38e-4ef5-94bd-300cda82a88b.jpg?1783946928"
+    },
+    "70515cd2-97d5-4491-a758-bc7188fdc6dc": {
+      "name": "Soul Burn",
+      "type_line": "Sorcery",
+      "set": "inv",
+      "collector_number": "124",
+      "scryfall_uri": "https://scryfall.com/card/inv/124/soul-burn?utm_source=api",
+      "mana_cost": "{X}{2}{B}",
+      "image_small": "https://cards.scryfall.io/small/front/7/0/70515cd2-97d5-4491-a758-bc7188fdc6dc.jpg?1783945691",
+      "image_normal": "https://cards.scryfall.io/normal/front/7/0/70515cd2-97d5-4491-a758-bc7188fdc6dc.jpg?1783945691"
+    },
+    "08265332-2c0e-4c42-8c51-83ac20462eed": {
+      "name": "Game of Chaos",
+      "type_line": "Sorcery",
+      "set": "ice",
+      "collector_number": "186",
+      "scryfall_uri": "https://scryfall.com/card/ice/186/game-of-chaos?utm_source=api",
+      "mana_cost": "{R}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/0/8/08265332-2c0e-4c42-8c51-83ac20462eed.jpg?1783947490",
+      "image_normal": "https://cards.scryfall.io/normal/front/0/8/08265332-2c0e-4c42-8c51-83ac20462eed.jpg?1783947490"
+    },
+    "78a5d49a-747e-4ec8-a20a-ca917c315774": {
+      "name": "Krark's Thumb",
+      "type_line": "Legendary Artifact",
+      "set": "mrd",
+      "collector_number": "190",
+      "scryfall_uri": "https://scryfall.com/card/mrd/190/krarks-thumb?utm_source=api",
+      "mana_cost": "{2}",
+      "image_small": "https://cards.scryfall.io/small/front/7/8/78a5d49a-747e-4ec8-a20a-ca917c315774.jpg?1783944517",
+      "image_normal": "https://cards.scryfall.io/normal/front/7/8/78a5d49a-747e-4ec8-a20a-ca917c315774.jpg?1783944517"
+    },
+    "54231832-d492-4812-b658-4ab9a30fefe2": {
+      "name": "Neheb, the Eternal",
+      "type_line": "Legendary Creature — Zombie Minotaur Warrior",
+      "set": "hou",
+      "collector_number": "104",
+      "scryfall_uri": "https://scryfall.com/card/hou/104/neheb-the-eternal?utm_source=api",
+      "mana_cost": "{3}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/5/4/54231832-d492-4812-b658-4ab9a30fefe2.jpg?1783936025",
+      "image_normal": "https://cards.scryfall.io/normal/front/5/4/54231832-d492-4812-b658-4ab9a30fefe2.jpg?1783936025"
+    },
+    "963f45d7-ce84-47af-ae1c-727172a31f0f": {
+      "name": "Karplusan Minotaur",
+      "type_line": "Creature — Minotaur Warrior",
+      "set": "csp",
+      "collector_number": "86",
+      "scryfall_uri": "https://scryfall.com/card/csp/86/karplusan-minotaur?utm_source=api",
+      "mana_cost": "{2}{R}{R}",
+      "image_small": "https://cards.scryfall.io/small/front/9/6/963f45d7-ce84-47af-ae1c-727172a31f0f.jpg?1783943339",
+      "image_normal": "https://cards.scryfall.io/normal/front/9/6/963f45d7-ce84-47af-ae1c-727172a31f0f.jpg?1783943339"
+    },
+    "1381c8f1-a292-4bdf-b20c-a5c2a169ee84": {
+      "name": "Cavern of Souls",
+      "type_line": "Land",
+      "set": "avr",
+      "collector_number": "226",
+      "scryfall_uri": "https://scryfall.com/card/avr/226/cavern-of-souls?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/1/3/1381c8f1-a292-4bdf-b20c-a5c2a169ee84.jpg?1783940649",
+      "image_normal": "https://cards.scryfall.io/normal/front/1/3/1381c8f1-a292-4bdf-b20c-a5c2a169ee84.jpg?1783940649"
+    },
+    "7f430794-0d86-4f6a-97e0-4bbb6716d613": {
+      "name": "Bloodstained Mire",
+      "type_line": "Land",
+      "set": "ktk",
+      "collector_number": "230",
+      "scryfall_uri": "https://scryfall.com/card/ktk/230/bloodstained-mire?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/7/f/7f430794-0d86-4f6a-97e0-4bbb6716d613.jpg?1783939046",
+      "image_normal": "https://cards.scryfall.io/normal/front/7/f/7f430794-0d86-4f6a-97e0-4bbb6716d613.jpg?1783939046"
+    },
+    "f422d39c-ca99-4b0b-997d-543f84c4f742": {
+      "name": "Blazemire Verge",
+      "type_line": "Land",
+      "set": "pdsk",
+      "collector_number": "256p",
+      "scryfall_uri": "https://scryfall.com/card/pdsk/256p/blazemire-verge?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/f/4/f422d39c-ca99-4b0b-997d-543f84c4f742.jpg?1783909293",
+      "image_normal": "https://cards.scryfall.io/normal/front/f/4/f422d39c-ca99-4b0b-997d-543f84c4f742.jpg?1783909293"
+    },
+    "d1374839-bdef-4e55-a7bc-906340439605": {
+      "name": "Tainted Peak",
+      "type_line": "Land",
+      "set": "pip",
+      "collector_number": "300",
+      "scryfall_uri": "https://scryfall.com/card/pip/300/tainted-peak?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/d/1/d1374839-bdef-4e55-a7bc-906340439605.jpg?1783912320",
+      "image_normal": "https://cards.scryfall.io/normal/front/d/1/d1374839-bdef-4e55-a7bc-906340439605.jpg?1783912320"
+    },
+    "a4ba795a-8a08-4853-a7ca-cf3883a6f667": {
+      "name": "Inventors' Fair",
+      "type_line": "Legendary Land",
+      "set": "plst",
+      "collector_number": "KLD-247",
+      "scryfall_uri": "https://scryfall.com/card/plst/KLD-247/inventors-fair?utm_source=api",
+      "mana_cost": "",
+      "image_small": "https://cards.scryfall.io/small/front/a/4/a4ba795a-8a08-4853-a7ca-cf3883a6f667.jpg?1783924610",
+      "image_normal": "https://cards.scryfall.io/normal/front/a/4/a4ba795a-8a08-4853-a7ca-cf3883a6f667.jpg?1783924610"
+    }
+  }
+}

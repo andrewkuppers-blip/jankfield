@@ -1,0 +1,89 @@
+1 Sethron, Hurloon General (JMP) 25
+
+1 Didgeridoo (HML) 105
+1 Rings of Brighthearth (CMR) 335
+1 Cryptic Gateway (DMR) 376
+1 Conspiracy (ACR) 88
+1 Mana Echoes (ONS) 218
+1 Panharmonicon (PIP) 237
+1 Roaming Throne (LCI) 344
+1 Reckless Handling (MAT) 69
+1 Gamble (DMR) 321
+1 Demonic Tutor (PLST) DDC-49
+1 Citanul Flute (USG) 289
+1 Pyre of Heroes (KHM) 241
+1 Deathbellow War Cry (THB) 294
+1 Neheb, the Eternal (HOU) 104
+1 Neheb, Dreadhorde Champion (DMC) 125
+1 Neheb, the Worthy (AKH) 203
+1 Ragemonger (BNG) 153
+1 Rageblood Shaman (THS) 138
+1 Kragma Warcaller (THS) 195
+1 Felhide Petrifier (JOU) 70
+1 Anaba Ancestor (HML) 65
+1 Anaba Spirit Crafter (HML) 68
+1 Anaba Bodyguard (10E) 187
+1 Anaba Shaman (9ED) 172
+1 Karplusan Minotaur (CSP) 86
+1 Moraug, Fury of Akoum (EOC) 89
+1 Lord of Shatterskull Pass (ROE) 156
+1 Glint-Horn Buccaneer (M20) 141
+1 Magar of the Magic Strings (UNF) 263
+1 Gornog, the Red Reaper (J25) 49
+1 Warmonger (MMQ) 225
+1 Fanatic of Mogis (PLST) THS-121
+1 Hurloon Minotaur (4ED) 202
+1 Ox of Agonas (THB) 147
+1 Mogis, God of Slaughter (DSC) 89
+1 Herald's Horn (MSC) 287
+1 Urza's Incubator (MH3) 297
+1 Shared Animosity (WOT) 49
+1 Rage Reflection (DPA) 52
+1 Molten Echoes (VOC) 148
+1 Coat of Arms (SLD) 2682
+1 Kindred Charge (SPG) 58
+1 Patriarch's Bidding (MH2) 275
+1 Necropotence (WOT) 31
+1 Hecatomb (5ED) 167
+1 Soul Burn (INV) 124
+1 Game of Chaos (ICE) 186
+1 Krark's Thumb (MRD) 190
+1 Sol Ring (MSC) 212
+1 Arcane Signet (FIC) 333
+1 Mind Stone (DMR) 385
+1 Rakdos Signet (FRC) 60
+1 Talisman of Indulgence (FRC) 63
+1 Patchwork Banner (FDC) 279
+1 Hazoret's Monument (FDC) 261
+1 Phyrexian Arena (FDC) 123
+1 Terminate (SCD) 249
+1 Rakdos Charm (LCC) 284
+1 Chaos Warp (EOC) 49
+1 Abrade (2XM) 114
+1 Feed the Swarm (TLE) 257
+1 Infernal Grasp (SOC) 216
+1 Kindred Dominance (MSC) 156
+1 Command Tower (SOC) 129
+1 Path of Ancestry (SCD) 312
+1 Cavern of Souls (AVR) 226
+1 Unclaimed Territory (MSC) 275
+1 Secluded Courtyard (FDN) 267
+1 Blood Crypt (PECL) 262p
+1 Bloodstained Mire (KTK) 230
+1 Luxury Suite (MSC) 252
+1 Sulfurous Springs (FIC) 427
+1 Graven Cairns (FIC) 401
+1 Smoldering Marsh (LCC) 353
+1 Dragonskull Summit (MSC) 238
+1 Haunted Ridge (FRA) 180
+1 Blazemire Verge (PDSK) 256p
+1 Foreboding Ruins (LCC) 330
+1 Tainted Peak (PIP) 300
+1 Inventors' Fair (PLST) KLD-247
+1 Urza's Saga (MB2) 114
+1 Buried Ruin (FDC) 298
+1 Rogue's Passage (FIC) 415
+1 Rakdos Carnarium (C18) 273
+1 Canyon Slough (DSC) 266
+8 Mountain
+6 Swamp

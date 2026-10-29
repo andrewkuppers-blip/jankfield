@@ -1,0 +1,81 @@
+1 Sethron, Hurloon General (JMP) 25
+
+1 Didgeridoo (HML) 105
+1 Reckless Handling (MAT) 69
+1 Diabolic Tutor (9ED) 125
+1 Pyre of Heroes (KHM) 241
+1 Deathbellow War Cry (THB) 294
+1 Neheb, the Worthy (AKH) 203
+1 Neheb, Dreadhorde Champion (DMC) 125
+1 Ragemonger (BNG) 153
+1 Rageblood Shaman (THS) 138
+1 Felhide Petrifier (JOU) 70
+1 Kragma Warcaller (THS) 195
+1 Anaba Ancestor (HML) 65
+1 Anaba Spirit Crafter (HML) 68
+1 Anaba Bodyguard (10E) 187
+1 Anaba Shaman (9ED) 172
+1 Hurloon Minotaur (4ED) 202
+1 Lord of Shatterskull Pass (ROE) 156
+1 Moraug, Fury of Akoum (EOC) 89
+1 Magar of the Magic Strings (UNF) 263
+1 Labyrinth Adversary (ACR) 290
+1 Sandstorm Crasher (J25) 18
+1 Felhide Spiritbinder (BNG) 96
+1 Oracle of Bones (BNG) 103
+1 Fanatic of Mogis (PLST) THS-121
+1 Deathbellow Raider (THS) 117
+1 Soulreaper of Mogis (THB) 115
+1 Taurean Mauler (FDC) 178
+1 Universal Automaton (MH1) 235
+1 Tahngarth, Talruum Hero (PLS) 74
+1 Hurloon Shaman (WTH) 108
+1 Warmonger (MMQ) 225
+1 Gorehorn Minotaurs (DDS) 38
+1 Labyrinth Raptor (IKO) 193
+1 Ox of Agonas (THB) 147
+1 Herald's Horn (MSC) 287
+1 Heraldic Banner (PLST) ELD-222
+1 Patriarch's Bidding (MH2) 275
+1 Shared Animosity (WOT) 49
+1 Descendants' Fury (ECC) 93
+1 Rage Reflection (DPA) 52
+1 Hammer of Purphoros (EOC) 88
+1 Sol Ring (MSC) 212
+1 Arcane Signet (FIC) 333
+1 Mind Stone (DMR) 385
+1 Rakdos Signet (FRC) 60
+1 Talisman of Indulgence (FRC) 63
+1 Patchwork Banner (FDC) 279
+1 Hazoret's Monument (FDC) 261
+1 Three Tree Mascot (FDN) 682
+1 Phyrexian Arena (FDC) 123
+1 Sign in Blood (FDC) 125
+1 Read the Bones (SCD) 101
+1 Terminate (SCD) 249
+1 Rakdos Charm (LCC) 284
+1 Chaos Warp (EOC) 49
+1 Abrade (2XM) 114
+1 Feed the Swarm (TLE) 257
+1 Infernal Grasp (SOC) 216
+1 Bake into a Pie (ELD) 76
+1 Tragic Slip (C14) 167
+1 Crippling Fear (SCD) 72
+1 Blasphemous Act (FDC) 140
+1 Command Tower (SOC) 129
+1 Path of Ancestry (SCD) 312
+1 Unclaimed Territory (MSC) 275
+1 Secluded Courtyard (FDN) 267
+1 Rakdos Carnarium (C18) 273
+1 Sulfurous Springs (FIC) 427
+1 Smoldering Marsh (LCC) 353
+1 Foreboding Ruins (LCC) 330
+1 Dragonskull Summit (MSC) 238
+1 Graven Cairns (FIC) 401
+1 Canyon Slough (DSC) 266
+1 Temple of Malice (SCD) 326
+1 Bloodfell Caves (SCD) 290
+1 Rogue's Passage (FIC) 415
+1 Buried Ruin (FDC) 298
+13 Mountain
+9 Swamp

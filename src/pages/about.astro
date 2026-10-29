@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro';
+
+const description = 'Jankfield is Andrew\'s weekly Commander blog for creative, thematic decks. Original, Budget, and Maximum Jank, with the story first.';
+---
+
+<Base title="About" description={description}>
+  <section class="page">
+    <div class="wrap prose about-prose">
+      <p class="kicker">Who keeps the lights on</p>
+      <h1>About Jankfield</h1>
+      <p class="lede">
+        Jankfield is a place for Commander decks that got built because a card was too funny, too old, or too stubborn to leave alone.
+      </p>
+      <p>
+        It is kept by <a href="https://moxfield.com/users/Cute_Balls" rel="noopener noreferrer">Andrew (Cute_Balls on Moxfield)</a>.
+        He builds the decks. The site is here so other people can read why a list exists, borrow a cheaper version, or see the same idea pushed further than is sensible.
+      </p>
+      <h2>What a post is</h2>
+      <p>
+        Once a week, one deck. The post starts with the origin story: why this pile of cards, not a primer on how to goldfish it. Then the same deck shows up three ways.
+      </p>
+      <ul>
+        <li><strong>Original.</strong> The list as its builder actually made it.</li>
+        <li><strong>Budget Jank.</strong> The same idea, brought in under $100. Basic lands are not part of that cap.</li>
+        <li><strong>Maximum Jank.</strong> The loud version. Not a claim that it wins more. A claim that the joke got bigger.</li>
+      </ul>
+      <h2>What this site is not</h2>
+      <p>
+        Jankfield is not a deckbuilder, a card search, or a price tracker. Moxfield and Scryfall already do those jobs, and they do them well. When a card name or a full list needs a home, we link there. Prices on a post are the figures from the day that list was priced, with the basis written next to them. They are not offers, and they are not updated live.
+      </p>
+      <h2>How to read the fine print</h2>
+      <p>
+        If a line says a ruling is conditional, it is conditional. If a post says a list has not been playtested, nobody is pretending otherwise. The fun is the point. The facts stay nailed down.
+      </p>
+      <p>
+        Got a card the herd forgot? Every deck post ends with a suggestion form. Weird ideas are welcome. Until a destination is connected, the form will say so, and it will not pretend your note was delivered.
+      </p>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Jankfield">
+  <rect width="64" height="64" rx="12" fill="#4a1018"/>
+  <path d="M12 40c6-1 10-8 16-16 1 7 7 14 16 16" fill="none" stroke="#e2b15a" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="24" cy="22" r="3.2" fill="#fff8ec"/>
+  <circle cx="34" cy="18" r="3.2" fill="#fff8ec"/>
+  <path d="M18 48h28" stroke="#fff8ec" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

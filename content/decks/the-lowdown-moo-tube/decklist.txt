@@ -1,0 +1,87 @@
+# commanders (1)
+1 Sethron, Hurloon General (JMP) 25
+
+# mainboard (99)
+1 Abrade (HOU) 83
+1 Adaptive Automaton (FDN) 723
+1 Anaba Ancestor (HML) 65
+1 Anaba Spirit Crafter (HML) 68
+1 Arcane Signet (SCD) 257
+1 Blasphemous Act (CM2) 85
+1 Blazemire Verge (DSK) 256
+1 Blood Crypt (TRK) 278
+1 Bloodstained Mire (MH3) 216
+1 Bojuka Bog (C21) 281
+1 Buried Ruin (FDC) 298
+1 Chaos Warp (PLST) C17-131
+1 Command Tower (ELD) 333
+1 Crippling Fear (CLB) 745
+1 Deathbellow Raider (THS) 117
+1 Deathbellow War Cry (THB) 294
+1 Demonic Tutor (PLST) DDC-49
+1 Descendants' Fury (CMM) 736
+1 Didgeridoo (HML) 105
+1 Dragonskull Summit (TDC) 357
+1 Dreamshaper Shaman (THB) 130
+1 Fanatic of Mogis (PLST) THS-121
+1 Feed the Swarm (MIC) 117
+1 Felhide Petrifier (JOU) 70
+1 Felhide Spiritbinder (BNG) 96
+1 Ferocity of the Wilds (ELD) 123
+1 Foreboding Ruins (DMC) 211
+1 Gamble (DMR) 321
+1 Glint-Horn Buccaneer (M20) 141
+1 Gornog, the Red Reaper (J25) 49
+1 Graven Cairns (FIC) 401
+1 Haunted Ridge (FRA) 180
+1 Hazoret's Monument (FDC) 261
+1 Herald's Horn (PLST) C17-53
+1 Inventors' Fair (KLD) 247
+1 Kindred Dominance (MSC) 156
+1 Kragma Warcaller (THS) 195
+1 Labyrinth Adversary (ACR) 290
+1 Labyrinth Raptor (IKO) 193
+1 Lightning Greaves (WHO) 243
+1 Lord of Shatterskull Pass (ROE) 156
+1 Luxury Suite (MSC) 252
+1 Magar of the Magic Strings (UNF) 263
+1 Mind Stone (C18) 210
+1 Mogis, God of Slaughter (DSC) 89
+1 Molten Echoes (VOC) 148
+1 Moraug, Fury of Akoum (EOC) 89
+1 Neheb, Dreadhorde Champion (WAR) 140
+1 Neheb, the Eternal (MKC) 158
+1 Neheb, the Worthy (AKH) 203
+1 Oracle of Bones (BNG) 103
+1 Panharmonicon (PIP) 237
+1 Patchwork Banner (FDC) 279
+1 Path of Ancestry (C20) 298
+1 Patriarch's Bidding (MH2) 275
+1 Phyrexian Arena (FDC) 123
+1 Rage Reflection (PLST) SHM-104
+1 Rageblood Shaman (JMP) 357
+1 Ragemonger (BNG) 153
+1 Raise the Draugr (KHM) 105
+1 Rakdos Carnarium (C20) 300
+1 Rakdos Charm (AFC) 190
+1 Rakdos Signet (MM3) 225
+1 Roaming Throne (LCI) 258
+1 Rogue's Passage (PLST) C17-272
+1 Sandstorm Crasher (J25) 18
+1 Shared Animosity (LTC) 226
+1 Sign in Blood (M11) 117
+1 Smoldering Marsh (WHO) 307
+1 Sol Ring (PLST) C18-222
+1 Soulreaper of Mogis (THB) 115
+1 Sulfurous Springs (FRC) 85
+1 Tainted Peak (VOC) 184
+1 Talisman of Indulgence (FRC) 63
+1 Taurean Mauler (PLST) CM2-122
+1 Terminate (PLST) CMA-195
+1 Urza's Incubator (PLST) C15-273
+1 Urza's Saga (MB2) 114
+1 Vampiric Tutor (DMR) 430
+1 Vandalblast (FIC) 298
+1 Vanquisher's Banner (FDC) 294
+10 Mountain (J25) 90
+8 Swamp (J25) 89

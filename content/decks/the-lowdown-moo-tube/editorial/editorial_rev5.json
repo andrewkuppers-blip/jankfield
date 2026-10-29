@@ -1,0 +1,996 @@
+{
+  "schema_version": "jankfield-editorial-1.0",
+  "job_id": "JOB-001",
+  "task_id": "JOB-001-T14",
+  "agent": "JANKFIELD Agent 04 - The Chronicler",
+  "editorial_rev": "rev5",
+  "generated_at": "2026-10-29T19:50:00+09:00",
+  "status": "DRAFT - awaiting Andrew approval, do not publish",
+  "publication_approval": {
+    "approved": false,
+    "approved_by": null,
+    "approved_at": null
+  },
+  "deck_id": "y2FahPnUCUuTRHirl_Qn_g",
+  "deck_name": "The Lowdown Moo Tube",
+  "commander": "Sethron, Hurloon General",
+  "color_identity": [
+    "B",
+    "R"
+  ],
+  "source_url": "https://moxfield.com/decks/y2FahPnUCUuTRHirl_Qn_g",
+  "version_ids": {
+    "source_version_id": "moxfield:v0@2026-10-20T23:06:26.14Z",
+    "source_content_hash_sha256": "99408f321505b64c06aace03ab0878b6d24fb079f9c6b5055a509a1ac79d8e29",
+    "variant_package": "janksmith rev2 (JOB-001-T8), comparison.json sha256 0b128095bd6ca76b5b633b2394d98a44d5df2306c976de4636ca676af78c0c2f",
+    "tiers": {
+      "budget": "budget@rev2",
+      "original": "refined@rev2 (unchanged Moxfield list)",
+      "maximum": "maximum@rev2"
+    },
+    "qa": "rules_review_final.json (JOB-001-T10, verdict CLEAR_FOR_STAGING), which reviewed Janksmith rev2 and editorial rev3. Earlier: rules_review_rev1.json (JOB-001-T7)."
+  },
+  "title": "The Lowdown Moo Tube: Find the Horn, Blow the Horn, Bring the Beef",
+  "meta_description": "Find the horn, blow the horn, bring the beef: a joyful Sethron Minotaur deck (B/R) built around Didgeridoo, in Budget (under $100), Original and Maximum Jank.",
+  "short_description": "A Sethron, Hurloon General Minotaur deck (B/R) built for fun around Didgeridoo, the 1995 Homelands horn that lets cows walk straight out of your hand. Find the horn, blow the horn, bring the beef, and enjoy the stampede, win or lose.",
+  "long_description": {
+    "origin_story_markdown": "Some decks start with a combo. Some start with a spreadsheet. This one started with a noise, the low, wonderful, slightly ridiculous drone of a didgeridoo. Andrew tells it best, so here he is in his own words. We've only cleaned up spelling, capitalization and punctuation, and added paragraph breaks. Anything in [square brackets] is an editor's change; the bracketed line about Minotaurs was softened at Andrew's request.\n\n> The Lowdown Moo Tube comes from my love of unique or funny-sounding words and game play mechanics. First off. Didgeridoo? Fantastic instrument in my opinion. Up there with Mongolian throat singing that produces [a sound] that just burrows in your ear. But with cards like the Didgeridoo or Dingus Staff, when I learn about them, I can't get them out of my head until I build something around it.\n>\n> I have also had a recent obsession with vintage cards and [Minotaurs have rarely gotten the spotlight since the early days of Magic, Sethron aside]. This gave me a unique opportunity to build two things simultaneously, a deck that gets to explore vintage cards and scratch that funky-name itch but not being held back by the constraints of vintage-only cards.\n>\n> And the name of the deck... A deck name in my opinion is nearly as important as the deck itself. I am tired of hearing about a bracket whatever mid-range spell-slinging deck or a proliferate deck... I want a named deck that tells you what it is in the most unique way possible. And the Lowdown Moo Tube is inspired by the jive names for other instruments like the \"Licorice Stick\".\n\nThat's the whole brief: a card with a name you can't stop saying, a creature type with a lot of history, and permission to use anything newer that keeps the joke going. This is a deck built to be fun and to sound like its owner. Winning is welcome, but the cows are the point.",
+    "origin_story_source": "origin_story_owner.md (Andrew). Quote is word-for-word; only spelling (simultaniously -> simultaneously), capitalization (i, UP, magic, Dingus staff) and punctuation/hyphenation are cleaned, as the lead-in discloses. Editor changes are in [square brackets]: '[a sound]' (source: 'a sounds') and '[Minotaurs have rarely gotten the spotlight since the early days of Magic, Sethron aside]' (source: 'minotaur's have not received much of a major printing since the early days of magic'; softened at Andrew's request). Paragraph breaks added. Dingus Staff kept as his words. Word-level diff re-run 2026-10-29 19:41 JST: no other drift.",
+    "overview": "The original Moxfield description sums the deck up in four beats, and honestly we can't improve on it: **find the horn, blow the horn, make more beef, turn it sideways.**\n\n- **The horn.** Didgeridoo is a one-mana artifact from Homelands (1995) that says: *\"{3}: You may put a Minotaur permanent card from your hand onto the battlefield.\"* You blow the horn and a cow walks in. That's the whole instrument.\n- **The bandleader.** Sethron, Hurloon General makes a 2/3 red Minotaur token whenever Sethron or *another nontoken* Minotaur you control enters. Every real cow brings a plus-one.\n- **The big finish.** For {2}{B/R}, Sethron gives your Minotaurs +1/+0, menace and haste until end of turn. Add Shared Animosity or Rage Reflection and the herd charges.\n- **The old-timers.** Every version keeps the Homelands Anaba crew (Anaba Ancestor and Anaba Spirit Crafter), and Budget and Maximum invite even more vintage cows.\n\nWhatever the budget, two members never leave the band: **Sethron in the command zone and Didgeridoo in the deck**, plus at least one card that can go and fetch the horn."
+  },
+  "strategy_sections": [
+    {
+      "id": "meet_the_band",
+      "heading": "Meet the band",
+      "body": "The original Moxfield description sums the deck up in four beats, and honestly we can't improve on it: **find the horn, blow the horn, make more beef, turn it sideways.**\n\n- **The horn.** Didgeridoo is a one-mana artifact from Homelands (1995) that says: *\"{3}: You may put a Minotaur permanent card from your hand onto the battlefield.\"* You blow the horn and a cow walks in. That's the whole instrument.\n- **The bandleader.** Sethron, Hurloon General makes a 2/3 red Minotaur token whenever Sethron or *another nontoken* Minotaur you control enters. Every real cow brings a plus-one.\n- **The big finish.** For {2}{B/R}, Sethron gives your Minotaurs +1/+0, menace and haste until end of turn. Add Shared Animosity or Rage Reflection and the herd charges.\n- **The old-timers.** Every version keeps the Homelands Anaba crew (Anaba Ancestor and Anaba Spirit Crafter), and Budget and Maximum invite even more vintage cows.\n\nWhatever the budget, two members never leave the band: **Sethron in the command zone and Didgeridoo in the deck**, plus at least one card that can go and fetch the horn.",
+      "verification": "Card text (Scryfall, 2026-10-29); tutor counts VERIFIED (rules_review_rev1)"
+    },
+    {
+      "id": "game_night",
+      "heading": "What a night with the Moo Tube looks like",
+      "body": "*A quick heads-up first: this is the kind of game the cards are built to create, based on their text and our rules review. We haven't playtested these lists yet, so treat it as a promise of vibes, not a match report.*\n\nIt starts quietly. You play a one-mana artifact, and someone asks what it does. You get to say \"it's a didgeridoo,\" which is half the reason this deck exists.\n\nThen the horn gets blown. For {3}, a Minotaur walks in without being cast, Sethron makes it a friend, and suddenly there's a herd. In the original or Maximum, the echo pedals turn one cow into three tokens, and the table starts counting out loud. Somebody will probably say \"moo.\" Let them.\n\nAt some point Deathbellow War Cry brings four different Minotaurs at once, or Patriarch's Bidding brings back the whole barn (and, to be fair, everyone else's favorite creature type). Sethron's pump goes on, menace and haste come with it, and the herd charges.\n\nIt won't always work. The horn might get blown up. Reckless Handling might discard the very horn it found. In Maximum, Game of Chaos might double its way into disaster, Warmonger might hit you too, and Coat of Arms might make someone else's army enormous. That's fine. Those are the stories you'll tell at the next game night.\n\nWin or lose, you'll have spent the evening saying \"Lowdown Moo Tube\" with a straight face. We call that a successful night.",
+      "framing": "The intended experience, based on card text and QA. Not playtested and not a match report.",
+      "verification": "Throne+Panharmonicon 3 triggers VERIFIED (INT-03); random-discard risk on Reckless Handling (INT-10/ISS-011); Game of Chaos/Warmonger/Coat of Arms backfire or symmetry per card text; Patriarch's Bidding is symmetrical per card text"
+    }
+  ],
+  "key_card_highlights": [
+    {
+      "card": "Sethron, Hurloon General",
+      "tiers": [
+        "budget",
+        "original",
+        "maximum"
+      ],
+      "highlight": "Token per nontoken Minotaur you control entering; herd pump with menace and haste.",
+      "status": "oracle_text"
+    },
+    {
+      "card": "Didgeridoo",
+      "tiers": [
+        "budget",
+        "original",
+        "maximum"
+      ],
+      "highlight": "{3}: put a Minotaur permanent card from hand onto the battlefield.",
+      "status": "oracle_text"
+    },
+    {
+      "card": "Deathbellow War Cry",
+      "tiers": [
+        "budget",
+        "original",
+        "maximum"
+      ],
+      "highlight": "Up to four different-named Minotaur creature cards onto the battlefield; creature-only, can't find the horn.",
+      "status": "oracle_text"
+    },
+    {
+      "card": "Herald's Horn",
+      "tiers": [
+        "budget",
+        "original",
+        "maximum"
+      ],
+      "highlight": "The other horn: Minotaur spells cost {1} less; upkeep look can put a Minotaur into hand.",
+      "status": "oracle_text"
+    },
+    {
+      "card": "Anaba Ancestor / Anaba Spirit Crafter",
+      "tiers": [
+        "budget",
+        "original",
+        "maximum"
+      ],
+      "highlight": "Homelands Minotaurs; Spirit Crafter gives Minotaurs +1/+0.",
+      "status": "oracle_text"
+    },
+    {
+      "card": "Patriarch's Bidding",
+      "tiers": [
+        "budget",
+        "original",
+        "maximum"
+      ],
+      "highlight": "Mass reanimation by type; symmetrical (each player chooses a type).",
+      "status": "oracle_text"
+    },
+    {
+      "card": "Roaming Throne + Panharmonicon",
+      "tiers": [
+        "original",
+        "maximum"
+      ],
+      "highlight": "Three Sethron triggers per nontoken Minotaur.",
+      "status": "VERIFIED (INT-03)"
+    },
+    {
+      "card": "Hurloon Minotaur",
+      "tiers": [
+        "budget",
+        "maximum"
+      ],
+      "highlight": "Vanilla cow first printed in Alpha (1993).",
+      "status": "VERIFIED (ISS-013)"
+    },
+    {
+      "card": "Reckless Handling",
+      "tiers": [
+        "budget",
+        "maximum"
+      ],
+      "highlight": "Artifact tutor for the horn; random discard can lose it.",
+      "status": "VERIFIED risk (INT-10, ISS-011 open)"
+    },
+    {
+      "card": "Conspiracy",
+      "tiers": [
+        "maximum"
+      ],
+      "highlight": "Naming Minotaur: YOUR creatures, creature spells and creature cards you own outside the battlefield become Minotaurs; noncreature cards and opponents' stuff unaffected. Didgeridoo can deploy any creature card from your hand.",
+      "status": "VERIFIED (INT-01)"
+    },
+    {
+      "card": "Mana Echoes",
+      "tiers": [
+        "maximum"
+      ],
+      "highlight": "Colorless mana equal to the creatures you control that share a type with the entering creature (it counts itself if it's yours); empties at end of step.",
+      "status": "VERIFIED (INT-04)"
+    },
+    {
+      "card": "Cryptic Gateway",
+      "tiers": [
+        "maximum"
+      ],
+      "highlight": "A second horn; new tokens can pay its tap cost.",
+      "status": "VERIFIED (INT-06)"
+    },
+    {
+      "card": "Kindred Charge",
+      "tiers": [
+        "maximum"
+      ],
+      "highlight": "Copy every Minotaur for a turn; copies of other Minotaurs don't trigger Sethron, a Sethron copy triggers itself then the legend rule applies; copies trigger Mana Echoes.",
+      "status": "VERIFIED (ISS-006/INT-09)"
+    },
+    {
+      "card": "Hecatomb",
+      "tiers": [
+        "maximum"
+      ],
+      "highlight": "Sacrifice four tokens on entry; untapped Swamps become pings.",
+      "status": "VERIFIED (INT-07)"
+    },
+    {
+      "card": "Rings of Brighthearth",
+      "tiers": [
+        "maximum"
+      ],
+      "highlight": "Copy a Didgeridoo activation for {2}; needs a second Minotaur card in hand.",
+      "status": "CONDITIONAL (INT-02)"
+    },
+    {
+      "card": "Krark's Thumb + Karplusan Minotaur + Game of Chaos",
+      "tiers": [
+        "maximum"
+      ],
+      "highlight": "Coin-flip theater; only the kept coin counting is implied, not explicitly ruled.",
+      "status": "CONDITIONAL (INT-08)"
+    }
+  ],
+  "variant_comparison": {
+    "budget": {
+      "label": "Budget Jank",
+      "philosophy": "Garage band: the same tune with cheaper gear. The joke survives completely (Sethron, horn, Deathbellow War Cry, team pumps, the most creatures and extra vintage cows). It gives up premium tutors (5 to 2), the echo pedals (trigger doublers), untapped lands and Greaves protection.",
+      "price": {
+        "cap": "Under $100, excluding basic lands (basics exclusion confirmed by Andrew, relayed 2026-10-29)",
+        "excluding_basics_usd": 69.44,
+        "including_basics_usd": 71.6,
+        "basis": "listed printings, nonfoil, Scryfall USD",
+        "price_timestamp": "2026-10-29T19:20:16+09:00",
+        "display": "$69.44 excluding basic lands, at the listed printings (Scryfall USD, 2026-10-29 19:20 JST)",
+        "secondary_caveat": "Default printings were $102.72 excluding basics on 2026-10-26 (over the cap); kept as a buy-the-listed-printings tip, as rev2 still carries it as a labeled secondary note."
+      },
+      "didgeridoo_tutors": [
+        "Reckless Handling",
+        "Diabolic Tutor"
+      ],
+      "creatures": 31,
+      "lands": 37,
+      "game_changers": 0,
+      "bracket": "2 (estimated, turn speed not playtested)",
+      "strategy_source": "Budget Jank sticks to the bit: find Didgeridoo (Reckless Handling, Diabolic Tutor), drop Minotaurs from hand for {3}, and double each one with Sethron. Deathbellow War Cry fetches four Minotaurs, and Pyre of Heroes climbs the creature curve from nontoken creatures (a Sethron token is MV 0 and only reaches Universal Automaton). Hammer of Purphoros gives the herd haste. Win with Shared Animosity, Rage Reflection or Patriarch's Bidding alpha strikes, or with Sethron's menace/haste pump. Plenty of Homelands-era Anaba cards and the Hurloon cows (Hurloon Minotaur is a vanilla 2/3; Hurloon Shaman is a 2/3 with \"When this creature dies, each player sacrifices a land of their choice.\") for the old-school flavor."
+    },
+    "original": {
+      "label": "Original Jank",
+      "philosophy": "Andrew's own recording: his list exactly as built on Moxfield. Old-school cows, a funny old horn, and enough modern support to make the bit work.",
+      "price": {
+        "excluding_basics_usd": 429.41,
+        "including_basics_usd": 432.63,
+        "basis": "Andrew's locked Moxfield printings",
+        "price_timestamp": "2026-10-29T19:20:16+09:00",
+        "display": "$429.41 excluding basic lands, at Andrew's own printings (Scryfall USD, 2026-10-29 19:20 JST)",
+        "exceptions": [
+          "Blood Crypt: locked printing TRK 278 (Star Trek) has no Scryfall USD price; priced at cheapest USD paper printing PECL 262p, $9.04",
+          "Adaptive Automaton: locked printing FDN 723 is foil; priced at prices.usd_foil ($0.72)"
+        ],
+        "note": "Prices the locked printings, not Andrew's actual purchase cost."
+      },
+      "didgeridoo_tutors": [
+        "Demonic Tutor",
+        "Vampiric Tutor",
+        "Gamble",
+        "Urza's Saga",
+        "Inventors' Fair"
+      ],
+      "creatures": 28,
+      "lands": 37,
+      "game_changers": [
+        "Demonic Tutor",
+        "Gamble",
+        "Vampiric Tutor"
+      ],
+      "bracket": "3 (author's Moxfield setting)",
+      "strategy_source": "The author's original list (Cute_Balls): Minotaur tribal around Didgeridoo, with premium tutors (Demonic, Vampiric, Gamble), trigger doublers (Panharmonicon, Roaming Throne), Urza's Saga/Inventors' Fair to find the horn, Molten Echoes for token copies, and Descendants' Fury for combat-damage creature cheating."
+    },
+    "maximum": {
+      "label": "Maximum Jank",
+      "philosophy": "The Moo Tube Philharmonic: the loudest version, not claimed to be the best. Conspiracy, Mana Echoes, Rings, Gateway, the Ice Age 1995 reunion and the coin-flip corner. It can stall or self-destruct, and that's part of the show.",
+      "price": {
+        "cap": "under $1,000 (including basics)",
+        "including_basics_usd": 552.83,
+        "basis": "cheapest listed printings",
+        "price_timestamp": "2026-10-26T22:48:54+09:00",
+        "display": "$552.83 including basic lands (Scryfall USD, 2026-10-26)",
+        "note": "Not re-priced in rev2."
+      },
+      "didgeridoo_tutors": [
+        "Reckless Handling",
+        "Gamble",
+        "Demonic Tutor",
+        "Urza's Saga",
+        "Inventors' Fair"
+      ],
+      "creatures": 24,
+      "lands": 36,
+      "game_changers": [
+        "Gamble",
+        "Demonic Tutor",
+        "Necropotence"
+      ],
+      "bracket": "3 (estimated, at Game Changer cap 3/3, turn speed not playtested)",
+      "strategy_source": "Maximum Jank turns the horn into an engine: Didgeridoo plus Rings of Brighthearth, Cryptic Gateway, Mana Echoes refunds, and Panharmonicon and Roaming Throne doubling Sethron. Conspiracy naming Minotaur makes your creatures and creature cards Minotaurs, so Didgeridoo can put any creature card from hand onto the battlefield. It finishes with Coat of Arms, Kindred Charge, Molten Echoes or Soul Burn, and adds an Ice Age 1995 package (Necropotence, Hecatomb, Soul Burn, Game of Chaos) plus Krark's Thumb (Mirrodin 2003) and Karplusan Minotaur (Coldsnap 2006) for coin flips."
+    }
+  },
+  "substitution_notes": {
+    "note": "Unchanged in Janksmith rev2 (verified identical removed/added pairs vs rev1). Pairings are editorial one-to-one mappings; swapped cards often do different jobs. Price deltas are Scryfall 2026-10-26.",
+    "budget": [
+      {
+        "removed": "Demonic Tutor",
+        "added": "Diabolic Tutor",
+        "why": "Same unconditional tutor for 2 more mana; saves about $59.",
+        "gives_up": "Slightly slower (4 MV vs 2).",
+        "theme_impact": "Neutral; still finds Didgeridoo.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -58.86
+      },
+      {
+        "removed": "Vampiric Tutor",
+        "added": "Pyre of Heroes",
+        "why": "Price; Pyre climbs the creature curve from nontoken Minotaurs.",
+        "gives_up": "Creature-only and sorcery-speed; less flexible.",
+        "theme_impact": "Positive: a Minotaur ladder.",
+        "rules_note": "Creature tutor only; it can't find Didgeridoo. Needs MV+1 and a shared type. A Sethron token is MV 0: in Budget the only MV-1 target is Universal Automaton, and in Max there are none, so it climbs from nontoken creatures.",
+        "price_delta_usd_2026_10_26": -47.31
+      },
+      {
+        "removed": "Gamble",
+        "added": "Reckless Handling",
+        "why": "Artifact tutor that finds Didgeridoo for $0.36.",
+        "gives_up": "Narrower (artifacts only) but finds Didgeridoo. Budget has only 2 Didgeridoo tutors, so the random-discard risk matters most here.",
+        "theme_impact": "Positive: horn-first tutoring.",
+        "rules_note": "It discards a card at random after the search, which can be the Didgeridoo it just found. If an artifact is discarded, it deals 2 damage to each opponent.",
+        "price_delta_usd_2026_10_26": -15.21
+      },
+      {
+        "removed": "Roaming Throne",
+        "added": "Universal Automaton",
+        "why": "Price ($48); a changeling body still triggers Sethron.",
+        "gives_up": "Loses trigger doubling.",
+        "theme_impact": "Neutral.",
+        "rules_note": "Universal Automaton is every creature type, so it's a Minotaur for Didgeridoo and Sethron.",
+        "price_delta_usd_2026_10_26": -47.24
+      },
+      {
+        "removed": "Adaptive Automaton",
+        "added": "Three Tree Mascot",
+        "why": "Changeling that also fixes mana once per turn.",
+        "gives_up": "Slight ramp gain, loses lord bonus.",
+        "theme_impact": "Neutral.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -1.13
+      },
+      {
+        "removed": "Urza's Incubator",
+        "added": "Heraldic Banner",
+        "why": "Price ($20); Banner is ramp plus a red anthem.",
+        "gives_up": "Less cost reduction.",
+        "theme_impact": "Neutral.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -19.98
+      },
+      {
+        "removed": "Vanquisher's Banner",
+        "added": "Read the Bones",
+        "why": "Price; replaces cast-trigger draw with a draw spell.",
+        "gives_up": "Similar card flow, less anthem.",
+        "theme_impact": "Neutral.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -2.97
+      },
+      {
+        "removed": "Panharmonicon",
+        "added": "Anaba Bodyguard",
+        "why": "Price; more Homelands-era Minotaurs instead of trigger doubling.",
+        "gives_up": "Fewer tokens per Minotaur.",
+        "theme_impact": "Positive: 1995 Anaba family.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -4.3
+      },
+      {
+        "removed": "Molten Echoes",
+        "added": "Hurloon Minotaur",
+        "why": "Price ($8); Hurloon Minotaur, first printed in Alpha (1993).",
+        "gives_up": "Weaker card.",
+        "theme_impact": "Positive: namesake vanilla cow.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -8.34
+      },
+      {
+        "removed": "Lightning Greaves",
+        "added": "Hammer of Purphoros",
+        "why": "Price; haste for the whole herd.",
+        "gives_up": "Loses shroud protection.",
+        "theme_impact": "Neutral.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -2.58
+      },
+      {
+        "removed": "Neheb, the Eternal",
+        "added": "Gorehorn Minotaurs",
+        "why": "Price ($7.63).",
+        "gives_up": "Loses the mana burst.",
+        "theme_impact": "Neutral.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -7.6
+      },
+      {
+        "removed": "Glint-Horn Buccaneer",
+        "added": "Ox of Agonas",
+        "why": "Price ($7); an actual Ox refills the hand.",
+        "gives_up": "Comparable card flow.",
+        "theme_impact": "Positive: beef.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -6.52
+      },
+      {
+        "removed": "Mogis, God of Slaughter",
+        "added": "Warmonger",
+        "why": "Price; symmetrical pinging chaos.",
+        "gives_up": "Less inevitability.",
+        "theme_impact": "Positive: anyone can activate it.",
+        "rules_note": "Warmonger hits every player, including you.",
+        "price_delta_usd_2026_10_26": -5.57
+      },
+      {
+        "removed": "Gornog, the Red Reaper",
+        "added": "Tahngarth, Talruum Hero",
+        "why": "Price; a 2001 (Planeshift) Minotaur legend whose tap ability trades damage with a creature (not a fight).",
+        "gives_up": "Adds repeatable removal.",
+        "theme_impact": "Positive: old-school Minotaur.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -2.24
+      },
+      {
+        "removed": "Kindred Dominance",
+        "added": "Infernal Grasp",
+        "why": "Price; spot removal instead of a one-sided wipe.",
+        "gives_up": "Loses wipe option (Blasphemous Act remains).",
+        "theme_impact": "Neutral.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -4.03
+      },
+      {
+        "removed": "Vandalblast",
+        "added": "Tragic Slip",
+        "why": "Price; cheaper instant-speed removal.",
+        "gives_up": "Loses artifact removal (Abrade/Chaos Warp/Rakdos Charm remain).",
+        "theme_impact": "Neutral.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -1.84
+      },
+      {
+        "removed": "Raise the Draugr",
+        "added": "Bake into a Pie",
+        "why": "Plain removal over recursion.",
+        "gives_up": "More interaction, less recursion.",
+        "theme_impact": "Neutral.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": 0.01
+      },
+      {
+        "removed": "Dreamshaper Shaman",
+        "added": "Anaba Shaman",
+        "why": "Cheaper Homelands-era pinger.",
+        "gives_up": "Better early game.",
+        "theme_impact": "Positive: 1995 Anaba.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -0.01
+      },
+      {
+        "removed": "Ferocity of the Wilds",
+        "added": "Hurloon Shaman",
+        "why": "Symmetrical land sacrifice chaos.",
+        "gives_up": "Neutral.",
+        "theme_impact": "Positive: Hurloon chaos.",
+        "rules_note": "On death, every player sacrifices a land, including you.",
+        "price_delta_usd_2026_10_26": 0.06
+      },
+      {
+        "removed": "Bloodstained Mire",
+        "added": "Bloodfell Caves",
+        "why": "Price ($17.51).",
+        "gives_up": "Enters tapped.",
+        "theme_impact": "Neutral.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -17.38
+      },
+      {
+        "removed": "Blood Crypt",
+        "added": "Temple of Malice",
+        "why": "Price ($9).",
+        "gives_up": "Enters tapped; scry 1.",
+        "theme_impact": "Neutral.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -8.83
+      },
+      {
+        "removed": "Blazemire Verge",
+        "added": "Canyon Slough",
+        "why": "Price ($10).",
+        "gives_up": "Enters tapped; can cycle.",
+        "theme_impact": "Neutral.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -9.89
+      },
+      {
+        "removed": "Luxury Suite",
+        "added": "Unclaimed Territory",
+        "why": "Price ($8); colored mana for Minotaur spells.",
+        "gives_up": "Mana restricted to creature spells.",
+        "theme_impact": "Positive: tribal land.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -7.86
+      },
+      {
+        "removed": "Haunted Ridge",
+        "added": "Secluded Courtyard",
+        "why": "Price.",
+        "gives_up": "Mana restricted to creature spells.",
+        "theme_impact": "Positive: tribal land.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -1.24
+      },
+      {
+        "removed": "Urza's Saga",
+        "added": "Mountain",
+        "why": "Price ($33).",
+        "gives_up": "Loses a Didgeridoo tutor.",
+        "theme_impact": "Slight negative.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -33.31
+      },
+      {
+        "removed": "Inventors' Fair",
+        "added": "Mountain",
+        "why": "Price ($20).",
+        "gives_up": "Loses a Didgeridoo tutor.",
+        "theme_impact": "Slight negative.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -19.46
+      },
+      {
+        "removed": "Tainted Peak",
+        "added": "Mountain",
+        "why": "Price.",
+        "gives_up": "Fine in a red-heavy deck.",
+        "theme_impact": "Neutral.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -0.77
+      },
+      {
+        "removed": "Bojuka Bog",
+        "added": "Swamp",
+        "why": "Price.",
+        "gives_up": "Loses graveyard hate.",
+        "theme_impact": "Neutral.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -1.23
+      }
+    ],
+    "maximum": [
+      {
+        "removed": "Vampiric Tutor",
+        "added": "Citanul Flute",
+        "why": "Keeps Game Changers at 3 after adding Necropotence; a repeatable creature tutor (can't find Didgeridoo).",
+        "gives_up": "Slower, but repeatable.",
+        "theme_impact": "Positive.",
+        "rules_note": "Bracket 3 allows up to 3 Game Changers (verify current rules).",
+        "price_delta_usd_2026_10_26": -45.76
+      },
+      {
+        "removed": "Adaptive Automaton",
+        "added": "Conspiracy",
+        "why": "Naming Minotaur makes your creatures, creature spells and creature cards you own outside the battlefield Minotaurs (noncreature cards are unaffected).",
+        "gives_up": "Big upside: Didgeridoo can put any creature card from hand onto the battlefield, and Sethron triggers on any nontoken creature.",
+        "theme_impact": "Strong positive.",
+        "rules_note": "VERIFIED in rules review (INT-01). It affects only your own creatures and cards; affected objects lose their other creature types.",
+        "price_delta_usd_2026_10_26": -0.85
+      },
+      {
+        "removed": "Taurean Mauler",
+        "added": "Hurloon Minotaur",
+        "why": "Changelings are redundant with Conspiracy; the Alpha cow is in.",
+        "gives_up": "Weaker card.",
+        "theme_impact": "Positive.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -0.33
+      },
+      {
+        "removed": "Lightning Greaves",
+        "added": "Rings of Brighthearth",
+        "why": "Copy Didgeridoo activations.",
+        "gives_up": "Engine piece; loses haste and protection.",
+        "theme_impact": "Strong positive.",
+        "rules_note": "CONDITIONAL (INT-02): Didgeridoo's ability isn't a mana ability, so Rings can copy it, but the copy needs a second Minotaur permanent card in hand.",
+        "price_delta_usd_2026_10_26": 3.68
+      },
+      {
+        "removed": "Vanquisher's Banner",
+        "added": "Coat of Arms",
+        "why": "Scales with herd size.",
+        "gives_up": "Bigger finisher; symmetrical.",
+        "theme_impact": "Positive.",
+        "rules_note": "Coat of Arms also pumps opponents' creatures that share types.",
+        "price_delta_usd_2026_10_26": 8.91
+      },
+      {
+        "removed": "Descendants' Fury",
+        "added": "Kindred Charge",
+        "why": "Doubles the herd for a turn.",
+        "gives_up": "Finisher.",
+        "theme_impact": "Positive.",
+        "rules_note": "Copies of OTHER Minotaurs don't trigger Sethron. A token copy of Sethron triggers its own ability (makes one token), then the legend rule applies. Token copies do trigger Mana Echoes.",
+        "price_delta_usd_2026_10_26": 7.45
+      },
+      {
+        "removed": "Ferocity of the Wilds",
+        "added": "Mana Echoes",
+        "why": "Minotaurs entering add mana that refuels Didgeridoo.",
+        "gives_up": "Big upside when built up.",
+        "theme_impact": "Strong positive.",
+        "rules_note": "VERIFIED (INT-04): the entering creature counts itself. The mana empties at the end of the step.",
+        "price_delta_usd_2026_10_26": 56.01
+      },
+      {
+        "removed": "Sign in Blood",
+        "added": "Necropotence",
+        "why": "Ice Age 1995 package card advantage.",
+        "gives_up": "Higher ceiling, costs life.",
+        "theme_impact": "Positive: 1995.",
+        "rules_note": "Game Changer.",
+        "price_delta_usd_2026_10_26": 33.86
+      },
+      {
+        "removed": "Soulreaper of Mogis",
+        "added": "Ox of Agonas",
+        "why": "Refills the hand; an Ox is beef.",
+        "gives_up": "Similar.",
+        "theme_impact": "Positive.",
+        "rules_note": "Under Conspiracy, the Ox is a Minotaur.",
+        "price_delta_usd_2026_10_26": 0.39
+      },
+      {
+        "removed": "Blasphemous Act",
+        "added": "Hecatomb",
+        "why": "Tokens pay the cost; Swamps ping. Ice Age 1995 package.",
+        "gives_up": "Less wipe protection.",
+        "theme_impact": "Positive: 1995.",
+        "rules_note": "On entering it's sacrificed unless you sacrifice four creatures.",
+        "price_delta_usd_2026_10_26": -0.31
+      },
+      {
+        "removed": "Crippling Fear",
+        "added": "Soul Burn",
+        "why": "Turns Neheb's red mana into a finisher. Ice Age 1995 package.",
+        "gives_up": "Reach.",
+        "theme_impact": "Positive: 1995.",
+        "rules_note": "X can only be paid with black and/or red mana.",
+        "price_delta_usd_2026_10_26": -0.26
+      },
+      {
+        "removed": "Vandalblast",
+        "added": "Infernal Grasp",
+        "why": "Cleaner spot removal.",
+        "gives_up": "Loses artifact sweep.",
+        "theme_impact": "Neutral.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -1.68
+      },
+      {
+        "removed": "Deathbellow Raider",
+        "added": "Anaba Bodyguard",
+        "why": "Completes the Homelands-era Anaba family.",
+        "gives_up": "Similar.",
+        "theme_impact": "Positive.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -0.02
+      },
+      {
+        "removed": "Oracle of Bones",
+        "added": "Anaba Shaman",
+        "why": "Repeatable pinger.",
+        "gives_up": "Better.",
+        "theme_impact": "Positive.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": -0.22
+      },
+      {
+        "removed": "Labyrinth Adversary",
+        "added": "Karplusan Minotaur",
+        "why": "Coin-flip pinger for the Krark's Thumb package.",
+        "gives_up": "Variable.",
+        "theme_impact": "Strong positive.",
+        "rules_note": "Each won flip pings a target of your choice; each lost flip pings a target an opponent chooses.",
+        "price_delta_usd_2026_10_26": 5.29
+      },
+      {
+        "removed": "Sandstorm Crasher",
+        "added": "Warmonger",
+        "why": "Any player can activate it.",
+        "gives_up": "Variable.",
+        "theme_impact": "Positive.",
+        "rules_note": "It hits every player, including you.",
+        "price_delta_usd_2026_10_26": -0.07
+      },
+      {
+        "removed": "Felhide Spiritbinder",
+        "added": "Cryptic Gateway",
+        "why": "A second Didgeridoo.",
+        "gives_up": "More redundancy.",
+        "theme_impact": "Strong positive.",
+        "rules_note": "The creature put in must share a type with each tapped creature; tokens are Minotaurs.",
+        "price_delta_usd_2026_10_26": 0.47
+      },
+      {
+        "removed": "Labyrinth Raptor",
+        "added": "Krark's Thumb",
+        "why": "Coin-flip control.",
+        "gives_up": "Neutral.",
+        "theme_impact": "Strong positive.",
+        "rules_note": "Only the kept coin counts as won or lost. That is implied by 'ignore one', but there's no explicit ruling (CONDITIONAL).",
+        "price_delta_usd_2026_10_26": 17.28
+      },
+      {
+        "removed": "Dreamshaper Shaman",
+        "added": "Game of Chaos",
+        "why": "The most absurd card in the Ice Age 1995 package.",
+        "gives_up": "Can backfire.",
+        "theme_impact": "Strong positive.",
+        "rules_note": "With Krark's Thumb you flip two coins and keep one; only the kept coin counts.",
+        "price_delta_usd_2026_10_26": 12.97
+      },
+      {
+        "removed": "Raise the Draugr",
+        "added": "Pyre of Heroes",
+        "why": "Creature-curve ladder from nontoken Minotaurs (creature tutor; not a Didgeridoo tutor).",
+        "gives_up": "More consistent.",
+        "theme_impact": "Positive.",
+        "rules_note": "Creature tutor only; it can't find Didgeridoo. Needs MV+1 and a shared type. A Sethron token is MV 0: in Budget the only MV-1 target is Universal Automaton, and in Max there are none, so it climbs from nontoken creatures.",
+        "price_delta_usd_2026_10_26": 1.56
+      },
+      {
+        "removed": "Bojuka Bog",
+        "added": "Cavern of Souls",
+        "why": "Uncounterable cows.",
+        "gives_up": "Better.",
+        "theme_impact": "Positive.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": 46.78
+      },
+      {
+        "removed": "Mountain",
+        "added": "Reckless Handling",
+        "why": "Another way to find Didgeridoo (alongside Gamble, Demonic Tutor, Urza's Saga and Inventors' Fair).",
+        "gives_up": "More consistent.",
+        "theme_impact": "Positive.",
+        "rules_note": "It discards a card at random after the search, which can be the Didgeridoo it just found.",
+        "price_delta_usd_2026_10_26": 0.25
+      },
+      {
+        "removed": "Mountain",
+        "added": "Unclaimed Territory",
+        "why": "Tribal fixing.",
+        "gives_up": "Neutral.",
+        "theme_impact": "Neutral.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": 0.22
+      },
+      {
+        "removed": "Swamp",
+        "added": "Secluded Courtyard",
+        "why": "Tribal fixing.",
+        "gives_up": "Neutral.",
+        "theme_impact": "Neutral.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": 0.19
+      },
+      {
+        "removed": "Swamp",
+        "added": "Canyon Slough",
+        "why": "Fixing that can cycle.",
+        "gives_up": "Neutral.",
+        "theme_impact": "Neutral.",
+        "rules_note": null,
+        "price_delta_usd_2026_10_26": 0.1
+      }
+    ]
+  },
+  "jank_o_meter": {
+    "status": "WITHHELD pending rubric",
+    "public_facing": false,
+    "scores": null,
+    "note": "No scores included anywhere in editorial output. Internal Janksmith drafts exist in comparison.json but are UNVERIFIED and held until Andrew approves a rubric.",
+    "proposed_commentary_when_rubric_approved": "Commentary should key off verified facts: Conspiracy + Didgeridoo (VERIFIED), triple Sethron triggers (VERIFIED), coin-flip package (CONDITIONAL), Alpha/Homelands nostalgia cards."
+  },
+  "metadata": {
+    "slug": "the-lowdown-moo-tube",
+    "format": "Commander",
+    "colors": [
+      "Black",
+      "Red"
+    ],
+    "tags": [
+      "Budget Jank",
+      "Didgeridoo",
+      "Homelands",
+      "Maximum Jank",
+      "Minotaur tribal",
+      "Old-school",
+      "Rakdos",
+      "Sethron",
+      "built for fun",
+      "casual Commander",
+      "coin flips",
+      "flavor first",
+      "game night",
+      "vintage cards"
+    ],
+    "social_blurb_file": "editorial/social_blurb_rev5.txt",
+    "reader_prompt_file": "editorial/reader_prompt_rev5.md",
+    "post_file": "editorial/the-lowdown-moo-tube_post_rev5.md",
+    "meta_description_file": "editorial/meta_description_rev5.txt",
+    "social_blurb": "Find the horn. Blow the horn. Bring the beef. 🐂🎺\n\nThis week on Jankfield: The Lowdown Moo Tube, a Sethron Minotaur deck built around Didgeridoo, a 1995 artifact that lets cows walk straight out of your hand. It may not always win, but we suspect the table will be saying \"moo.\" Read Andrew's story behind it, then pick your herd: Budget (under $100), Original or Maximum Jank.\n\n[link]\n",
+    "meta_description": "Find the horn, blow the horn, bring the beef: a joyful Sethron Minotaur deck (B/R) built around Didgeridoo, in Budget (under $100), Original and Maximum Jank."
+  },
+  "editorial_warnings": [
+    "DRAFT ONLY. Not approved for publication. QA verdict CLEAR_FOR_STAGING (rules_review_final.json) is not publication approval; card lists are NOT yet owner-approved.",
+    "F-08 sign-off: Andrew should see the final quote wording (bracketed Minotaur line and '[a sound]') when approving.",
+    "F-05 (not editorial): Janksmith rev2 still says the basics exclusion is not owner-confirmed; Andrew confirmed it 19:18 JST per job.json. Needs HBIC/Janksmith update.",
+    "Jank-O-Meter withheld; no scores in any output.",
+    "House style: the 'game night' section describes the experience the deck is built to create. It is explicitly framed as not playtested; no anecdotes or results are claimed.",
+    "Budget $102.72 default-printing figure (2026-10-26) kept only as a dated buy-the-listed-printings tip, because rev2 still carries it as a labeled secondary note. Remove if Andrew prefers.",
+    "Maximum price is dated 2026-10-26 and was not re-priced in rev2; Budget and Original are 2026-10-29 19:20 JST.",
+    "Original price is at Andrew's locked printings with two exceptions (Blood Crypt priced at PECL 262p; Adaptive Automaton at foil price), disclosed in the post.",
+    "Origin story: Dingus Staff is kept as Andrew's words; it is not in any of the three lists.",
+    "ISS-011 open: Reckless Handling can discard the Didgeridoo it found; disclosed. Gamble (Original, Max) has the same random-discard risk per oracle text.",
+    "Krark's Thumb and Rings of Brighthearth are CONDITIONAL and labelled; turn speed is not playtested.",
+    "Deck-name origin limited to Andrew's words; no explanation of 'Moo Tube' or 'Licorice Stick' added.",
+    "Bracket labels are estimates (Original = Andrew's Moxfield setting).",
+    "rev0 not used. Its provenance (NEW-001) is still open as F-07: QA found the agents' accounts of who wrote the rev0 approval fields conflict; HBIC to confirm with Andrew. The approval stays not counted.",
+    "job.json has changed since earlier reviews; rules_review_final records sha256 9d3cda94...1633. Not used as a content source here."
+  ],
+  "verification_references": [
+    {
+      "path": "/cursor/stores/store-20756d63-7cfe-430b-ac2b-52b546dfcba6/showrunner/jobs/JOB-001/origin_story_owner.md",
+      "sha256": "ddd2463ce179add584f1803ca4e32c62b34b63253964879682914f453fab8181",
+      "role": "sole backstory source; quote diffed word-for-word"
+    },
+    {
+      "path": "/cursor/stores/store-20756d63-7cfe-430b-ac2b-52b546dfcba6/showrunner/jobs/JOB-001/rules_review_final.json",
+      "sha256": "d91be054f27a07d4d506e9bf394c40682bc32a680c50598993e7dc10d52b4cae",
+      "role": "QA verdict CLEAR_FOR_STAGING (JOB-001-T10)"
+    },
+    {
+      "path": "/cursor/stores/store-20756d63-7cfe-430b-ac2b-52b546dfcba6/showrunner/jobs/JOB-001/rules_review_rev4_delta.json",
+      "sha256": "8d7010d90e09832b83d8ffe355eb02c8cea6190058b8f3254b743d31da5c9e1f",
+      "role": "QA delta review of rev4 (JOB-001-T13), verdict CLEAR_FOR_STAGING; N-01 to N-03 applied in rev5"
+    },
+    {
+      "path": "/cursor/stores/store-20756d63-7cfe-430b-ac2b-52b546dfcba6/showrunner/jobs/JOB-001/artifacts/janksmith/rev2/the-lowdown-moo-tube-comparison.json",
+      "sha256": "0b128095bd6ca76b5b633b2394d98a44d5df2306c976de4636ca676af78c0c2f",
+      "role": "CURRENT: tiers, lists, stats, prices, substitutions"
+    },
+    {
+      "path": "/cursor/stores/store-20756d63-7cfe-430b-ac2b-52b546dfcba6/showrunner/jobs/JOB-001/artifacts/janksmith/rev2/validation.json",
+      "sha256": "97f093a97b31266b618d426602e0c3b54b605879074e6b2a22a9a0d888dc8c09",
+      "role": "Janksmith rev2 validation"
+    },
+    {
+      "path": "/cursor/stores/store-20756d63-7cfe-430b-ac2b-52b546dfcba6/showrunner/jobs/JOB-001/artifacts/janksmith/rev2/CHANGELOG.md",
+      "sha256": "cc44ef062282d011d5aa1f1e5ad9a1d306fe21a47cd0d9f54581e0be6bf097b0",
+      "role": "rev2 changes"
+    },
+    {
+      "path": "/cursor/stores/store-20756d63-7cfe-430b-ac2b-52b546dfcba6/showrunner/jobs/JOB-001/artifacts/janksmith/rev2/README_janksmith.md",
+      "sha256": "cccec1096b88617923321ddce5f5314eac7c49830f2dd37e65e1b4c8588d65af",
+      "role": "official price summary, rev0 status"
+    },
+    {
+      "path": "/cursor/stores/store-20756d63-7cfe-430b-ac2b-52b546dfcba6/showrunner/jobs/JOB-001/artifacts/janksmith/rev1/the-lowdown-moo-tube-comparison.json",
+      "sha256": "c6cd6302b2a5cd90784aa0916cfbc607ae56b6e9832491a70d3f462d29087a7f",
+      "role": "superseded; used only for list/swap diff"
+    },
+    {
+      "path": "/cursor/stores/store-20756d63-7cfe-430b-ac2b-52b546dfcba6/showrunner/jobs/JOB-001/rules_review_rev1.json",
+      "sha256": "6cc55d6889314ff4b9e8bf67d75c8220944db342b12f575bf7addb3d61b3bcfd",
+      "role": "earlier QA (CLEAR_FOR_EDITORIAL)"
+    },
+    {
+      "path": "/cursor/stores/store-20756d63-7cfe-430b-ac2b-52b546dfcba6/showrunner/jobs/JOB-001/rules_review.json",
+      "sha256": "fe118f91a9b94fda1bdbfe3fc3adc45329fef55cbebee2d047bf72eeee2e6701",
+      "role": "T4 interaction findings INT-01..12"
+    },
+    {
+      "path": "/cursor/stores/store-20756d63-7cfe-430b-ac2b-52b546dfcba6/showrunner/jobs/JOB-001/decklist.txt",
+      "sha256": "99408f321505b64c06aace03ab0878b6d24fb079f9c6b5055a509a1ac79d8e29",
+      "role": "locked original list"
+    },
+    {
+      "source": "Scryfall API /cards/collection",
+      "accessed": "2026-10-29 ~19:20 JST and ~19:40 JST (F-01 to F-04 recheck)",
+      "role": "oracle text check"
+    }
+  ],
+  "supersedes": {
+    "editorial_revs": [
+      "rev1",
+      "rev2",
+      "rev3",
+      "rev4"
+    ],
+    "files": [
+      "the-lowdown-moo-tube_post_rev1.md",
+      "meta_description_rev1.txt",
+      "social_blurb_rev1.txt",
+      "reader_prompt_rev1.md",
+      "editorial_rev1.json",
+      "the-lowdown-moo-tube_post_rev2.md",
+      "meta_description_rev2.txt",
+      "social_blurb_rev2.txt",
+      "reader_prompt_rev2.md",
+      "editorial_rev2.json",
+      "the-lowdown-moo-tube_post_rev3.md",
+      "meta_description_rev3.txt",
+      "social_blurb_rev3.txt",
+      "reader_prompt_rev3.md",
+      "editorial_rev3.json",
+      "the-lowdown-moo-tube_post_rev4.md",
+      "meta_description_rev4.txt",
+      "social_blurb_rev4.txt",
+      "reader_prompt_rev4.md",
+      "editorial_rev4.json"
+    ],
+    "reason": "JOB-001-T11 final editorial polish per rules_review_final.json (F-01 to F-04, F-06, F-08)."
+  },
+  "house_style": {
+    "source": "Andrew via parent agent, 2026-10-29 19:23 JST",
+    "applies_to": "this post and all future Jankfield deck posts",
+    "principles": [
+      "Levity, warmth and humor first",
+      "Decks are built for fun and reflect the builder",
+      "Winning is welcome; the experience and memorable moments matter as much",
+      "Avoid strategy-guide tone; describe the game night a deck creates, not a playbook",
+      "All factual rules still apply: no invented backstory or playtests, no Jank-O-Meter scores until a rubric is approved, dated prices, accurate rules wording"
+    ]
+  },
+  "credit": {
+    "display": "Andrew (Cute_Balls on Moxfield)",
+    "moxfield_user": "Cute_Balls",
+    "url": "https://moxfield.com/users/Cute_Balls",
+    "decided_by": "Andrew (relayed by Showrunner, 2026-10-29 19:32 JST)",
+    "url_check": "HTTP 200 via curl, 2026-10-29 ~19:32 JST (a nonexistent user returned 404, so the check discriminates). QA also confirmed the Moxfield deck author is Cute_Balls (rules_review_final, ~19:35 JST)."
+  },
+  "timestamp_corrections": {
+    "note": "F-06: earlier editorial timestamps were not actual file times. Older files are left untouched; corrected values recorded here.",
+    "editorial_rev1_generated_at": "recorded 2026-10-29T19:45:00+09:00; actual write ~19:2x JST (before the 19:23 style update)",
+    "editorial_rev3_generated_at": "recorded 2026-10-29T19:40:00+09:00; actual write 2026-10-29T19:30 JST, in-place credit edit 19:32:36 JST (file mtime)",
+    "rev3_credit_edit_and_url_check": "CURRENT.md said 19:34 JST; actual 2026-10-29 ~19:32 JST",
+    "scryfall_initial_oracle_check": "rev1-rev3 JSON said ~19:35 JST; actual ~19:20 JST",
+    "editorial_rev4_generated_at": "recorded 2026-10-29T19:42+09:00; actual file saves 19:40:50-19:41:41 JST (N-02)"
+  },
+  "qa_fixes_applied": [
+    {
+      "id": "F-01",
+      "card": "Pyre of Heroes",
+      "oracle_checked": "2026-10-29 ~19:40 JST: 'Sacrifice a creature' (tokens allowed); fetch MV = 1 + sacrificed MV",
+      "new_wording": "It works best with nontoken creatures: a Sethron token has mana value 0, so the only card a Sethron token can climb to is Universal Automaton."
+    },
+    {
+      "id": "F-02",
+      "card": "Didgeridoo",
+      "oracle_checked": "'{3}: You may put a Minotaur permanent card from your hand onto the battlefield.'",
+      "new_wording": "For {3}, a Minotaur walks in without being cast, ...",
+      "sweep": "No other 'free' claims in post, meta, social blurb or reader prompt."
+    },
+    {
+      "id": "F-03",
+      "card": "Reckless Handling",
+      "oracle_checked": "'...put it into your hand, shuffle, then discard a card at random.'",
+      "new_wording": "Reckless Handling might discard the very horn it found.",
+      "sweep": "All other mentions already said 'discard'."
+    },
+    {
+      "id": "F-04",
+      "card": "Mana Echoes",
+      "oracle_checked": "'...equal to the number of creatures you control that share a creature type with it.'",
+      "new_wording": "...counting itself if it's yours (checked).",
+      "also": "key_card_highlights updated"
+    },
+    {
+      "id": "F-06",
+      "new_wording": "generated_at set to actual time; post header comment no longer mentions 'credit placeholder'; corrected earlier times recorded in timestamp_corrections and CURRENT.md; version_ids.qa updated."
+    },
+    {
+      "id": "F-08",
+      "approach": "Bracketed editor's change inside the quote, with a lead-in disclosing cleanup and bracket meaning; rest of quote restored word-for-word (rev3 had drifted, e.g. 'two things at once' for 'simultaniously', 'I've' for 'I have')."
+    }
+  ],
+  "qa_findings_not_editorial": [
+    {
+      "id": "F-05",
+      "owner": "Janksmith/HBIC",
+      "item": "rev2 deck files still say the basics exclusion is not owner-confirmed; Andrew confirmed it 2026-10-29 19:18 JST (per job.json)."
+    },
+    {
+      "id": "F-07",
+      "owner": "HBIC",
+      "item": "Confirm with Andrew whether he wrote 'Approved. Both are great.' on 2026-10-28; update REV0_SUPERSEDED.md to point to rev2. Approval stays not counted."
+    },
+    {
+      "id": "F-09",
+      "owner": "HBIC",
+      "item": "Reconcile job.json owner_decisions timestamps and record the house-style decision (19:23 JST)."
+    }
+  ]
+}

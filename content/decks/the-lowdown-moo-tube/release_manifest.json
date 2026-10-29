@@ -1,0 +1,727 @@
+{
+  "schema": "jankfield-release-manifest/1.0",
+  "job_id": "JOB-001",
+  "manifest_generated_at": "2026-10-29T19:53:05+09:00",
+  "generated_by": "Showrunner",
+  "hash_method": "sha256 of this file's exact bytes. The manifest does not contain its own hash; it is recorded in release_manifest.json.sha256, job.json and release_summary.md.",
+  "release_state": "AWAITING_APPROVAL (staging pending)",
+  "deck": {
+    "name": "The Lowdown Moo Tube",
+    "deck_id": "y2FahPnUCUuTRHirl_Qn_g",
+    "moxfield_internal_id": "nrXpeR",
+    "commander": "Sethron, Hurloon General",
+    "color_identity": [
+      "B",
+      "R"
+    ],
+    "format": "commander",
+    "credit": "Andrew (Cute_Balls on Moxfield)",
+    "source_url": "https://moxfield.com/decks/y2FahPnUCUuTRHirl_Qn_g",
+    "source_version_id": "moxfield:v0@2026-10-20T23:06:26.14Z",
+    "source_last_updated": {
+      "utc": "2026-10-20T23:06:26.14Z",
+      "tokyo": "2026-10-21T08:06:26.140000+09:00"
+    },
+    "source_locked_at": "2026-10-29T18:40:34+09:00",
+    "lock_method": "curl GET https://api2.moxfield.com/v3/decks/all/y2FahPnUCUuTRHirl_Qn_g (browser User-Agent, Accept: application/json) -> HTTP 200; read-only",
+    "content_hash": {
+      "sha256": "99408f321505b64c06aace03ab0878b6d24fb079f9c6b5055a509a1ac79d8e29",
+      "of": "jobs/JOB-001/decklist.txt",
+      "normalization": {
+        "path": "NORMALIZATION.md",
+        "sha256": "0924f6f280f109582af3af37c81f5ed24d31886d696b7186ed728798bd135247"
+      }
+    },
+    "source_snapshot": [
+      {
+        "path": "jobs/JOB-001/raw.json",
+        "sha256": "e662575e53c22ccb4d8bcb0afb902a769245f1db73edc99899d029a6eb0f16da"
+      },
+      {
+        "path": "jobs/JOB-001/source.json",
+        "sha256": "f6b7316134298d3c908bf5994eccb06a435e20671e384425e44e84ddaf96c598"
+      },
+      {
+        "path": "jobs/JOB-001/decklist.txt",
+        "sha256": "99408f321505b64c06aace03ab0878b6d24fb079f9c6b5055a509a1ac79d8e29"
+      }
+    ],
+    "source_recheck": "Rules Lawyer live read-only GET ~2026-10-29 19:35 JST: lastUpdated unchanged (rules_review_final.json)."
+  },
+  "variants": {
+    "original": {
+      "label": "Original (Andrew's Moxfield list, unchanged)",
+      "card_count": 100,
+      "boards": {
+        "commanders": 1,
+        "mainboard": 99
+      },
+      "files": [
+        {
+          "path": "jobs/JOB-001/decklist.txt",
+          "sha256": "99408f321505b64c06aace03ab0878b6d24fb079f9c6b5055a509a1ac79d8e29",
+          "role": "canonical set-coded list (locked)"
+        }
+      ],
+      "janksmith_tier_key": "refined"
+    },
+    "budget": {
+      "label": "Budget Jank",
+      "card_count": 100,
+      "files": [
+        {
+          "path": "jobs/JOB-001/artifacts/janksmith/the-lowdown-moo-tube-budget.txt",
+          "sha256": "084d92f17762ca963d0694751fa34ce8dd2449ec6f91041696875e9e7a3b69e1",
+          "role": "set-coded buy list",
+          "card_count": 100
+        },
+        {
+          "path": "jobs/JOB-001/artifacts/janksmith/the-lowdown-moo-tube-budget-moxfield.txt",
+          "sha256": "d4494ead4de44fd165aef87e6b008f88d2166ccd85cc2f2c972e12bf0fdf9eb5",
+          "role": "Moxfield import",
+          "card_count": 100
+        }
+      ],
+      "janksmith_tier_key": "budget"
+    },
+    "maxjank": {
+      "label": "Maximum Jank",
+      "card_count": 100,
+      "files": [
+        {
+          "path": "jobs/JOB-001/artifacts/janksmith/the-lowdown-moo-tube-maxjank.txt",
+          "sha256": "81880b310b71c0d5ab995aedc25b8f1df47ec26790f1f5f385d1289fe679f8a6",
+          "role": "set-coded buy list",
+          "card_count": 100
+        },
+        {
+          "path": "jobs/JOB-001/artifacts/janksmith/the-lowdown-moo-tube-maxjank-moxfield.txt",
+          "sha256": "53ee68f82cf93fc7346b82993da127be34a97f26414b64caa5cda67b3149ade2",
+          "role": "Moxfield import",
+          "card_count": 100
+        }
+      ],
+      "janksmith_tier_key": "maximum"
+    },
+    "deck_package": {
+      "role": "Janksmith rev2 (current; text-only revisions, no card changes since rev0)",
+      "files": [
+        {
+          "path": "jobs/JOB-001/artifacts/janksmith/rev2/the-lowdown-moo-tube-comparison.json",
+          "sha256": "0b128095bd6ca76b5b633b2394d98a44d5df2306c976de4636ca676af78c0c2f"
+        },
+        {
+          "path": "jobs/JOB-001/artifacts/janksmith/rev2/validation.json",
+          "sha256": "97f093a97b31266b618d426602e0c3b54b605879074e6b2a22a9a0d888dc8c09"
+        },
+        {
+          "path": "jobs/JOB-001/artifacts/janksmith/rev2/CHANGELOG.md",
+          "sha256": "cc44ef062282d011d5aa1f1e5ad9a1d306fe21a47cd0d9f54581e0be6bf097b0"
+        },
+        {
+          "path": "jobs/JOB-001/artifacts/janksmith/rev2/README_janksmith.md",
+          "sha256": "cccec1096b88617923321ddce5f5314eac7c49830f2dd37e65e1b4c8588d65af"
+        }
+      ],
+      "superseded": [
+        "artifacts/janksmith/the-lowdown-moo-tube-comparison.json (rev0, NOT APPROVED, see REV0_SUPERSEDED.md)",
+        "artifacts/janksmith/rev1/*"
+      ],
+      "rev0_marker": {
+        "path": "jobs/JOB-001/artifacts/janksmith/REV0_SUPERSEDED.md",
+        "sha256": "253764adda05bb734b233bc22d0043aaa91090d9984a77902ea4d7be619538cd"
+      },
+      "note": "comparison.json contains held internal-draft Jank scores (public_facing:false). Staging must not render them."
+    }
+  },
+  "validation": {
+    "overall": "All three versions PASS construction, legality, color identity, singleton, must-keeps, Bracket <=3 deck-building limits and price caps. Full validation status: NOT_FULLY_VALIDATED for all three (open items below). Editorial QA chain: rev3 (T10) -> rev4 delta (T13) -> rev5 diff-verified by Showrunner.",
+    "showrunner_deterministic": {
+      "path": "jobs/JOB-001/validation.json",
+      "sha256": "7316d97b4c1b2fbb7ef4d782c53853bea77a79006657275ecf52345c1c3ec35b",
+      "result": {
+        "original": "PASS",
+        "budget": "PASS",
+        "maxjank": "PASS"
+      },
+      "scryfall_fetched_at": "2026-10-29T18:43:32+09:00",
+      "updated_at": "2026-10-29T19:11:02+09:00"
+    },
+    "janksmith_rev2": {
+      "path": "jobs/JOB-001/artifacts/janksmith/rev2/validation.json",
+      "sha256": "97f093a97b31266b618d426602e0c3b54b605879074e6b2a22a9a0d888dc8c09",
+      "result": "PASS all tiers (100 cards, CI, legal, singleton, must-keeps, caps)",
+      "validated_at": "2026-10-29T19:22:29+09:00"
+    },
+    "rules_lawyer": [
+      {
+        "path": "jobs/JOB-001/rules_review.json",
+        "sha256": "fe118f91a9b94fda1bdbfe3fc3adc45329fef55cbebee2d047bf72eeee2e6701",
+        "task": "JOB-001-T4",
+        "reviewed_at": "2026-10-29T18:58+09:00",
+        "verdict": "Not cleared: 0 CRITICAL, 4 MAJOR, 17 MINOR (ISS-001..021); release blocked pending MAJOR fixes",
+        "scope": "rev0 + Showrunner validation"
+      },
+      {
+        "path": "jobs/JOB-001/rules_review_rev1.json",
+        "sha256": "6cc55d6889314ff4b9e8bf67d75c8220944db342b12f575bf7addb3d61b3bcfd",
+        "task": "JOB-001-T7",
+        "reviewed_at": "2026-10-29T19:20:00+09:00",
+        "verdict": "CLEAR_FOR_EDITORIAL",
+        "scope": "Janksmith rev1"
+      },
+      {
+        "path": "jobs/JOB-001/rules_review_final.json",
+        "sha256": "d91be054f27a07d4d506e9bf394c40682bc32a680c50598993e7dc10d52b4cae",
+        "task": "JOB-001-T10",
+        "reviewed_at": "2026-10-29T19:38:00+09:00",
+        "verdict": "CLEAR_FOR_STAGING (0 CRITICAL, 0 MAJOR, 9 MINOR F-01..F-09; not publication approval)",
+        "scope": "Janksmith rev2 + editorial rev3",
+        "coverage_gap": "CLOSED: rev4 delta reviewed in JOB-001-T13; rev5 = rev4 + N-fixes, Showrunner-verified by diff."
+      },
+      {
+        "path": "jobs/JOB-001/rules_review_rev4_delta.json",
+        "sha256": "8d7010d90e09832b83d8ffe355eb02c8cea6190058b8f3254b743d31da5c9e1f",
+        "task": "JOB-001-T13",
+        "reviewed_at": "2026-10-29T19:50:00+09:00",
+        "verdict": "CLEAR_FOR_STAGING (0 CRITICAL, 0 MAJOR; MINOR N-01..N-03; not publication approval)",
+        "scope": "editorial rev4 vs rev3",
+        "n_findings": {
+          "N-01": "FIXED in rev5 (Showrunner-verified)",
+          "N-02": "FIXED in rev5 metadata (CURRENT.md log, editorial_rev5.timestamp_corrections)",
+          "N-03": "FIXED in rev5 (Showrunner-verified)"
+        },
+        "stale_notes": {
+          "F-07": "Reviewer said REV0_SUPERSEDED.md points to rev1; it points to rev2 (hash 253764ad... unchanged). Stale.",
+          "F-09": "Reviewer marked OPEN_UNVERIFIED; reconciled in job.json owner_decisions at 19:44 JST (house_style, updated_at, at_note)."
+        }
+      }
+    ],
+    "game_changers": {
+      "original": [
+        "Demonic Tutor",
+        "Gamble",
+        "Vampiric Tutor"
+      ],
+      "budget": [],
+      "maxjank": [
+        "Demonic Tutor",
+        "Gamble",
+        "Necropotence"
+      ],
+      "bracket3_cap": 3,
+      "source": "Scryfall is:gamechanger (53 cards), 2026-10-29"
+    },
+    "didgeridoo_tutors": {
+      "original": [
+        "Demonic Tutor",
+        "Vampiric Tutor",
+        "Gamble",
+        "Urza's Saga",
+        "Inventors' Fair"
+      ],
+      "budget": [
+        "Reckless Handling",
+        "Diabolic Tutor"
+      ],
+      "maxjank": [
+        "Reckless Handling",
+        "Gamble",
+        "Demonic Tutor",
+        "Urza's Saga",
+        "Inventors' Fair"
+      ]
+    },
+    "bracket": {
+      "budget": "<=3 VERIFIED (meets Bracket 2 deck-building limits; exact 2 unverified)",
+      "maxjank": "Bracket 3 deck-building limits VERIFIED; turn speed UNVERIFIED",
+      "original": "3 (Moxfield user/auto bracket)"
+    }
+  },
+  "jank_scoring": {
+    "status": "HELD / UNVERIFIED",
+    "reason": "No owner-approved Jank-O-Meter rubric exists. No scores are shown in this release; internal Janksmith drafts are withheld (public_facing:false).",
+    "evidence": [
+      "rules_review.json jank_o_meter",
+      "editorial_rev5.json jank_o_meter.scores = null",
+      "job.json owner_decisions.jank_o_meter = HOLD"
+    ]
+  },
+  "substitutions": {
+    "source": "jobs/JOB-001/artifacts/janksmith/rev2/the-lowdown-moo-tube-comparison.json tiers.<tier>.change_records (reasons, price deltas at 2026-10-26 prices)",
+    "budget": {
+      "count": 28,
+      "additions": 26,
+      "removals": 28,
+      "swaps": [
+        {
+          "removed": "Demonic Tutor",
+          "added": "Diabolic Tutor"
+        },
+        {
+          "removed": "Vampiric Tutor",
+          "added": "Pyre of Heroes"
+        },
+        {
+          "removed": "Gamble",
+          "added": "Reckless Handling"
+        },
+        {
+          "removed": "Roaming Throne",
+          "added": "Universal Automaton"
+        },
+        {
+          "removed": "Adaptive Automaton",
+          "added": "Three Tree Mascot"
+        },
+        {
+          "removed": "Urza's Incubator",
+          "added": "Heraldic Banner"
+        },
+        {
+          "removed": "Vanquisher's Banner",
+          "added": "Read the Bones"
+        },
+        {
+          "removed": "Panharmonicon",
+          "added": "Anaba Bodyguard"
+        },
+        {
+          "removed": "Molten Echoes",
+          "added": "Hurloon Minotaur"
+        },
+        {
+          "removed": "Lightning Greaves",
+          "added": "Hammer of Purphoros"
+        },
+        {
+          "removed": "Neheb, the Eternal",
+          "added": "Gorehorn Minotaurs"
+        },
+        {
+          "removed": "Glint-Horn Buccaneer",
+          "added": "Ox of Agonas"
+        },
+        {
+          "removed": "Mogis, God of Slaughter",
+          "added": "Warmonger"
+        },
+        {
+          "removed": "Gornog, the Red Reaper",
+          "added": "Tahngarth, Talruum Hero"
+        },
+        {
+          "removed": "Kindred Dominance",
+          "added": "Infernal Grasp"
+        },
+        {
+          "removed": "Vandalblast",
+          "added": "Tragic Slip"
+        },
+        {
+          "removed": "Raise the Draugr",
+          "added": "Bake into a Pie"
+        },
+        {
+          "removed": "Dreamshaper Shaman",
+          "added": "Anaba Shaman"
+        },
+        {
+          "removed": "Ferocity of the Wilds",
+          "added": "Hurloon Shaman"
+        },
+        {
+          "removed": "Bloodstained Mire",
+          "added": "Bloodfell Caves"
+        },
+        {
+          "removed": "Blood Crypt",
+          "added": "Temple of Malice"
+        },
+        {
+          "removed": "Blazemire Verge",
+          "added": "Canyon Slough"
+        },
+        {
+          "removed": "Luxury Suite",
+          "added": "Unclaimed Territory"
+        },
+        {
+          "removed": "Haunted Ridge",
+          "added": "Secluded Courtyard"
+        },
+        {
+          "removed": "Urza's Saga",
+          "added": "Mountain"
+        },
+        {
+          "removed": "Inventors' Fair",
+          "added": "Mountain"
+        },
+        {
+          "removed": "Tainted Peak",
+          "added": "Mountain"
+        },
+        {
+          "removed": "Bojuka Bog",
+          "added": "Swamp"
+        }
+      ]
+    },
+    "maxjank": {
+      "count": 25,
+      "additions": 25,
+      "removals": 23,
+      "swaps": [
+        {
+          "removed": "Vampiric Tutor",
+          "added": "Citanul Flute"
+        },
+        {
+          "removed": "Adaptive Automaton",
+          "added": "Conspiracy"
+        },
+        {
+          "removed": "Taurean Mauler",
+          "added": "Hurloon Minotaur"
+        },
+        {
+          "removed": "Lightning Greaves",
+          "added": "Rings of Brighthearth"
+        },
+        {
+          "removed": "Vanquisher's Banner",
+          "added": "Coat of Arms"
+        },
+        {
+          "removed": "Descendants' Fury",
+          "added": "Kindred Charge"
+        },
+        {
+          "removed": "Ferocity of the Wilds",
+          "added": "Mana Echoes"
+        },
+        {
+          "removed": "Sign in Blood",
+          "added": "Necropotence"
+        },
+        {
+          "removed": "Soulreaper of Mogis",
+          "added": "Ox of Agonas"
+        },
+        {
+          "removed": "Blasphemous Act",
+          "added": "Hecatomb"
+        },
+        {
+          "removed": "Crippling Fear",
+          "added": "Soul Burn"
+        },
+        {
+          "removed": "Vandalblast",
+          "added": "Infernal Grasp"
+        },
+        {
+          "removed": "Deathbellow Raider",
+          "added": "Anaba Bodyguard"
+        },
+        {
+          "removed": "Oracle of Bones",
+          "added": "Anaba Shaman"
+        },
+        {
+          "removed": "Labyrinth Adversary",
+          "added": "Karplusan Minotaur"
+        },
+        {
+          "removed": "Sandstorm Crasher",
+          "added": "Warmonger"
+        },
+        {
+          "removed": "Felhide Spiritbinder",
+          "added": "Cryptic Gateway"
+        },
+        {
+          "removed": "Labyrinth Raptor",
+          "added": "Krark's Thumb"
+        },
+        {
+          "removed": "Dreamshaper Shaman",
+          "added": "Game of Chaos"
+        },
+        {
+          "removed": "Raise the Draugr",
+          "added": "Pyre of Heroes"
+        },
+        {
+          "removed": "Bojuka Bog",
+          "added": "Cavern of Souls"
+        },
+        {
+          "removed": "Mountain",
+          "added": "Reckless Handling"
+        },
+        {
+          "removed": "Mountain",
+          "added": "Unclaimed Territory"
+        },
+        {
+          "removed": "Swamp",
+          "added": "Secluded Courtyard"
+        },
+        {
+          "removed": "Swamp",
+          "added": "Canyon Slough"
+        }
+      ]
+    },
+    "original": {
+      "count": 0
+    }
+  },
+  "prices": {
+    "source": "Scryfall API prices.usd (TCGplayer-derived market price)",
+    "budget": {
+      "official_usd": 69.44,
+      "basis": "excluding basics, exact listed printings, nonfoil",
+      "including_basics_usd": 71.6,
+      "priced_at": "2026-10-29T19:20:16+09:00",
+      "cap": "under $100 excluding basics (owner 19:00, basics exclusion confirmed 19:18)",
+      "result": "PASS",
+      "exception": "Default Scryfall printings came to $102.72 excl. basics on 2026-10-26 (would fail); buyers must use listed printings. Showrunner independent check 18:43 JST: $69.44 listed."
+    },
+    "original": {
+      "official_usd": 429.41,
+      "basis": "excluding basics, locked Moxfield printings",
+      "including_basics_usd": 432.63,
+      "priced_at": "2026-10-29T19:20:16+09:00",
+      "cap": null,
+      "exceptions": [
+        "Blood Crypt TRK 278 has no Scryfall USD; priced at cheapest USD printing PECL 262p ($9.04)",
+        "Adaptive Automaton FDN 723 is foil; priced at usd_foil"
+      ]
+    },
+    "maxjank": {
+      "official_usd": 552.83,
+      "basis": "including basics, cheapest listed printings",
+      "excluding_basics_usd": 551.45,
+      "priced_at": "2026-10-26T22:48:54+09:00",
+      "cap": "under $1000 including basics",
+      "result": "PASS",
+      "exception": "Not re-priced since 2026-10-26 (3 days old). Showrunner live check 2026-10-29 18:43 JST: $553.60 incl. basics (listed printings + cheapest basics); cap margin large."
+    }
+  },
+  "editorial": {
+    "revision": "rev5",
+    "writer_task": "JOB-001-T14",
+    "generated_at": "2026-10-29T19:50+09:00",
+    "status": "DRAFT, awaiting Andrew approval",
+    "files": [
+      {
+        "path": "jobs/JOB-001/editorial/the-lowdown-moo-tube_post_rev5.md",
+        "sha256": "dc6d3d7bac1368ddf6a2b28f25218233452cb1da9bff76cb71ca5a102d6a1047",
+        "role": "post"
+      },
+      {
+        "path": "jobs/JOB-001/editorial/meta_description_rev5.txt",
+        "sha256": "bc601e727b57ee1aba96ec7fcbd3c7aae820706633642fba6f6deaf6a9d5e6d0",
+        "role": "meta description"
+      },
+      {
+        "path": "jobs/JOB-001/editorial/social_blurb_rev5.txt",
+        "sha256": "13cea7b128cc4043c28857d74cec9cd5fcefa0a84d4f6fd4699a60b5e672ac90",
+        "role": "social blurb"
+      },
+      {
+        "path": "jobs/JOB-001/editorial/reader_prompt_rev5.md",
+        "sha256": "ab953943d3010b0ca654e814aa3652a6d3cdf3caf712614610c03806b2c09b82",
+        "role": "reader feedback form copy"
+      },
+      {
+        "path": "jobs/JOB-001/editorial/editorial_rev5.json",
+        "sha256": "fa945d76f7b906f08a8d703045b125daf52a49ff2f09484705a1c505aad58dc3",
+        "role": "structured editorial"
+      },
+      {
+        "path": "jobs/JOB-001/editorial/CURRENT.md",
+        "sha256": "9ef4f6d1fb6f2d584f93dd58ad947ccc631da4cf1691ae9437b85c8291ab2e61",
+        "role": "revision pointer"
+      },
+      {
+        "path": "jobs/JOB-001/editorial/MANIFEST.sha256",
+        "sha256": "41d72b755206bc56e7b772924f5d739ede1b2f225ca1695769803cbd365697b6",
+        "role": "editorial hash list"
+      },
+      {
+        "path": "jobs/JOB-001/editorial/rev4_to_rev5.diff",
+        "sha256": "1272604566e0e1ac46dab957a49dab34d6f81d4038d58700ccc4279a1bc12b16",
+        "role": "Writer-supplied rev4->rev5 diff"
+      }
+    ],
+    "editorial_manifest_check": "sha256sum -c editorial/MANIFEST.sha256: all 6 OK (Showrunner, 2026-10-29T19:53:05+09:00)",
+    "backstory_source": {
+      "path": "jobs/JOB-001/origin_story_owner.md",
+      "sha256": "ddd2463ce179add584f1803ca4e32c62b34b63253964879682914f453fab8181",
+      "note": "Owner's words, 2026-10-29 19:11 JST; post quotes it with spelling/punctuation cleanup and one bracketed, owner-requested softening (F-08)"
+    },
+    "house_style": "Owner 2026-10-29 19:22 JST: more levity; built for fun; the journey matters as much as the win.",
+    "superseded": "editorial/*_rev1.* to *_rev4.*",
+    "rev4_to_rev5_verification": {
+      "method": "Showrunner independent diff of rev4 vs rev5 (post, meta, social, reader prompt, editorial JSON)",
+      "by": "Showrunner",
+      "at": "2026-10-29T19:53:05+09:00",
+      "post_changes": [
+        "Header comment: task/rev/generated time/supersedes (lines 3-4)",
+        "Line 20 quote intro: \"updated at Andrew's request so it's accurate\" -> \"softened at Andrew's request\"; adds \"and added paragraph breaks\" (N-03)",
+        "Line 87 Pyre of Heroes: \"the only card it can climb to from a token\" -> \"the only card a Sethron token can climb to\" (N-01)"
+      ],
+      "other_files": "meta_description and social_blurb byte-identical to rev4; reader_prompt header comment only; editorial_rev5.json mirrors the post changes plus metadata (task/rev/time, file pointers, supersedes, QA reference, N-02 timestamp correction).",
+      "result": "PASS: no other content changes. rev5 = rev4 + verified N-01/N-03 fixes (+ N-02 metadata)."
+    },
+    "files_prev_rev4_post_sha256": "e1468733e4634b0cfaa636a0e2f4f8fc5d9a361b2113d31bad2b1cfef1a0ffb5"
+  },
+  "staging": {
+    "status": "BLOCKED",
+    "reason": "No site, repository or host exists yet; Groundskeeper not engaged. No staged build to compare against this manifest.",
+    "plan_ref": "showrunner/PUBLISHING_PLAN.md"
+  },
+  "unresolved_issues": [
+    {
+      "id": "ISS-011",
+      "status": "ACCEPTED_OPEN",
+      "detail": "Reckless Handling (Budget, Max) and Gamble (Max) discard at random and can discard the Didgeridoo they found. Owner swap decision pending; default keep. Disclosed in post."
+    },
+    {
+      "id": "ISS-015",
+      "status": "ACCEPTED_OPEN",
+      "detail": "Max is at 3/3 Game Changers; any swap must re-check."
+    },
+    {
+      "id": "ISS-017",
+      "status": "ACCEPTED_OPEN",
+      "detail": "Two-card infinites one card away (e.g. Rings of Brighthearth + Basalt Monolith, Molten Echoes + Changeling Berserker); re-check on any swap."
+    },
+    {
+      "id": "ISS-020",
+      "status": "ACCEPTED_OPEN",
+      "detail": "Competitive staples (Necropotence, Cavern of Souls, fetch/shock lands) sit beside the 1995 theme; editorial note only."
+    },
+    {
+      "id": "KRARKS-THUMB",
+      "status": "CONDITIONAL",
+      "detail": "Krark's Thumb with Karplusan Minotaur / Game of Chaos: no explicit official ruling that the ignored coin is neither won nor lost. Labelled conditional in post."
+    },
+    {
+      "id": "PLAYTEST",
+      "status": "UNVERIFIED",
+      "detail": "No playtest. Bracket turn-speed expectations (Budget ~8+ turns, Max >=6 turns) unverified."
+    },
+    {
+      "id": "JANK-RUBRIC",
+      "status": "OPEN",
+      "detail": "No approved Jank-O-Meter rubric; scores withheld."
+    },
+    {
+      "id": "F-05",
+      "status": "ACCEPTED_AS_DOCUMENTED",
+      "detail": "Janksmith rev2 still says the basics exclusion is 'not separately confirmed'; superseded by owner_decisions.budget_cap (confirmed 19:18 JST). Not in publication copy."
+    },
+    {
+      "id": "F-07-RECORD",
+      "status": "OPEN (record only)",
+      "detail": "Owner may confirm or deny the 2026-10-28 'Approved. Both are great.' message in the Janksmith chat; that approval is not counted either way."
+    }
+  ],
+  "owner_decisions_log": [
+    {
+      "at": "2026-10-28T17:17+09:00",
+      "decision": "Janksmith-reported approval of rev0 ('Approved. Both are great.')",
+      "status": "NOT COUNTED (not given in Showrunner chat against a manifest)"
+    },
+    {
+      "at": "2026-10-29T18:47+09:00",
+      "decision": "Homelands Anaba cards are part of the theme"
+    },
+    {
+      "at": "2026-10-29T18:48+09:00",
+      "decision": "Bracket 3 or lower for both builds"
+    },
+    {
+      "at": "2026-10-29T18:59+09:00",
+      "decision": "Remove unsourced deck-name origin note; card lists NOT approved yet; Jank-O-Meter on HOLD until a rubric is approved"
+    },
+    {
+      "at": "2026-10-29T19:00+09:00",
+      "decision": "Budget cap changed to under $100"
+    },
+    {
+      "at": "2026-10-29T19:11+09:00",
+      "decision": "Owner origin story provided (origin_story_owner.md); ISS-011 unanswered (default keep)"
+    },
+    {
+      "at": "2026-10-29T19:18+09:00",
+      "decision": "Budget cap excludes basic lands"
+    },
+    {
+      "at": "2026-10-29T19:22+09:00",
+      "decision": "House style: more levity; built for fun; the journey matters as much as the win"
+    },
+    {
+      "at": "2026-10-29T19:29+09:00",
+      "decision": "Soften the Minotaur printing line"
+    },
+    {
+      "at": "2026-10-29T19:32+09:00",
+      "decision": "Credit 'Andrew (Cute_Balls on Moxfield)'; Cute_Balls is Andrew's account"
+    },
+    {
+      "at": null,
+      "decision": "Dingus Staff mention",
+      "status": "Not answered; kept as owner's own words (default)"
+    }
+  ],
+  "approval_requirement": {
+    "required_from": "Andrew Kuppers (owner), in his own message in the Showrunner chat",
+    "form": "Approve JOB-001 manifest <sha256 of this release_manifest.json>",
+    "covers": [
+      "the three card lists exactly as hashed above (original decklist.txt, budget and maxjank set-coded + Moxfield files)",
+      "the editorial rev5 files exactly as hashed above",
+      "owner sign-off on the bracketed quote edits in the post's origin story: '[a sound]' (for 'a sounds') and '[Minotaurs have rarely gotten the spotlight since the early days of Magic, Sethron aside]' (for 'minotaur's have not received much of a major printing since the early days of magic'), plus spelling/capitalization/punctuation cleanup and added paragraph breaks",
+      "the disclosed prices, timestamps and exceptions"
+    ],
+    "does_not_cover": [
+      "Jank-O-Meter scores (held)",
+      "any file whose sha256 differs from this manifest"
+    ],
+    "invalidation": "Any change to a hashed file requires a new manifest and a new approval.",
+    "agent_text_is_not_approval": true,
+    "publication_gate": "Approval does NOT authorize publication by itself. Publication additionally requires (1) a staging environment to exist, (2) a staged build produced by the Groundskeeper, and (3) verification that the staged build matches this manifest's hashes."
+  },
+  "supersedes_manifest": {
+    "sha256": "a2e493d02c447cec594a43d16fbeba0a39db92465ae2fc7c951ba92aeb84e6fb",
+    "reason": "editorial rev4 -> rev5; delta QA added; F-07 closed",
+    "approval_status": "never approved; superseded"
+  },
+  "closed_items": [
+    {
+      "id": "EDITORIAL-REV4-QA",
+      "status": "CLOSED",
+      "detail": "rev4 delta-reviewed (T13, CLEAR_FOR_STAGING); rev5 = rev4 + N-01/N-03 (+N-02 metadata), Showrunner-verified by diff."
+    },
+    {
+      "id": "F-07",
+      "status": "FIXED",
+      "detail": "REV0_SUPERSEDED.md points to rev2 (sha256 253764ad...); Rules Lawyer T13 note was stale. Owner record question tracked separately as F-07-RECORD."
+    },
+    {
+      "id": "F-09",
+      "status": "FIXED",
+      "detail": "owner_decisions reconciled in job.json (house style 19:22, timestamps)."
+    },
+    {
+      "id": "N-01..N-03",
+      "status": "FIXED",
+      "detail": "Editorial rev5."
+    }
+  ]
+}
